@@ -1,0 +1,18 @@
+table.dataTable.display tbody td {
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+div.DTS tbody td {
+    white-space: normal;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+table.dataTable tbody td {
+  vertical-align: top;
+}
+
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody th, .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody td {
+    vertical-align: top;
+}
