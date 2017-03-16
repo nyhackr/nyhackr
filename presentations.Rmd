@@ -1,0 +1,42 @@
+---
+title: "Presentations"
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
+```
+
+```{r common-actions,include=FALSE}
+source("utils/utils.R")
+```
+
+```{r layout,dependson=c('common-actions')}
+crosstalk::bscols(widths=c(2, 10), device='md',
+       list(
+           topicFilter,
+           presenterFilter,
+           venueFilter,
+           nameFilter,
+           titleFilter,
+           videoFilter
+       ),
+       list(
+           # talks table
+           makeDatatable(talks_shared, 
+                         colsToHide=c('ShareKey'), 
+                         scrollX=FALSE, width='100%', scrollY=200, height=200,
+                         elementID='PresentationsTable',
+                         scrollCollapse=FALSE
+                         # colsToFixWidth='Presentation', columnsWidth='100px'
+           ),
+           htmltools::tags$p(class='spacer'),
+           # meetup table
+           makeDatatable(events_shared, class='display cell-border',
+                         colsToHide=c('ShareKey', 'Date'),
+                         # colsToFixWidth='Description', columnsWidth='100px',
+                         scrollX=FALSE, width='100%', , scrollY=400, height=400,
+                         elementID='EventsTable'
+           )
+       )
+)
+```

@@ -1,0 +1,50 @@
+---
+title: "Twitter"
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center')
+```
+
+```{r common-actions,include=FALSE}
+# source("utils.R")
+library(htmltools)
+```
+
+```{r nyhackr-logo}
+nyhackrLogo <- div(class='center', 
+                      a(href="https://www.meetup.com/nyhackr/", 
+                        img(src='images/nyhackr-logo.jpg'
+                            )
+                        )
+                      )
+```
+
+```{r nyhackr-twitter}
+nyhackrTwitter <- htmltools::HTML('<div><a class="twitter-timeline" href="https://twitter.com/nyhackr">Tweets by nyhackr</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>')
+
+nyhackrFollow <- div(a(href="https://twitter.com/nyhackr", 
+                       class="twitter-follow-button", 
+                       `data-show-screen-name`="false", 
+                       `data-show-count`="false", 
+                       'Follow @nyhackr'),
+                     tags$script(async=TRUE, 
+                                 src="//platform.twitter.com/widgets.js", 
+                                 charset="utf-8"
+                     )
+)
+
+twitterList <- htmltools::HTML('<a class="twitter-timeline" href="https://twitter.com/nyhackr/lists/rstats">A Twitter List by nyhackr</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>')
+```
+
+
+```{r nyhackr-body,dependson=c('nyhackr-logo', 'nyhackr-twitter')}
+crosstalk::bscols(widths=c(6, 6),
+                  twitterList,
+                  list(
+                      nyhackrFollow,
+                      nyhackrTwitter
+                  )
+)
+```
+
