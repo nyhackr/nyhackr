@@ -1,10 +1,13 @@
 library(crosstalk)
 library(magrittr)
 library(tidyjson)
+library(htmltools)
 source('JsonToDataFrame.r')
 source('DataTableBuilder.r')
 # for functions to build a filter with complex key
 source('ComplexFilter.r')
+# for building complex keys
+source('KeyBuilding.r')
 
 # meetupInfo <- jsonlite::fromJSON('data/events.json') %>% 
 #     makeInfoDF() %>% 
@@ -58,7 +61,9 @@ generalInfo <- eventData %>%
                   Date=jstring('time'),
                   Meetup=jstring('name'),
                   Venue=jstring('venue', 'name'),
-                  Description=jstring('description')
+                  Description=jstring('description'),
+                  Video=jstring('video'),
+                  VideoSource=jstring('VideoSource')
     ) %>% 
     stripListChars %>% 
     stripListCharsFromDate %>% 
@@ -107,25 +112,30 @@ events <- dplyr::left_join(generalInfo, speakerInfo, by='ID') %>%
 events <- events %>% 
     # create links to meetup pages
     dplyr::mutate(EventMeetup=Meetup) %>% 
-    dplyr::mutate(Meetup=sprintf('<a href="%s">%s</a>', URL, Meetup)) %>% 
+    dplyr::mutate(Meetup=sprintf('<a href="%s" target="_blank">%s</a>', URL, Meetup)) %>% 
     # create links to files
-    dplyr::mutate(Presentation=sprintf('<a href="https://slides.nyhackr.org/presentations/%s">%s</a>', 
-                                File, Title)) #%>% 
-    # drop columns we don't need
-    # dplyr::select(-URL, -File)
+    dplyr::mutate(Presentation=sprintf('<a href="https://slides.nyhackr.org/presentations/%s" target="_blank">%s</a>', 
+                                File, Title)) %>% 
+    # get rid of list() in VideoSource
+    dplyr::mutate(VideoSource=stringr::str_replace(VideoSource, 'list\\(\\)', '')) %>% 
+    dplyr::mutate(Video=dplyr::if_else(!is.na(Video) & Video != "", 
+                                       sprintf('<a href="%s" target="_blank">%s</a>', Video, VideoSource), 
+                                       NA_character_))
 
 talks <- events %>% 
-    dplyr::group_by(ID, Meetup, EventMeetup, Presentation, Title, Venue, Date, Description, File, Format) %>% 
+    dplyr::group_by(ID, Meetup, EventMeetup, Presentation, Title, Venue, Date, Description, File, Format, Video, VideoSource) %>% 
     dplyr::summarize(
         PresentationTopics=makeCharVector(PresentationTopic), 
         Presenter=makeCharVector(Presenter),
-        EventMeetupTopics=makeCharVector(Topic),
+        EventMeetupTopics=makeCharVector(c(Topic, PresentationTopic)),
         Speakers=makeCharVector(Speaker)) %>% 
     tidyr::unite(ShareKey, ID, EventMeetup, File, sep='_', remove=FALSE) %>% 
-    dplyr::ungroup()
+    dplyr::ungroup() %>% 
+    dplyr::mutate(ID=as.character(ID))
 
 eventDetails <- talks %>% 
-    dplyr::select(ShareKey, ID, Meetup, Venue, Date, Description, Speakers, EventMeetupTopics) %>% 
+    dplyr::select(ShareKey, ID, Meetup, EventMeetup, Venue, Date, Description, Speakers, EventMeetupTopics, Video, VideoSource) %>% 
+    dplyr::mutate(ShareKey=ID) %>% 
     dplyr::group_by(ID) %>% 
     dplyr::slice(1) %>% 
     dplyr::ungroup()
@@ -135,6 +145,8 @@ eventDetails <- talks %>%
 groupMeetup <- 'SpeakerEvents'
 # a tibble of all the data
 all_shared <- SharedData$new(data=talks, key=~ShareKey, group=groupMeetup)
+# a tibble of all columns for eventDetails
+details_shared <- SharedData$new(data=eventDetails, key=~ShareKey, group=groupMeetup)
 # the talks tibble
 talks_shared <- SharedData$new(data=talks %>% 
                                    # drop rows where presenter is NA
@@ -145,25 +157,35 @@ talks_shared <- SharedData$new(data=talks %>%
 # events tibble
 events_shared <- SharedData$new(data=eventDetails %>% 
                                     # keep these columns
-                                    dplyr::select(ShareKey, Description, Meetup, Date, Speakers), 
+                                    dplyr::select(ShareKey, Description, Meetup, Date, Speakers, Video), 
                                 key=~ShareKey, group=groupMeetup)
 
 ## filter objects
-topicFilter <- filterComplex_select(id='TopicSelector', label='Choose a Topic', 
-                                    sharedData=all_shared, 
-                                    group=~PresentationTopics)
-speakerFilter <- filterComplex_select(id='SpeakerSelector', label='Choose a Meetup Speaker',
-                                      sharedData=all_shared,
-                                      group=~Speakers)
-presenterFilter <- filterComplex_select(id='PresenterSelector', label='Choose a Presenter',
-                                      sharedData=all_shared,
-                                      group=~Presenter)
-venueFilter <- filterComplex_select(id='VenueSelector', label='Choose a Venue',
-                                    sharedData=all_shared,
-                                    group=~Venue)
-nameFilter <- filterComplex_select(id='MeetupSelector', label='Choose a Meetup',
-                                    sharedData=all_shared,
-                                    group=~EventMeetup)
+topicFilter <- filter_select_multikey(id='TopicSelector', label='Choose a Topic',
+                                          sharedData1=all_shared,
+                                          sharedData2=details_shared,
+                                          col1='PresentationTopics', key1='ShareKey',
+                                          col2='EventMeetupTopics', key2='ShareKey')
+presenterFilter <- filter_select_multikey(id='SpeakerSelector', label='Choose a Presenter',
+                                      sharedData1=talks_shared,
+                                      sharedData2=events_shared,
+                                      col1='Presenter', key1='ShareKey',
+                                      col2='Speakers', key2='ShareKey')
+venueFilter <- filter_select_multikey(id='VenueSelector', label='Choose a Venue',
+                                          sharedData1=all_shared,
+                                          sharedData2=details_shared,
+                                          col1='Venue', key1='ShareKey',
+                                          col2='Venue', key2='ShareKey')
+nameFilter <- filter_select_multikey(id='MeetupSelector', label='Choose a Meetup',
+                                      sharedData1=all_shared,
+                                      sharedData2=details_shared,
+                                      col1='EventMeetup', key1='ShareKey',
+                                      col2='EventMeetup', key2='ShareKey')
 titleFilter <- filterComplex_select(id='TitleSelector', label='Choose a Presentation',
                                     sharedData=all_shared,
                                     group=~Title)
+videoFilter <- filter_select_multikey(id='VideoSelector', label='Choose a Video Host',
+                                     sharedData1=all_shared,
+                                     sharedData2=details_shared,
+                                     col1='VideoSource', key1='ShareKey',
+                                     col2='VideoSource', key2='ShareKey')
