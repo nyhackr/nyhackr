@@ -43,6 +43,44 @@ makeGroupOptionsComplex <- function(sharedData, group, allLevels)
     options
 }
 
+getColumns <- function(.data, col)
+{
+    # get the column holding the data to check
+    if (inherits(col, "formula")) 
+        col <- lazyeval::f_eval(col, .data)
+    # drop out if there is nothing in col
+    if (length(col) < 1) {
+        stop("Can't form options with zero-length group vector")
+    }
+    
+    return(col)
+}
+
+makeGroupOptionsComplex_multiKey <- function(sharedData1, sharedData2, 
+                                             col1, key1, col2, key2, 
+                                             allLevels) 
+{
+    # get the data.frame
+    # get the data.frame
+    df1 <- sharedData1$data(withSelection=FALSE, withFilter=FALSE, withKey=FALSE)
+    df2 <- sharedData2$data(withSelection=FALSE, withFilter=FALSE, withKey=FALSE)
+    
+    # col1 <- getColumns(df, col1)
+    # col2 <- getColumns(df, col2)
+    # key1 <- getColumns(df, key1)
+    # key2 <- getColumns(df, key2)
+    
+    keyList <- makeMultiKeys(data1=df1, data2=df2, 
+                             col1=col1, col2=col2, 
+                             key1=key1, key2=key2)
+    
+    options <- list(items=data.frame(value=names(keyList), label=names(keyList), 
+                                     stringsAsFactors=FALSE), 
+                    map=keyList, 
+                    group=sharedData1$groupName())
+    options
+}
+
 filter_display <- function(options, id, label, multiple=TRUE)
 {
     htmltools::browsable(
@@ -67,3 +105,15 @@ filterComplex_select <- function (id, label, sharedData, group, allLevels=FALSE,
     filter_display(options, id=id, label=label, multiple=multiple)
 }
 
+filter_select_multikey <- function(id, label, sharedData1, sharedData2, 
+                                   col1, key1, col2, key2, 
+                                   allLevels=FALSE, multiple=TRUE)
+{
+    options <- makeGroupOptionsComplex_multiKey(sharedData1=sharedData1,
+                                                sharedData2=sharedData2,
+                                                col1=col1, key1=key1,
+                                                col2=col2, key2=key2, 
+                                                allLevels=allLevels)
+    
+    filter_display(options, id=id, label=label, multiple=multiple)
+}
