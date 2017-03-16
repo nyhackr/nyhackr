@@ -1,0 +1,30 @@
+name: "nyhackr-web"
+output_dir: "docs"
+exclude: ["data", "prep", "scratch", "test"]
+navbar:
+    title: "<a href='index.html'><img src='images/nyhackr-fav.png' /></a>"
+    left:
+        - text: "About"
+          href: index.html
+        - text: "Presentations"
+          href: presentations.html
+        - text: "Pizza Poll"
+          href: PizzaPoll.html
+        - text: "Twitter"
+          href: twitter.html
+        - text: "Sponsors"
+          href: sponsors.html
+        - text: "Conference"
+          href: nyr.html
+        - text: "Contact"
+          href: contact.html
+        #- text: "About"
+        #  href: about.html
+output:
+    html_document:
+        theme: lumen
+        highlight: textmate
+        css: [css/DataTable.css, css/Spacer.css]
+        includes:
+            in_header: includes/favicon.html
+            after_body: includes/GoogleAnalytics.html
