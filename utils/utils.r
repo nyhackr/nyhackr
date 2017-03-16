@@ -2,12 +2,12 @@ library(crosstalk)
 library(magrittr)
 library(tidyjson)
 library(htmltools)
-source('JsonToDataFrame.r')
-source('DataTableBuilder.r')
+source('utils/JsonToDataFrame.r')
+source('utils/DataTableBuilder.r')
 # for functions to build a filter with complex key
-source('ComplexFilter.r')
+source('utils/ComplexFilter.r')
 # for building complex keys
-source('KeyBuilding.r')
+source('utils/KeyBuilding.r')
 
 # meetupInfo <- jsonlite::fromJSON('data/events.json') %>% 
 #     makeInfoDF() %>% 
