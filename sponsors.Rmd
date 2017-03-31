@@ -9,22 +9,34 @@ knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center')
 ```{r sponsors}
 crosstalk::bscols(widths=c(6, 6),
                   list(
+                      htmltools::a(href="https://www.r-consortium.org/",
+                                   htmltools::img(src="images/sponsors/RConsortium-logo.png",
+                                                   style="width: 75%;")
+                      ),
+                      htmltools::tags$p(class='spacer'),
+                      htmltools::a(href="http://slicelife.com/",
+                                   htmltools::img(
+                                       src="images/sponsors/slice-logo-primary-web-large.png",
+                                       style="width: 60%;")
+                      ),
+                      htmltools::tags$p(class='spacer'),
                       htmltools::a(href="http://www.ebaynyc.com/",
                                    htmltools::img(src="images/sponsors/ebaynyc-web.png",
                                                    style="width: 75%;")
-                      ),
-                      htmltools::a(href="http://slicelife.com/",
-                                    htmltools::img(src="images/sponsors/slice-logo-primary-web-large.png",
-                                                   style="width: 50%;")
-                                    )
+                      )
                   ),
                   list(
-                      htmltools::a(href="https://mran.microsoft.com/open/",
-                                    htmltools::img(src="images/sponsors/microsoft-logo.png")
-                                    ),
                       htmltools::a(href="https://www.oreilly.com/",
-                                    htmltools::img(src="images/sponsors/oreilly-logo.png")
-                                    )
+                                   htmltools::img(src="images/sponsors/oreilly-logo.png")
+                      ),
+                      htmltools::tags$p(class='spacer'),
+                      htmltools::a(href="https://mran.microsoft.com/open/",
+                                   htmltools::img(src="images/sponsors/microsoft-logo.png")
+                      ),
+                      htmltools::tags$p(class='spacer'),
+                      htmltools::a(href="https://www.datacamp.com/home",
+                                   htmltools::img(src="images/sponsors/DataCampHorizontalFull.png")
+                      )
                   )
 )
 ```
