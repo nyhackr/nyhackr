@@ -24,7 +24,7 @@ output:
     html_document:
         theme: lumen
         highlight: textmate
-        css: [css/DataTable.css, css/Spacer.css]
+        css: [css/DataTable.css, css/Spacer.css, css/FlexWrap.css]
         includes:
             in_header: includes/favicon.html
             after_body: includes/GoogleAnalytics.html
