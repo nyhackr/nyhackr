@@ -1,0 +1,76 @@
+---
+title: "Books"
+---
+    
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center',message=FALSE)
+```
+
+These are some books written by members of the meetup.
+
+```{r book-display}
+displayBook <- function(title, authors, url, image)
+{
+    htmltools::div(
+        class="col-xs-6 col-sm-4 col-md-4",
+        htmltools::p(
+            class="title",
+            htmltools::a(
+                href=url,
+                htmltools::tags$b(title)
+            )
+        ),
+        htmltools::p(
+            htmltools::a(
+                href=url,
+                htmltools::img(
+                    src=sprintf('images/books/%s', image)
+                )
+            )
+        ),
+        htmltools::p(
+            authors
+        )
+    )
+}
+```
+
+```{r book-data}
+books <- readr::read_csv('data/Meetup_Books.csv')
+```
+
+```{r}
+bookOutput <- sample(purrr::pmap(list(books$Title, books$Authors, books$URL, books$Picture), displayBook))
+```
+
+```{r book-list}
+htmltools::div(
+    class='flexArea',
+    bookOutput
+)
+
+# crosstalk::bscols(widths=c(3, 3, 3),
+#                   list(
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb'),
+#                       htmltools::tags$p(class='spacer'),
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb'),
+#                       htmltools::tags$p(class='spacer'),
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb')
+#                   ),
+#                   list(
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb'),
+#                       htmltools::tags$p(class='spacer'),
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb'),
+#                       htmltools::tags$p(class='spacer'),
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb')
+#                   ),
+#                   list(
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb'),
+#                       htmltools::tags$p(class='spacer'),
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb'),
+#                       htmltools::tags$p(class='spacer'),
+#                       htmltools::img(src='images/books/Analyzing-the-Analyzers.jpg', class='bookthumb')
+#                   )
+# )
+```
+
