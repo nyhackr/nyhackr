@@ -12,6 +12,8 @@ navbar:
           href: PizzaPoll.html
         - text: "Twitter"
           href: twitter.html
+        - text: "Books"
+          href: books.html
         - text: "Sponsors"
           href: sponsors.html
         - text: "Conference"
