@@ -9,9 +9,6 @@ pipelines:
   default:
     - step:
         script:
-<<<<<<< HEAD
-          - echo "Everything is awesome!"
-=======
           - echo "Everything is awesome!"
   branches:
     dev:
