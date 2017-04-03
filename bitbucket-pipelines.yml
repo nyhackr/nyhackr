@@ -9,4 +9,17 @@ pipelines:
   default:
     - step:
         script:
+<<<<<<< HEAD
           - echo "Everything is awesome!"
+=======
+          - echo "Everything is awesome!"
+  branches:
+    dev:
+      - step:
+          script:
+            - echo "This is the dev pipeline!"
+    master:
+      - step:
+          script:
+            - echo "This is the master pipeline!"
+>>>>>>> dev
