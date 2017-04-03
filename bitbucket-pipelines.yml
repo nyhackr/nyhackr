@@ -10,3 +10,12 @@ pipelines:
     - step:
         script:
           - echo "Everything is awesome!"
+  branches:
+    dev:
+      - step:
+          script:
+            - echo "This is the dev pipeline!"
+    master:
+      - step:
+          script:
+            - echo "This is the master pipeline!"
