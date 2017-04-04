@@ -151,13 +151,17 @@ details_shared <- SharedData$new(data=eventDetails, key=~ShareKey, group=groupMe
 talks_shared <- SharedData$new(data=talks %>% 
                                    # drop rows where presenter is NA
                                    dplyr::filter(!is.na(Presenter)) %>% 
+                                   # add dummy column
+                                   dplyr::mutate(` ` = '') %>% 
                                    # keep these columns
-                                   dplyr::select(ShareKey, Presentation, Meetup, Presenter), 
+                                   dplyr::select(` `, ShareKey, Presentation, Meetup, Presenter), 
                                key=~ShareKey, group=groupMeetup)
 # events tibble
 events_shared <- SharedData$new(data=eventDetails %>% 
+                                    # add dummy column
+                                    dplyr::mutate(` ` = '') %>% 
                                     # keep these columns
-                                    dplyr::select(ShareKey, Description, Meetup, Date, Speakers, Video), 
+                                    dplyr::select(` `, ShareKey, Description, Meetup, Date, Speakers, Video), 
                                 key=~ShareKey, group=groupMeetup)
 
 ## filter objects
