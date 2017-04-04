@@ -19,6 +19,9 @@ pipelines:
             - Rscript -e "install.packages(c('crosstalk', 'tidyjson'))"
             - Rscript -e "devtools::install_github('rstudio/DT')"
             - Rscript -e "rmarkdown::render_site()"
+            - zip -r dev.zip docs/
+            - scp dev.zip autodeploy@dev.nyhackr.org:dev.zip
+            - ssh autdeploy@dev.nyhackr.org "unzip dev.zip && mv docs/ dev/"
     master:
       - step:
           script:
