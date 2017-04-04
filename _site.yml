@@ -9,7 +9,7 @@ navbar:
         - text: "Presentations"
           href: presentations.html
         - text: "Pizza Poll"
-          href: PizzaPoll.html
+          href: pizzapoll.html
         - text: "Twitter"
           href: twitter.html
         - text: "Books"

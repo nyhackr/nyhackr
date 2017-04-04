@@ -7,7 +7,7 @@ knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
 ```
 
 ```{r common-actions,include=FALSE}
-source("utils/utils.R")
+source("utils/utils.r")
 ```
 
 ```{r layout,dependson=c('common-actions')}
