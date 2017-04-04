@@ -1,6 +1,12 @@
 name: "nyhackr-web"
 output_dir: "docs"
-exclude: ["data", "prep", "scratch", "test"]
+exclude: 
+    - data 
+    - prep
+    - scratch
+    - test
+    - utils
+    - bitbucket-pipelines.yml
 navbar:
     title: "<a href='index.html'><img src='images/nyhackr-fav.png' /></a>"
     left:
