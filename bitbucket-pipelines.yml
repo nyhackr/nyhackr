@@ -21,7 +21,7 @@ pipelines:
             - Rscript -e "rmarkdown::render_site()"
             - zip -r dev.zip docs/
             - scp dev.zip autodeploy@dev.nyhackr.org:dev.zip
-            - ssh autodeploy@dev.nyhackr.org "unzip dev.zip && mv docs/ dev/"
+            - ssh autodeploy@dev.nyhackr.org "unzip dev.zip && rsync -a docs/ dev/ && rm -rf docs/"
     master:
       - step:
           script:
