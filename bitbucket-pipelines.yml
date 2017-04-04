@@ -4,6 +4,7 @@
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
 # image: atlassian/default-image:latest
+image: rocker/verse:3.3.3
 
 pipelines:
   default:
@@ -15,6 +16,9 @@ pipelines:
       - step:
           script:
             - echo "This is the dev pipeline!"
+            - Rscript -e "install.packages('crosstalk', 'tidyjson')"
+            - Rscript -e "devtools::install_github('rstudio/DT')"
+            - Rscript -e "rmarkdown::render_site()"
     master:
       - step:
           script:
