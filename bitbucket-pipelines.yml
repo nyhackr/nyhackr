@@ -16,7 +16,7 @@ pipelines:
       - step:
           script:
             - echo "This is the dev pipeline!"
-            - Rscript -e "install.packages('crosstalk', 'tidyjson')"
+            - Rscript -e "install.packages(c('crosstalk', 'tidyjson'))"
             - Rscript -e "devtools::install_github('rstudio/DT')"
             - Rscript -e "rmarkdown::render_site()"
     master:
