@@ -26,3 +26,6 @@ pipelines:
           script:
             - echo "This is the master pipeline!"
             - Rscript utils/render_site.r
+            - tar -zcvf prod.tar.gz docs/
+            - scp prod.tar.gz autodeploy@www.nyhackr.org:/tmp/prod.tar.gz
+            - ssh autodeploy@www.nyhackr.org "tar -zxvf /tmp/prod.tar.gz && rm -rf prod/ && mv docs/ prod/"
