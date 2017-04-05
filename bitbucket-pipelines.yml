@@ -20,8 +20,8 @@ pipelines:
             - Rscript -e "devtools::install_github('rstudio/DT')"
             - Rscript -e "rmarkdown::render_site()"
             - tar -zcvf dev.tar.gz docs/
-            - scp dev.tar.gz autodeploy@dev.nyhackr.org:dev.tar.gz
-            - ssh autodeploy@dev.nyhackr.org "tar -zxvf dev.tar.gz && rm -rf dev/ && mv docs/ dev/"
+            - scp dev.tar.gz autodeploy@dev.nyhackr.org:/tmp/dev.tar.gz
+            - ssh autodeploy@dev.nyhackr.org "tar -zxvf /tmp/dev.tar.gz && rm -rf dev/ && mv docs/ dev/"
     master:
       - step:
           script:
