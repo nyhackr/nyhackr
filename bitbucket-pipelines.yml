@@ -11,6 +11,7 @@ pipelines:
     - step:
         script:
           - echo "Everything is awesome!"
+          - Rscript utils/render_site.r
   branches:
     dev:
       - step:
@@ -24,3 +25,4 @@ pipelines:
       - step:
           script:
             - echo "This is the master pipeline!"
+            - Rscript utils/render_site.r
