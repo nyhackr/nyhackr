@@ -11,13 +11,13 @@ pipelines:
     - step:
         script:
           - echo "Everything is awesome!"
-          - Rscript utils/render_site.r
+          - Rscript pipeline/render_site.r
   branches:
     dev:
       - step:
           script:
             - echo "This is the dev pipeline!"
-            - Rscript utils/render_site.r
+            - Rscript pipeline/render_site.r
             - tar -zcvf dev.tar.gz docs/
             - scp dev.tar.gz autodeploy@dev.nyhackr.org:/tmp/dev.tar.gz
             - ssh autodeploy@dev.nyhackr.org "tar -zxvf /tmp/dev.tar.gz && rm -rf dev/ && mv docs/ dev/"
@@ -25,7 +25,7 @@ pipelines:
       - step:
           script:
             - echo "This is the master pipeline!"
-            - Rscript utils/render_site.r
+            - Rscript pipeline/render_site.r
             - tar -zcvf prod.tar.gz docs/
             - scp prod.tar.gz autodeploy@www.nyhackr.org:/tmp/prod.tar.gz
             - ssh autodeploy@www.nyhackr.org "tar -zxvf /tmp/prod.tar.gz && rm -rf prod/ && mv docs/ prod/"
