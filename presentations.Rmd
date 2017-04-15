@@ -34,7 +34,7 @@ crosstalk::bscols(widths=c(2, 10), device='md',
            makeDatatable(events_shared, class='display cell-border',
                          colsToHide=c('ShareKey', 'Date'),
                          # colsToFixWidth='Description', columnsWidth='100px',
-                         scrollX=FALSE, width='100%', , scrollY=400, height=400,
+                         scrollX=FALSE, width='100%', scrollY=400, height=400,
                          elementID='EventsTable'
            )
        )
