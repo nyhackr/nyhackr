@@ -67,7 +67,7 @@ if (length(newIds) > 0)
         c(oldEvents, .) %>% 
         toJSON() %>% 
         prettify() %>% 
-        writeLines('data/events.json.new')
+        writeLines('data/events.json.new', useBytes=TRUE)
     # save old data/events.json to data/events.json.old and move new
     # data/events.json.new to data/events.json
     file.rename('data/events.json', 'data/events.json.old')
