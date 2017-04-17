@@ -25,6 +25,7 @@ crosstalk::bscols(widths=c(2, 10), device='md',
            makeDatatable(talks_shared, 
                          colsToHide=c('ShareKey'), 
                          scrollX=FALSE, width='100%', scrollY=200, height=200,
+                         order=list(list(1, 'desc')),
                          elementID='PresentationsTable',
                          scrollCollapse=FALSE
                          # colsToFixWidth='Presentation', columnsWidth='100px'
@@ -33,8 +34,9 @@ crosstalk::bscols(widths=c(2, 10), device='md',
            # meetup table
            makeDatatable(events_shared, class='display cell-border',
                          colsToHide=c('ShareKey'),
-                         # colsToFixWidth='Description', columnsWidth='100px',
+                         colsToFixWidth=c('Date', 'Description', 'Meetup', 'Speakers', 'Video'), columnsWidth='35px',
                          scrollX=FALSE, width='100%', scrollY=400, height=400,
+                         order=list(list(0, 'desc')),
                          elementID='EventsTable'
            )
        )
