@@ -7739,13 +7739,31 @@
             "Formulas"
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Max Kuhn"
+                ],
+                "title": [
+                    "Formulas and Recipes"
+                ],
+                "topics": [
+                    "R",
+                    "Formulas",
+                    "Tidyverse"
+                ],
+                "file": [
+                    "Formulas-and-recipes_Max-Kuhn.html"
+                ],
+                "format": [
+                    "html"
+                ]
+            }
         ],
         "video": [
-            ""
+            "https://www.facebook.com/LanderAnalytics/videos/394750327546916/"
         ],
         "VideoSource": [
-
+            "Facebook"
         ]
     },
     {
@@ -7812,19 +7830,22 @@
             "<p>Ryan Hafen is back, talking about Trelliscope for visualizing many small multiple plots.<\/p> <p>Thank you to <a href=\"https://www.work-bench.com/\">Work-Bench<\/a> for hosting.<\/p> <p>We are slowly getting better with the livestreaming and will once again attempt to livestream this talk on both <a href=\"https://www.facebook.com/pg/LanderAnalytics/videos/\">Facebook<\/a> and <a href=\"https://www.youtube.com/channel/UC2-hKemnrmVCH_29duyJ26A\">YouTube<\/a>.<\/p> <p><b>About the Talk:<\/b><\/p> <p>In this talk I will introduce and demonstrate the new <a href=\"https://github.com/hafen/trelliscopejs\">TrelliscopeJS<\/a> R package. This package provides a visualization platform for creating and viewing large interactive \"small multiple\" displays, also known as Trellis or faceted displays. With small multiple displays, the data is split into groups and a plot is made for each group, with the resulting plots arranged in a grid. This approach is simple but very effective for displaying and discovering interesting patterns in data and is an essential visualization approach in the data scientist’s toolbox. TrelliscopeJS enables small multiple displays to come alive by providing the ability to interactively navigate a potentially extremely large number of plots. The TrelliscopeJS package integrates with common R workflows such as ggplot2 and the \"tidyverse\", and produces easy-to-share interactive web-based visualizations. Several interesting examples of TrelliscopeJS in action will be shown.<\/p> <p><br/><b>About Ryan:<\/b><\/p> <p>Ryan Hafen is a statistical consultant and remote adjunct assistant professor at Purdue University. Ryan's research focuses on methodology, tools, and applications in exploratory analysis, statistical model building, statistical computing, and machine learning on large, complex datasets. You can read more about Ryan at <a href=\"http://ryanhafen.com\">ryanhafen.com<\/a>.<\/p> <p><br/><a href=\"http://bit.ly/pizzapoll\">Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
         ],
         "speakers": [
-
+            "Ryan Hafen"
         ],
         "topics": [
-
+            "R",
+            "Visualization",
+            "Plotting",
+            "Graphics"
         ],
         "slides": [
 
         ],
         "videos": [
-
+            "https://www.facebook.com/LanderAnalytics/videos/410846412603974/"
         ],
         "VideoSource": [
-
+            "Facebook"
         ]
     }
 ]
