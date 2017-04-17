@@ -39,7 +39,7 @@ displayBook <- function(title, authors, url, image)
 books <- readr::read_csv('data/Meetup_Books.csv')
 ```
 
-```{r}
+```{r book-output}
 bookOutput <- sample(purrr::pmap(list(books$Title, books$Authors, books$URL, books$Picture), displayBook))
 ```
 
