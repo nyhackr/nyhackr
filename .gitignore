@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 *_cache
+.DS_Store
+docs
+data/events.json.old

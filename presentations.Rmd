@@ -7,7 +7,7 @@ knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
 ```
 
 ```{r common-actions,include=FALSE}
-source("utils/utils.R")
+source("utils/utils.r")
 ```
 
 ```{r layout,dependson=c('common-actions')}
@@ -25,6 +25,7 @@ crosstalk::bscols(widths=c(2, 10), device='md',
            makeDatatable(talks_shared, 
                          colsToHide=c('ShareKey'), 
                          scrollX=FALSE, width='100%', scrollY=200, height=200,
+                         order=list(list(1, 'desc')),
                          elementID='PresentationsTable',
                          scrollCollapse=FALSE
                          # colsToFixWidth='Presentation', columnsWidth='100px'
@@ -32,9 +33,10 @@ crosstalk::bscols(widths=c(2, 10), device='md',
            htmltools::tags$p(class='spacer'),
            # meetup table
            makeDatatable(events_shared, class='display cell-border',
-                         colsToHide=c('ShareKey', 'Date'),
-                         # colsToFixWidth='Description', columnsWidth='100px',
-                         scrollX=FALSE, width='100%', , scrollY=400, height=400,
+                         colsToHide=c('ShareKey'),
+                         colsToFixWidth=c('Date', 'Description', 'Meetup', 'Speakers', 'Video'), columnsWidth='35px',
+                         scrollX=FALSE, width='100%', scrollY=400, height=400,
+                         order=list(list(0, 'desc')),
                          elementID='EventsTable'
            )
        )

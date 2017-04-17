@@ -1,10 +1,11 @@
 makeDatatable <- function(data, 
-                          extensions=c('Scroller', 'ColReorder', 
-                                       'FixedColumns', 'KeyTable', 
+                          extensions=c('Scroller', #'ColReorder', 
+                                       'FixedColumns', #'KeyTable', 
                                        'RowReorder'),
                           dom="tSB",
                           escape=FALSE,
                           colsToHide=NA, class='display',
+                          order=list(list(0, 'desc')),
                           buttons=c('copy', 'csv', 'excel', 'pdf', 'print'),
                           scrollY=400, scrollX=TRUE, scrollCollapse=TRUE,
                           height=NULL, width=NULL,
@@ -14,6 +15,7 @@ makeDatatable <- function(data,
     colsToNums <- which(names(data$data()) %in% colsToHide) - 1
     colsToFixWidthNums <- which(names(data$data()) %in% colsToFixWidth) - 1
     # hideList <- if(is.na(data)) {list()} else {list(list(visible=FALSE, targets=colsToHide))}
+    
     DT::datatable(data,
                   escape=escape,
                   rownames=FALSE,
@@ -28,6 +30,7 @@ makeDatatable <- function(data,
                       columnDefs=list(
                           list(visible=FALSE, targets=colsToNums),
                           list(width=columnsWidth, targets=colsToFixWidthNums)),
+                      order=order,
                       scrollX=scrollX,
                       scrollY=scrollY,
                       scrollCollapse=scrollCollapse,
