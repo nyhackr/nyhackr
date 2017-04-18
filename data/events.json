@@ -7839,7 +7839,25 @@
             "Graphics"
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Ryan Hafen"
+                ],
+                "title": [
+                    "TrelliscopeJS"
+                ],
+                "topics": [
+                    "R",
+                    "Visualization",
+                    "htmlwidgets"
+                ],
+                "file": [
+                    "TrelliscopeJS_Ryan-Hafen.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
         ],
         "videos": [
             "https://www.facebook.com/LanderAnalytics/videos/410846412603974/"
