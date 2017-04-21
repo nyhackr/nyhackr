@@ -21,7 +21,7 @@ nyhackrLogo <- div(class='center',
 ```
 
 ```{r nyhackr-twitter}
-nyhackrTwitter <- htmltools::HTML('<div><a class="twitter-timeline" href="https://twitter.com/nyhackr">Tweets by nyhackr</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>')
+nyhackrTwitter <- htmltools::HTML('<div><a class="twitter-timeline" href="https://twitter.com/nyhackr">Tweets by nyhackr</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>')
 
 nyhackrFollow <- div(a(href="https://twitter.com/nyhackr", 
                        class="twitter-follow-button", 
@@ -34,7 +34,7 @@ nyhackrFollow <- div(a(href="https://twitter.com/nyhackr",
                      )
 )
 
-twitterList <- htmltools::HTML('<a class="twitter-timeline" href="https://twitter.com/nyhackr/lists/rstats">A Twitter List by nyhackr</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>')
+twitterList <- htmltools::HTML('<a class="twitter-timeline" href="https://twitter.com/nyhackr/lists/rstats">A Twitter List by nyhackr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>')
 ```
 
 
