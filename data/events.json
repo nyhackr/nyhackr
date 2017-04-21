@@ -7865,6 +7865,85 @@
         "VideoSource": [
             "Facebook"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "238963643"
+        ],
+        "name": [
+            "Htmlwidgets and Flex Dashboards: Interactive Viz the Easy Way"
+        ],
+        "rsvp_limit": [
+            160
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1492554600000
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            93
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/238963643/"
+        ],
+        "description": [
+            "<p>To make an R-packed week we have <a href=\"https://www.meetup.com/nyhackr/members/4652347/\">Melissa Donovan<\/a> speaking about <a href=\"http://www.htmlwidgets.org/\">htmlwidgets<\/a> and <a href=\"http://rmarkdown.rstudio.com/flexdashboard/\">Flex Dashboards<\/a> just days before the <a href=\"http://www.rstats.nyc/\">R Conference<\/a>.<\/p> <p>Thank you to <a href=\"http://www.ebaynyc.com/\">eBay NYC<\/a> for hosting. <\/p> <p><br/>It seems the <a href=\"https://www.facebook.com/pg/LanderAnalytics/videos/\">Facebook livestreams<\/a> are working well so we will continue to broadcast the meetups live whenever possible.<\/p> <p><b>About the talk:<\/b><\/p> <p>Becoming proficient visualizing your data using <a href=\"https://shiny.rstudio.com/\">Shiny<\/a> or <a href=\"https://d3js.org/\">D3<\/a> takes a lot of work.  But moving from a base graphics or <a href=\"http://ggplot2.org/\">ggplot<\/a> to an interactive visualization can be simple with <a href=\"http://www.htmlwidgets.org/\">htmlwidgets<\/a>.  In this talk we explore what you can do with htmlwidgets, the levels of customization available, and using <a href=\"http://rmarkdown.rstudio.com/flexdashboard/\">flex dashboards<\/a> for beautiful packaging and easy sharing of data viz.  We will create annotated visualizations in a standalone html document that can be hosted online or even shared over email.  If you have been stymied in efforts to move beyond static visualizations, have struggled with how to create easily sharable and attractive plots, or just want to dress up your ggplots, you will leave leave this talk with the tools you need.<\/p> <p><br/><b>About Melissa:<\/b><\/p> <p>Melissa is a Senior Data Scientist at the College Board where she uses analysis and visualization to help inform business decisions on such epic products as the SAT and AP tests.  At the College Board she has implemented machine learning to help detect security threats, discovered the suboptimal structure to the SAT administration calendar, and operationalized a set of organizational metrics.  Melissa earned her second Masters degree in Quantitative Methods in the Social Sciences with a concentration in Data Science from Columbia in 2014.  In previous iterations Melissa worked in process improvement for large-scale solar construction, was a door-to-door canvasser, a Physics PhD student at Stanford (\"ask me about my dropout Masters!\"), and a yoga teacher.<\/p> <p><br/><a href=\"http://bit.ly/pizzapoll\">Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
+        ],
+        "speakers": [
+
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+
+        ],
+        "videos": [
+
+        ],
+        "VideoSource": [
+
+        ]
     }
 ]
 
