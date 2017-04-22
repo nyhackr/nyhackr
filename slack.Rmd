@@ -1,0 +1,17 @@
+---
+title: "Slack"
+---
+
+<style type="text/css">
+.freebirdFormviewerViewFormCard {
+    margin-top: -250px;
+}
+</style>
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center')
+```
+
+Sign up here to join the [nyhackr Slack](nyhackr.slack.com) team.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDO5-n-TO7Xf9KZoLNeoIEYVIepnaV0_GFSicQ72fb8EVj3g/viewform?embedded=true" width="760" height="1080" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
