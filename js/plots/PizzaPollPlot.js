@@ -1,5 +1,5 @@
 // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs, and may do more in the future... it's NOT required
-d3.json("http://jaredlander.com/data/PizzaPollData.php", function(error, data) { 
+d3.json("https://jaredlander.com/data/PizzaPollData.php", function(error, data) { 
     if (error){alert(error); return console.warn(error);}
     
     var nestedData = d3.nest()
@@ -21,7 +21,7 @@ nv.addGraph(function() {
   })
   ;
   
-  d3.json("http://www.jaredlander.com/data/PollQuestions.php", function(error, qList){
+  d3.json("https://www.jaredlander.com/data/PollQuestions.php", function(error, qList){
     if (error){alert(error); return console.warn(error);}
     
     var lookup = {};
