@@ -4,7 +4,7 @@
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
 # image: atlassian/default-image:latest
-image: rocker/verse:3.3.3
+image: rocker/verse:3.4.0
 
 pipelines:
   default:
