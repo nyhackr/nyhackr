@@ -1,5 +1,6 @@
 makeDatatable <- function(data, 
-                          extensions='Scroller',
+                          extensions=c('Scroller',
+                                       'Responsive'),
                           dom="tS",
                           escape=FALSE,
                           colsToHide=NA, class='display',
