@@ -1,7 +1,6 @@
 makeDatatable <- function(data, 
-                          extensions=c('Scroller', #'ColReorder', 
-                                       'FixedColumns', #'KeyTable', 
-                                       'RowReorder'),
+                          extensions=c('Scroller',
+                                       'FixedColumns'),
                           dom="tSB",
                           escape=FALSE,
                           colsToHide=NA, class='display',
@@ -37,8 +36,7 @@ makeDatatable <- function(data,
                       scroller=TRUE,
                       colReorder=TRUE,
                       # fixedColumns=list(leftColumns=2),
-                      keys=TRUE,
-                      rowReorder=TRUE
+                      keys=TRUE
                   ), 
                   elementId=elementID
     )
