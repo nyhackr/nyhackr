@@ -1,0 +1,24 @@
+language: r
+sudo: false
+cache: packages
+r_packages:
+  - crosstalk
+  - devtools
+  - dplyr
+  - htmltools
+  - httr
+  - jsonlite
+  - knitr
+  - magrittr
+  - purrr
+  - readr
+  - shiny
+  - shinydashboard
+  - stringr
+  - tibble
+  - tidyjson
+  - tidyr
+r_github_packages:
+  - rstudio/DT
+script:
+  - Rscript -e "rmarkdown::render_site()"
