@@ -28,8 +28,6 @@ navbar:
           href: slack.html
         - text: "Contact"
           href: contact.html
-        - text: "Contributing"
-          href: contributing.html
         #- text: "About"
         #  href: about.html
 output:
