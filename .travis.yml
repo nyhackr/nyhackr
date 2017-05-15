@@ -15,4 +15,4 @@ deploy:
   skip_cleanup: true
   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs $DEV_USER@$DEV_HOST:$DEV_DEST
   on:
-    branch: opensource
+    branch: dev
