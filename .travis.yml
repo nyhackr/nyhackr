@@ -2,7 +2,9 @@ language: r
 sudo: false
 cache: packages
 addons:
-  ssh_known_hosts: dev.nyhackr.org
+  ssh_known_hosts: 
+    - dev.nyhackr.org
+    - www.nyhackr.org
 before_install:
   - openssl aes-256-cbc -K $encrypted_173524ff19e5_key -iv $encrypted_173524ff19e5_iv -in $TRAVIS_BUILD_DIR/travis/deploy_rsa.enc -out /tmp/deploy_rsa -d
   - eval "$(ssh-agent -s)"
@@ -11,8 +13,13 @@ before_install:
 install: true
 script: Rscript $TRAVIS_BUILD_DIR/travis/render_site.r
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs $DEV_USER@$DEV_HOST:$DEV_DEST
-  on:
-    branch: dev
+  - provider: script
+    skip_cleanup: true
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs autodeploy@dev.nyhackr.org:dev
+    on:
+      branch: dev
+  - provider: script
+    skip_cleanup: true
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs autodeploy@www.nyhackr.org:www
+    on: 
+      branch: master
