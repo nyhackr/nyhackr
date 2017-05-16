@@ -15,11 +15,11 @@ script: Rscript $TRAVIS_BUILD_DIR/travis/render_site.r
 deploy:
   - provider: script
     skip_cleanup: true
-    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs autodeploy@dev.nyhackr.org:dev
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs/ autodeploy@dev.nyhackr.org:dev
     on:
       branch: dev
   - provider: script
     skip_cleanup: true
-    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs autodeploy@www.nyhackr.org:www
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs/ autodeploy@www.nyhackr.org:www
     on: 
       branch: master
