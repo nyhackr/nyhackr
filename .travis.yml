@@ -2,10 +2,10 @@ language: r
 sudo: false
 cache: packages
 addons:
-  ssh_known_hosts: 
+  ssh_known_hosts:
     - dev.nyhackr.org
     - www.nyhackr.org
-before_install:
+before_install: 
   - openssl aes-256-cbc -K $encrypted_173524ff19e5_key -iv $encrypted_173524ff19e5_iv -in $TRAVIS_BUILD_DIR/travis/deploy_rsa.enc -out /tmp/deploy_rsa -d
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/deploy_rsa
@@ -23,3 +23,8 @@ deploy:
     script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs/ autodeploy@www.nyhackr.org:www
     on: 
       branch: master
+notifications:
+  slack:
+    secure: bTIXomzJKlYCx6jLGrFILckzGSggMSldzXUyBgbTv766VrQ0cLRbieIdgkt4eW0TBaCUIFBIf+rdmOmjxW1Uc46109lnMP6RvsjQDy9NWFD7U/RQmhcC6Zu1pB4IOQBdrzj6o0DzQHOooQfwEXCxAyrhKxD+h43uFN9Sj1I5air3COnfv+LZtJNAV/A6mJ6Y6mBfX/GrMjXopl1nRDYSU/67U6rXzzYyzDW1Rb8PAsq0srjTDI7Mp0fX5Ai0kXd5sv8a11VAsB3x2YsYrE2xamqySv/HDyhuI4Bc0qXKsMIpCNMofQa1N2zBnodDupH/B9SGAM5CqNGF6YXDZ0PjyW/W0dfIWDf1TyvZQysqDJi+613kgUpXZS4jIFcLlEB4ypCTsrSg0Ot7m3EZbZO8ESAEqh9kx2DcuEjxuF2Z5o0iYrlXhFK3O6z/NgFCCKlwzptZe7mExCBqRaeeixg9vVrfrpgEDiKfwSV70Tp2ZCHixqAClwLWTvSpIEy7T1f+orSs/Z1LMjlL1mMmc8hKKehK92qBk5hDCJVjhq+2iphc1VHVq+wmA/BkTnXzVjD8ZakNpLjv1o+FvGyrcpH1X9n5EbKvelyD9DzUdLOi+wVFVfNzORfaMwE5o441Hv/ZUdxPYnwXOyn1kXYVXsmeB8i6wvI/5ylGMWrqe+MQJiY=
+    rooms:
+      secure: cIpPM7ocx0CMFSfkttpzLIzTCmKOwip+9tWHB961vv53RgelWs71IZTt07IV9EE9SJ1lXQiGZnStlci4CpMPJIge29tGNhKML+ApkysO4YCx0CKE0mq+EPZPxGqhaw18ALVIR0krfrnKRnzk6CiMxiLL+Nvk21EOobrln8B75qRVwPC1uv4UvbYigQ5dsjDQIwouYJeMeWRZkZaWuo0lswEmb/nvCO6WW6mM/vl4MU6/fXNWMO4JnbrkPuGRKka7FcZKAJ8PQXbopRnh1b7tEq5LMUupAE0HF5nE6q02h27y9PWtowd+dKEO54Eqg1Cx7+Xwtxb8/dqkojw6OuZf97ZcIF819FXMUlPhraZMq/O02tGcDwOEcYi7L+R0G+hxT6tXxz5v5XHcGHrR4flmG5vHQbd6Kig+ckl7LSaU+yIbPnayZD4ca4W/yYyYYhcelFbVdbqpAZ4FgfucywvlYuPo81OmQubLmn3cwjMELc7oslAlrwBCHNiVFI6bZzbjiWHu6pV4CkNGsyL8p6Iv8GVffmjr1LqRz8nD1DDc1AAePzaQnP6RhCTIMl0N0MOzGG1fPzXnVTLtCNQ38t09ESWdtH2V2d/t2aqsZMie9W/rD6zI6p5Z0wctaFwfltJjc1hGFPy8+aBXVS6WzmA5xbi6IcLvU2g7tlIyn6yYSZg=
