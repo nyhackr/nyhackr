@@ -7944,6 +7944,85 @@
         "VideoSource": [
 
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "239407673"
+        ],
+        "name": [
+            "Forecasting Growth with Semiparametric Bayesian Models"
+        ],
+        "rsvp_limit": [
+            190
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1494887400000
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            165
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/239407673/"
+        ],
+        "description": [
+            "<p>To celebrate <a href='https://twitter.com/harlanh'>Harlan Harris<\/a> moving back to New York, he will be our May speaker.<\/p> <p>Thank you to <a href='http://www.ebaynyc.com/'>eBay NYC<\/a> for hosting.<\/p> <p>We will once again livestream on <a href='https://www.facebook.com/pg/LanderAnalytics/videos/'>Facebook<\/a>.<\/p> <p><img src='https://secure.meetupstatic.com/photos/event/3/8/7/0/600_460874448.jpeg' /><\/p> <p>Thank you to <a href='http://www.oreilly.com/pub/cpc/79865'>O'Reilly<\/a> for sponsoring. They are offering members of our group a 20% discount to their Artificial Intelligence Conference June 26-29 with code <a href='http://www.oreilly.com/pub/cpc/79865'>UGNYHACKR20<\/a>.<\/p> <p><b>Overflow Room:<\/b><\/p> <p>Due to the popularity of this event eBay will provide an overflow room where we will stream the <a href='https://www.facebook.com/pg/LanderAnalytics/videos/'>broadcast<\/a>. Entrance to the main room is on a first-come-first-served basis, and after we reach capacity people will be directed to the overflow room for the video feed.<\/p> <p><b>About the Talk:<\/b><\/p> <p>Some business forecasting problems take the form of a count that accumulates up to a deadline, such as total monthly sales of a product, or student signups to an educational event before it starts. In this talk, I'll describe two real-world examples of this problem, and then will describe a Bayesian approach that combines a prior distribution with a (mostly) principled, statistically honest extrapolation method. A key piece of this approach is a class of semiparametric regression models called GAMLSS--Generalized Additive Models for Location, Scale, and Shape. These models can flexibly describe the shapes of the priors and temporal accumulation functions, and allow posterior predictive intervals that become more precise over time as information accumulates. This is important for nontechnical users of business predictions--the inevitable errors in overly precise predictions lead quickly to mistrust. I'll also compare the approach with classic time series forecasting techniques and with dynamic linear models.<\/p> <p><br/><b>About Harlan:<\/b><\/p> <p>Harlan Harris has a PhD in Computer Science/Machine Learning from the <a href='http://illinois.edu/'>University of Illinois at Urbana-Champaign<\/a>, and worked as a Cognitive Psychology researcher at <a href='http://www.columbia.edu/'>Columbia University<\/a> and <a href='http://www.nyu.edu/'>NYU<\/a> before turning to industry. He has worked at Kaplan Test Prep, the Advisory Board Company, and several startups. Harlan also co-founded the <a href='https://www.meetup.com/Data-Science-DC/'>Data Science DC Meetup<\/a> and <a href='http://www.datacommunitydc.org/'>Data Community DC, Inc.<\/a>, and co-wrote <a href='http://www.oreilly.com/data/free/analyzing-the-analyzers.csp'>Analyzing the Analyzers<\/a>, a short O'Reilly book about the variety of data scientists. Follow him on Twitter and Medium at <a href='https://twitter.com/harlanh'>@harlanh<\/a>.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
+        ],
+        "speakers": [
+
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+
+        ],
+        "videos": [
+
+        ],
+        "VideoSource": [
+
+        ]
     }
 ]
 
