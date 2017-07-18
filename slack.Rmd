@@ -3,8 +3,8 @@ title: "Slack"
 ---
 
 <style type="text/css">
-.freebirdFormviewerViewFormCard {
-    margin-top: -250px;
+div#sign-up-here-to-join-the-nyhackr-slack-team img {
+    padding-top: 1.5em;
 }
 </style>
 
@@ -12,6 +12,6 @@ title: "Slack"
 knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center')
 ```
 
-Sign up here to join the [nyhackr Slack](nyhackr.slack.com) team.
+#### Sign up here to join the [nyhackr Slack team](https://nyhackr.slack.com/shared_invite/MTg0ODY4ODE2MjkwLTE0OTUwNTY3NTEtZGYzYzNiOTg2OA)!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDO5-n-TO7Xf9KZoLNeoIEYVIepnaV0_GFSicQ72fb8EVj3g/viewform?embedded=true" width="760" height="1080" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+[![NYR Selfie](images/R-Conference-Selfie.jpg "NYR Selfie")](https://nyhackr.slack.com/shared_invite/MTg0ODY4ODE2MjkwLTE0OTUwNTY3NTEtZGYzYzNiOTg2OA)

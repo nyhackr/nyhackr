@@ -8,7 +8,7 @@ knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
 
 The [New York R Conference](http://www.rstats.nyc) grew out of the meetup as another outlet for people to gather and nerd out over statistical programming, especially R.  Now in its third year, the conference takes place every April.  The format is meant to be fun and fast paced, with each talk (with only one or two exceptions) lasting 20 minutes with no question time.  There is a social break after every two or three sessions.
 
-Videos and presentatins from [2015](http://www.rstats.nyc/2015) and [2016](http://www.rstats.nyc/2016) can be found at [rstats.nyc](http://www.rstats.nyc).
+Videos and presentations from [2015](http://www.rstats.nyc/2015), [2016](http://www.rstats.nyc/2016) and [2017](http://www.rstats.nyc/2017) can be found at [rstats.nyc](http://www.rstats.nyc).
 
 For more information visit [rstats.nyc](http://www.rstats.nyc).
 

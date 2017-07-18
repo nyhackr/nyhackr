@@ -1,0 +1,20 @@
+Imports:
+    crosstalk,
+    dplyr,
+    DT,
+    htmltools,
+    httr,
+    jsonlite,
+    knitr,
+    magrittr,
+    purrr,
+    readr,
+    rmarkdown,
+    shiny,
+    shinydashboard,
+    stringr,
+    tibble,
+    tidyjson,
+    tidyr
+Remotes:
+    github::rstudio/DT

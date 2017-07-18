@@ -6,7 +6,8 @@ exclude:
     - scratch
     - test
     - utils
-    - bitbucket-pipelines.yml
+    - travis
+    - DESCRIPTION
 navbar:
     title: "<a href='index.html'><img src='images/nyhackr-fav.png' /></a>"
     left:

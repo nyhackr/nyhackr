@@ -15,7 +15,7 @@ crosstalk::bscols(widths=c(12),
                   list(
                       htmltools::HTML('<div><svg id="ratingsbypizzeria"></svg></div>'),
                       htmltools::p("This is the data for the ",
-                        htmltools::a(href='http://bit.ly/PizzaPoll', 'Pizza Poll'),
+                        htmltools::a(href='http://bit.ly/pizzapoll', 'Pizza Poll'),
                         ' we conduct at the start of each meetup.  It is available as a ', 
                         htmltools::a(href='https://www.jaredlander.com/data/PizzaPollData.php',
                           'json'),

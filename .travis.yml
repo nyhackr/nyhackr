@@ -1,0 +1,28 @@
+language: r
+sudo: false
+cache: packages
+addons:
+  ssh_known_hosts:
+    - dev.nyhackr.org
+    - www.nyhackr.org
+before_install: 
+  - openssl aes-256-cbc -K $encrypted_b563b704a3de_key -iv $encrypted_b563b704a3de_iv -in $TRAVIS_BUILD_DIR/travis/deploy_rsa.enc -out /tmp/deploy_rsa -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 /tmp/deploy_rsa
+  - ssh-add /tmp/deploy_rsa
+script: Rscript -e "rmarkdown::render_site(\"$TRAVIS_BUILD_DIR\")"
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs/ autodeploy@dev.nyhackr.org:dev
+    on:
+      branch: dev
+  - provider: script
+    skip_cleanup: true
+    script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/docs/ autodeploy@www.nyhackr.org:www
+    on: 
+      branch: master
+notifications:
+  slack:
+    rooms:
+      secure: YagizWh7dJdzruGVW907FwWIrKWELIXRh2UVP/2/+qAaKF0TL7NUffhqdicokwJnTB2WuQ+n+2y0uce8pQwP0menUhgUBGiSfWy9s587xcGABhve+hZnRrxwtv8S7CyAwxoWJod+yREqstr9lAiheWHUSVUrK/ndRMp+cosRJ/AZJfGldrxQ0m1BywPlgz6KsxqLl8ATqVMv2X885JAY1aT7/3frL2Pk3OHcbJkjuGd+SWFVJI+1VcsdU5F1koOHO/FAvri/vn589Nce7KP266AnJ8R2rLMpuHSx8HXVhBMNxs2SAoi6oiqF0GeKYrlVbi8iANDmdzJ8wNqo+kS9nv6u5p+y6muGoucN4WzEIbL08Uerb0wCkfaYJ/GJhFjgdMdBsQn4/dvukA1/tnx/GcnVYb7TanX2DKokDa7CH2mka+DrUKzK6Tz0jdqV+SLhnx1hGEcYZekvM5fMAzWoraQL/GfjtPCK+8cPJcF4y+zymHWUH/JwYeDuR1P2/2VbpaFJab4OY7HZjbPn+8akwQfUSx0m7QysfOV6YZDR9XvKaX9LGjhXNWpPy/U2oKm1I8OV4N7FuMjxL1FPVxLdqxhwpp2I1/Emid0MWjOVIlBuRavPnx/vd+tyMjYosvwcvGgLh8gqTWJOOHkCnLOoUZ4fEZnUqVIM1AXJ6UkJMVk=
