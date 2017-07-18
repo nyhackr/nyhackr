@@ -23,11 +23,15 @@ crosstalk::bscols(widths=c(6, 6),
                       htmltools::a(href="http://www.ebaynyc.com/",
                                    htmltools::img(src="images/sponsors/ebaynyc-web.png",
                                                    style="width: 75%;")
+                      ),
+                      htmltools::tags$p(class='spacer'),
+                      htmltools::a(href="https://www.oreilly.com/",
+                                   htmltools::img(src="images/sponsors/oreilly-logo.png")
                       )
                   ),
                   list(
-                      htmltools::a(href="https://www.oreilly.com/",
-                                   htmltools::img(src="images/sponsors/oreilly-logo.png")
+                      htmltools::a(href="http://www.oreilly.com/pub/cpc/79528",
+                                   htmltools::img(src="images/sponsors/JupyterCon.png")
                       ),
                       htmltools::tags$p(class='spacer'),
                       htmltools::a(href="https://mran.microsoft.com/open/",
