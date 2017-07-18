@@ -16,6 +16,8 @@ navbar:
           href: presentations.html
         - text: "Pizza Poll"
           href: pizzapoll.html
+        - text: "Events"
+          herf: events.html
         - text: "Twitter"
           href: twitter.html
         - text: "Books"
