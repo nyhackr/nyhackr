@@ -8023,6 +8023,85 @@
         "VideoSource": [
 
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "240849425"
+        ],
+        "name": [
+            "Back to Basics: R you markDOWN?"
+        ],
+        "rsvp_limit": [
+            150
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1498516200000
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            94
+        ],
+        "venue": {
+            "id": [
+                22491542
+            ],
+            "name": [
+                "Work-Bench"
+            ],
+            "lat": [
+                40.8235
+            ],
+            "lon": [
+                -73.8113
+            ],
+            "address_1": [
+                "110 Fifth Avenue, 5th Floor"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/240849425/"
+        ],
+        "description": [
+            "<p>We are very excited to have <a href='https://youtu.be/oPCIqDagGSk'>three-time<\/a> <a href='https://youtu.be/CAy0udiWwmg'>conference<\/a> <a href='https://youtu.be/6VO_CTtGlnk'>speaker<\/a>, and long time meetup member, <a href='https://github.com/chendaniely'>Dan Chen<\/a> presenting for the first time at the meetup.  He'll be talking about RMarkdown, starting with the basics and working into advanced uses, such as building the <a href='https://nyhackr.org/'>meetup's new website<\/a>.<\/p> <p><b>About the talk:<\/b><\/p> <p><a href='http://rmarkdown.rstudio.com/'>RMarkdown<\/a> allows you to create dynamic reports that interweave (R) code and prose text into a single document. It's come a long way over the years, and can be used for more than literate programming, all while using simple markdown notation. You can make <a href='http://rmarkdown.rstudio.com/html_document_format.html'>documents<\/a>, <a href='http://rmarkdown.rstudio.com/pdf_document_format.html'>reports<\/a>, <a href='http://rmarkdown.rstudio.com/flexdashboard/'>dashboards<\/a>, <a href='http://rmarkdown.rstudio.com/ioslides_presentation_format.html'>presentations<\/a>, <a href='https://bookdown.org/'>books<\/a>, and even <a href='http://rmarkdown.rstudio.com/rmarkdown_websites.html'>websites<\/a>!<\/p> <p>We will go back to the basics, and start from what is markdown and reproducible documents, and move on to show how the basics all tie into all the other presentation <a href='http://rmarkdown.rstudio.com/formats.html'>formats<\/a>.<\/p> <p><br/><b>About Dan:<\/b><\/p> <p>Daniel is currently a PhD Student at <a href='http://gbcb.vbi.vt.edu/'>Virginia Tech in Genetics, Bioinformatics, and Computational Biology<\/a>. His current area of research involves how ideas and behaviors spread in social networks. He is a Data Scientist with Lander Analytics,<br/>and also serves as a DevOps Engineer in his research lab, the <a href='https://www.bi.vt.edu/sdal'>Social and Decision Analytics Laboratory<\/a>, in Arlington, VA.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> <p><br/>Thank you to <a href='https://www.work-bench.com/'>Work-Bench<\/a> for hosting.<\/p> <p><br/>Despite the difficulties with audio we will continue attempting <a href='https://www.facebook.com/LanderAnalytics/videos/'>live broadcasts<\/a> and will hopefully resolve all the problems.<\/p> <p>A big thank you to O'Reilly for sponsoring us again.  They have two upcoming conferences and have given our group 20% discounts to both with code <a href='http://www.oreilly.com/pub/cpc/79528'>UGNYHACKR20<\/a>.  The first is the <a href='http://www.oreilly.com/pub/cpc/79865'>AI Conference<\/a>, June 26-29.  The second is <a href='http://www.oreilly.com/pub/cpc/79528'>JupyterCon<\/a> August 22-25.  The code <a href='http://www.oreilly.com/pub/cpc/79528'>UGNYHACKR20<\/a> works for both.<\/p> <p><img src='https://secure.meetupstatic.com/photos/event/3/7/0/5/600_460994085.jpeg' /><\/p> <p><img src='https://secure.meetupstatic.com/photos/event/9/1/7/a/600_461977242.jpeg' /><\/p> "
+        ],
+        "speakers": [
+
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+
+        ],
+        "videos": [
+
+        ],
+        "VideoSource": [
+
+        ]
     }
 ]
 
