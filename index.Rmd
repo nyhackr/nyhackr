@@ -55,7 +55,6 @@ library(httr)
 # get al linfo from the meetup api
 r <- GET('https://api.meetup.com/nyhackr/events', 
          query=list(
-             key=Sys.getenv('MEETUP_KEY'), 
              status='upcoming', 
              desc='false', 
              page='1'))
