@@ -26,7 +26,7 @@ trimInfo <- function(info)
     info$speakers <- character()
     info$topics <- character()
     info$slides <- character()
-    info$videos <- character()
+    info$video <- character()
     info$VideoSource <- character()
     
     return(info)
