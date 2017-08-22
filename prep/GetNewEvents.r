@@ -35,7 +35,6 @@ trimInfo <- function(info)
 # make request from meetup API
 r <- GET('https://api.meetup.com/nyhackr/events', 
          query=list(
-             key=Sys.getenv('MEETUP_KEY'), 
              status='past', 
              desc='true', 
              page='10'
