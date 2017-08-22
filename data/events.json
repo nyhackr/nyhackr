@@ -8102,6 +8102,101 @@
         "VideoSource": [
 
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "241797954"
+        ],
+        "name": [
+            "A/B Testing in the Wild"
+        ],
+        "rsvp_limit": [
+            220
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1501194600000
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            191
+        ],
+        "venue": {
+            "id": [
+                24846509
+            ],
+            "name": [
+                "AWS Loft"
+            ],
+            "lat": [
+                40.7228
+            ],
+            "lon": [
+                -74.0037
+            ],
+            "address_1": [
+                "350 West Broadway "
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/241797954/"
+        ],
+        "description": [
+            "<p>This month, Emily Robinson (aka ERobs), tackles A/B Testing and its related challenges.<\/p> <p><b>About the Talk:<\/b><\/p> <p>A/B Testing has become the gold standard for measuring the effectiveness of changes to a company’s website or app, ranging from a change in the color of a button to a whole new advertising model. It’s used extensively at large technology companies such as Amazon, Facebook, and Google, as well as at small startups and non-tech companies.<\/p> <p>For companies with a lot of traffic and a data engineering pipeline already set-up, A/B Testing can appear to be exceedingly simple. But whether it’s trying to sequence experiments, work with non-technical partners, or deciding what to do when there is a bug, there are a number of issues that can complicate an analysis. We’ll cover some of these business and statistical challenges, using some recent experiments at Etsy as examples.<\/p> <p><br/><b>About Emily:<\/b><\/p> <p>Emily is a Data Analyst at <a href=\"https://www.etsy.com/\">Etsy<\/a> where she works with the search team to design, implement, and analyze experiments on the ranking algorithm, UI changes, and new features. Emily earned her masters in Organizational Behavior from <a href=\"https://www.insead.edu/\">INSEAD<\/a> in 2016 and her bachelor’s in Decision Sciences from <a href=\"http://www.rice.edu/\">Rice University<\/a> (where she took classes from Hadley Wickham). Follow her on twitter at <a href=\"http://twitter.com/robinson_es\">@robinson_es<\/a>.<\/p> <p><br/><a href=\"http://bit.ly/pizzapoll\">Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> <p><br/><img src=\"https://secure.meetupstatic.com/photos/event/a/8/0/0/600_462943008.jpeg\" /><\/p> <p>Members of the meetup receive a 20% discount with code <a href=\"https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054?discount=nyhackr\">nyhackr<\/a> to the <a href=\"https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054\">Stan Master Class<\/a> featuring <a href=\"http://andrewgelman.com/\">Andrew Gelman<\/a> and Stan developers <a href=\"http://jgabry.github.io/about/\">Jonah Gabry<\/a> and <a href=\"https://betanalpha.github.io/\">Michael Betancourt<\/a>.<\/p> "
+        ],
+        "speakers": [
+            "Emily Robinson"
+        ],
+        "topics": [
+            "AB Testing"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Emily Robinson"
+                ],
+                "title": [
+                    "AB Testing in the Wild"
+                ],
+                "topics": [
+                    "AB Testing"
+                ],
+                "file": [
+                    "AB Testing in the Wild.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://www.youtube.com/watch?v=SF-ryGgLOgQ"
+        ],
+        "VideoSource": [
+            "Youtube"
+        ]
     }
 ]
 
