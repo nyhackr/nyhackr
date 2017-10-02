@@ -8197,6 +8197,103 @@
         "VideoSource": [
             "Youtube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "242401685"
+        ],
+        "name": [
+            "Deep Learning for Data Scientists"
+        ],
+        "rsvp_limit": [
+            230
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1504045800000
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            227
+        ],
+        "venue": {
+            "id": [
+                24846509
+            ],
+            "name": [
+                "AWS Loft"
+            ],
+            "lat": [
+                40.7228
+            ],
+            "lon": [
+                -74.0037
+            ],
+            "address_1": [
+                "350 West Broadway "
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/242401685/"
+        ],
+        "description": [
+            "<p>We have another Deep Learning talk this month, given by Dan Mbanga from Amazon.<\/p> <p>A big thank you goes to the <a href='https://aws.amazon.com/start-ups/loft/ny-loft/'>AWS Loft<\/a> for hosting us again.<\/p> <p>Another thank you goes to O'Reilly for sponsoring us and offering group members a 20% discount to <a href='https://conferences.oreilly.com/jupyter/jup-ny'>JupyterCon<\/a> (August 22-25) and <a href='https://conferences.oreilly.com/jupyter/jup-ny'>Strata<\/a> (September 25-28), both with code UGNYHACKR20.<\/p> <p><b>About the talk:<\/b><\/p> <p>Deep Learning (DL) is a subset of Machine Learning (ML) that extends the concept of Artificial Neural Networks (ANN) to uncover hidden patterns in unstructured datasets. Due to the current ubiquity of data (Big Data), and availability of on demand, inexpensive, and parallel hardware such as Graphics Processing Units (GPUs) on Amazon EC2, Deep Learning has revitalized the excitement in Artificial Intelligence. Breakthrough results can be seen in industry applications such as computer vision, robotics, healthcare, security, retail, and more. <a href='http://mxnet.io/'>Apache MXNet<\/a> is an open-source, fully-featured, flexibly-programmable and ultra-scalable deep learning framework supporting state-of-the-art deep models including convolutional neural networks (CNNs) and long short-term memory networks (LSTMs). MXNet enables Data Scientists familiar with the R programing language to train and deploy deep models at scale, using their favorite language, with the same fast performance observed by Python, Scala or C++ ML practitioners.<\/p> <p><br/>Participants will learn how to spin up a pre-built, GPU enabled Data Science environment using the AWS Deep Learning Amazon Machine Image (<a href='https://aws.amazon.com/marketplace/pp/B01M0AXXQB'>AMI<\/a>), in few minutes. We will write a deep learning program with MXNet in a few lines of codes using the R programming language. We will discuss training deep learning models on one or multiple GPUs via R. Finally, we will compare deep models to some traditional Machine Learning models such as penalized regression and boosted trees.<\/p> <p><br/><b>About Dan:<\/b><\/p> <p><a href='https://twitter.com/dmbanga'>Dan Romuald Mbanga<\/a> is a Business Development Management Lead for <a href='https://aws.amazon.com/amazon-ai/'>AWS AI<\/a> platforms. Dan leads strategic business development initiatives for Machine Learning and Deep Learning Engines, helping customers build end-to-end AI solutions at scale on AWS. He works with stakeholders in multiple AWS organizations including product, marketing, sales, and support, to ensure customers of all industries and sizes successfully grow their machine and deep learning workloads on AWS. Prior to assuming this role earlier in 2017, Dan joined AWS in 2013 as a Big Data and Devops Manager where he built two teams of specialists on the Hadoop ecosystem, and CI/CD technologies. Dan holds a BSc in Physics and Computer Sciences, and has over 12 years of experience building and managing engineering teams. In his spare time, he likes sports, travels, and learning new languages.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
+        ],
+        "speakers": [
+          "Dan Mbanga"
+        ],
+        "topics": [
+          "Deep Learning",
+          "MXNet",
+          "Neural Networks"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Dan Mbanga"
+                ],
+                "title": [
+                    "Deep Learning for Data Scientists"
+                ],
+                "topics": [
+                    "Deep Learning"
+                ],
+                "file": [
+                    "082917_Deep_Learning_For_Data_Scientists.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+          "https://youtu.be/72Q-c6lYxOs"
+        ],
+        "VideoSource": [
+          "YouTube"
+        ]
     }
 ]
 
