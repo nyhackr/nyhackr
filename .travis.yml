@@ -1,6 +1,10 @@
 language: r
 sudo: false
-cache: packages
+cache:
+  directories:
+    - $TRAVIS_BUILD_DIR/packrat/src
+    - $TRAVIS_BUILD_DIR/packrat/lib
+  packages: true
 addons:
   ssh_known_hosts:
     - dev.nyhackr.org
