@@ -1,7 +1,7 @@
 name: "nyhackr-web"
 output_dir: "docs"
-exclude: 
-    - data 
+exclude:
+    - data
     - prep
     - scratch
     - test
@@ -41,3 +41,4 @@ output:
         includes:
             in_header: includes/favicon.html
             after_body: includes/GoogleAnalytics.html
+        smart: false
