@@ -8164,7 +8164,7 @@
             "https://www.meetup.com/nyhackr/events/241797954/"
         ],
         "description": [
-            "<p>This month, Emily Robinson (aka ERobs), tackles A/B Testing and its related challenges.<\/p> <p><b>About the Talk:<\/b><\/p> <p>A/B Testing has become the gold standard for measuring the effectiveness of changes to a company’s website or app, ranging from a change in the color of a button to a whole new advertising model. It’s used extensively at large technology companies such as Amazon, Facebook, and Google, as well as at small startups and non-tech companies.<\/p> <p>For companies with a lot of traffic and a data engineering pipeline already set-up, A/B Testing can appear to be exceedingly simple. But whether it’s trying to sequence experiments, work with non-technical partners, or deciding what to do when there is a bug, there are a number of issues that can complicate an analysis. We’ll cover some of these business and statistical challenges, using some recent experiments at Etsy as examples.<\/p> <p><br/><b>About Emily:<\/b><\/p> <p>Emily is a Data Analyst at <a href=\"https://www.etsy.com/\">Etsy<\/a> where she works with the search team to design, implement, and analyze experiments on the ranking algorithm, UI changes, and new features. Emily earned her masters in Organizational Behavior from <a href=\"https://www.insead.edu/\">INSEAD<\/a> in 2016 and her bachelor’s in Decision Sciences from <a href=\"http://www.rice.edu/\">Rice University<\/a> (where she took classes from Hadley Wickham). Follow her on twitter at <a href=\"http://twitter.com/robinson_es\">@robinson_es<\/a>.<\/p> <p><br/><a href=\"http://bit.ly/pizzapoll\">Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> <p><br/><img src=\"https://secure.meetupstatic.com/photos/event/a/8/0/0/600_462943008.jpeg\" /><\/p> <p>Members of the meetup receive a 20% discount with code <a href=\"https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054?discount=nyhackr\">nyhackr<\/a> to the <a href=\"https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054\">Stan Master Class<\/a> featuring <a href=\"http://andrewgelman.com/\">Andrew Gelman<\/a> and Stan developers <a href=\"http://jgabry.github.io/about/\">Jonah Gabry<\/a> and <a href=\"https://betanalpha.github.io/\">Michael Betancourt<\/a>.<\/p> "
+            "<p>This month, Emily Robinson (aka ERobs), tackles A/B Testing and its related challenges.<\/p> <p><b>About the Talk:<\/b><\/p> <p>A/B Testing has become the gold standard for measuring the effectiveness of changes to a company’s website or app, ranging from a change in the color of a button to a whole new advertising model. It’s used extensively at large technology companies such as Amazon, Facebook, and Google, as well as at small startups and non-tech companies.<\/p> <p>For companies with a lot of traffic and a data engineering pipeline already set-up, A/B Testing can appear to be exceedingly simple. But whether it’s trying to sequence experiments, work with non-technical partners, or deciding what to do when there is a bug, there are a number of issues that can complicate an analysis. We’ll cover some of these business and statistical challenges, using some recent experiments at Etsy as examples.<\/p> <p><br/><b>About Emily:<\/b><\/p> <p>Emily is a Data Analyst at <a href='https://www.etsy.com/'>Etsy<\/a> where she works with the search team to design, implement, and analyze experiments on the ranking algorithm, UI changes, and new features. Emily earned her masters in Organizational Behavior from <a href='https://www.insead.edu/'>INSEAD<\/a> in 2016 and her bachelor’s in Decision Sciences from <a href='http://www.rice.edu/'>Rice University<\/a> (where she took classes from Hadley Wickham). Follow her on twitter at <a href='http://twitter.com/robinson_es'>@robinson_es<\/a>.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> <p><br/><img src=https://secure.meetupstatic.com/photos/event/a/8/0/0/600_462943008.jpeg /><\/p> <p>Members of the meetup receive a 20% discount with code <a href='https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054?discount=nyhackr'>nyhackr<\/a> to the <a href='https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054'>Stan Master Class<\/a> featuring <a href='http://andrewgelman.com/'>Andrew Gelman<\/a> and Stan developers <a href='http://jgabry.github.io/about/'>Jonah Gabry<\/a> and <a href='https://betanalpha.github.io/'>Michael Betancourt<\/a>.<\/p> "
         ],
         "speakers": [
             "Emily Robinson"
@@ -8262,12 +8262,12 @@
             "<p>We have another Deep Learning talk this month, given by Dan Mbanga from Amazon.<\/p> <p>A big thank you goes to the <a href='https://aws.amazon.com/start-ups/loft/ny-loft/'>AWS Loft<\/a> for hosting us again.<\/p> <p>Another thank you goes to O'Reilly for sponsoring us and offering group members a 20% discount to <a href='https://conferences.oreilly.com/jupyter/jup-ny'>JupyterCon<\/a> (August 22-25) and <a href='https://conferences.oreilly.com/jupyter/jup-ny'>Strata<\/a> (September 25-28), both with code UGNYHACKR20.<\/p> <p><b>About the talk:<\/b><\/p> <p>Deep Learning (DL) is a subset of Machine Learning (ML) that extends the concept of Artificial Neural Networks (ANN) to uncover hidden patterns in unstructured datasets. Due to the current ubiquity of data (Big Data), and availability of on demand, inexpensive, and parallel hardware such as Graphics Processing Units (GPUs) on Amazon EC2, Deep Learning has revitalized the excitement in Artificial Intelligence. Breakthrough results can be seen in industry applications such as computer vision, robotics, healthcare, security, retail, and more. <a href='http://mxnet.io/'>Apache MXNet<\/a> is an open-source, fully-featured, flexibly-programmable and ultra-scalable deep learning framework supporting state-of-the-art deep models including convolutional neural networks (CNNs) and long short-term memory networks (LSTMs). MXNet enables Data Scientists familiar with the R programing language to train and deploy deep models at scale, using their favorite language, with the same fast performance observed by Python, Scala or C++ ML practitioners.<\/p> <p><br/>Participants will learn how to spin up a pre-built, GPU enabled Data Science environment using the AWS Deep Learning Amazon Machine Image (<a href='https://aws.amazon.com/marketplace/pp/B01M0AXXQB'>AMI<\/a>), in few minutes. We will write a deep learning program with MXNet in a few lines of codes using the R programming language. We will discuss training deep learning models on one or multiple GPUs via R. Finally, we will compare deep models to some traditional Machine Learning models such as penalized regression and boosted trees.<\/p> <p><br/><b>About Dan:<\/b><\/p> <p><a href='https://twitter.com/dmbanga'>Dan Romuald Mbanga<\/a> is a Business Development Management Lead for <a href='https://aws.amazon.com/amazon-ai/'>AWS AI<\/a> platforms. Dan leads strategic business development initiatives for Machine Learning and Deep Learning Engines, helping customers build end-to-end AI solutions at scale on AWS. He works with stakeholders in multiple AWS organizations including product, marketing, sales, and support, to ensure customers of all industries and sizes successfully grow their machine and deep learning workloads on AWS. Prior to assuming this role earlier in 2017, Dan joined AWS in 2013 as a Big Data and Devops Manager where he built two teams of specialists on the Hadoop ecosystem, and CI/CD technologies. Dan holds a BSc in Physics and Computer Sciences, and has over 12 years of experience building and managing engineering teams. In his spare time, he likes sports, travels, and learning new languages.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
         ],
         "speakers": [
-          "Dan Mbanga"
+            "Dan Mbanga"
         ],
         "topics": [
-          "Deep Learning",
-          "MXNet",
-          "Neural Networks"
+            "Deep Learning",
+            "MXNet",
+            "Neural Networks"
         ],
         "slides": [
             {
@@ -8289,10 +8289,214 @@
             }
         ],
         "video": [
-          "https://youtu.be/72Q-c6lYxOs"
+            "https://youtu.be/72Q-c6lYxOs"
         ],
         "VideoSource": [
-          "YouTube"
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "243499215"
+        ],
+        "name": [
+            "Learning to Play Games through Reinforcement Learning"
+        ],
+        "rsvp_limit": [
+            160
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1506637800000
+        ],
+        "local_date": [
+            "2017-09-28"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            136
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/243499215/"
+        ],
+        "description": [
+            "<p>Continuing with deep learning topics we have one of our first <a href='https://www.meetup.com/nyhackr/events/12089093/'>members<\/a> and <a href='https://www.meetup.com/nyhackr/events/60839932/'>repeat<\/a> <a href='https://www.meetup.com/nyhackr/events/205980522/'>speaker<\/a>, Shane Conway talking about beating video games with machine learning.<\/p> <p>Thank you to <a href='http://www.ebaynyc.com/'>eBay NYC<\/a> for hosting.<\/p> <p><br/>This meetup was timed to coincide with all the activity around <a href='http://www.oreilly.com/pub/cpc/108405'>Strata<\/a>. O'Reilly has been a long-time sponsor of this group so it is nice to have our events happening at the same time. As always, members of the group receive a 20% discount to <a href='http://www.oreilly.com/pub/cpc/108405'>Strata<\/a> with code <a href='http://www.oreilly.com/pub/cpc/108405'>UGNYHACKR20<\/a>.<\/p> <p><b>About the Talk:<\/b><\/p> <p>Games have long served as a challenge for AI researchers. With the recent success of <a href='https://deepmind.com/'>DeepMind<\/a>, there has been a major advance in the ecosystem for researching reinforcement learning problems. I will walk through <a href='https://openai.com/'>OpenAI<\/a> benchmarks in Python, and demonstrate several approaches to beating Atari games including DQN, A3C, and NEC.<\/p> <p><br/><b>About Shane:<\/b><\/p> <p>Shane Conway is a researcher at Kepos Capital, a quantitative Global Macro firm located in New York City. His research interests have centered on optimal trading problems. He has a degree in Electrical Engineering from Columbia University.  He can be reached through twitter <a href='https://twitter.com/statalgo'>@statalgo<\/a>.<\/p> <p><br/><a href='https://nyhackr.org/pizzapoll.html'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
+        ],
+        "speakers": [
+            "Shane Conway"
+        ],
+        "topics": [
+            "Reinforcement Learning",
+            "Artificial Intelligence"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Shane Conway"
+                ],
+                "title": [
+                    "Learning Proficiency to Play Games with AI"
+                ],
+                "topics": [
+                    "Artificial Intelligence",
+                    "Reinforcement Learning"
+                ],
+                "file": [
+                    "playing_games.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/YiBYkKF6Ru8"
+        ],
+        "VideoSource": [
+            "Youtube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "244638496"
+        ],
+        "name": [
+            "Nonlinear Models in R: The Wonderful World of mgcv"
+        ],
+        "rsvp_limit": [
+            200
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1510701300000
+        ],
+        "local_date": [
+            "2017-11-14"
+        ],
+        "local_time": [
+            "18:15"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            193
+        ],
+        "venue": {
+            "id": [
+                24846509
+            ],
+            "name": [
+                "AWS Loft"
+            ],
+            "lat": [
+                40.7228
+            ],
+            "lon": [
+                -74.0037
+            ],
+            "address_1": [
+                "350 West Broadway "
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/244638496/"
+        ],
+        "description": [
+            "<p>This month we turn to Generalized Additive Models, a highly flexible yet still interpretable model.<\/p> <p>Thank you to the <a href='https://aws.amazon.com/start-ups/loft/ny-loft/'>AWS Loft<\/a> for hosting us. The sign-in process can be time consuming so please allow extra time to enter the building. We will try to move people inside as quickly as possible.<\/p> <p><b>About the Talk:<\/b><\/p> <p>Generalized Additive Models (GAMs) model relationships between variables as flexible splines. More flexible and powerful than linear models, but more interpretable than many machine-learning approaches, GAMs are often the best choice for predicting and understanding complex nonlinear phenomena.<\/p> <p><br/>R's <a href='https://cran.r-project.org/web/packages/mgcv/index.html'>mgcv<\/a> is the most popular package for fitting GAMs, but many users don't know just how versatile and powerful it is. Noam will survey the features of mgcv and demonstrate how it can be used to build GAMs that deal with a great many modeling needs: modeling continuous, count, or classification outcomes, fitting spatial data or time series, variable selection, dealing with complex hierarchical structures or fitting fully bayesian models.<\/p> <p><br/><b>About Noam:<\/b><\/p> <p><a href='http://www.noamross.net/'>Noam Ross<\/a> is a disease ecologist at <a href='https://www.ecohealthalliance.org/'>EcoHealth Alliance<\/a>, an NGO in NYC that researches the connections between human and wildlife health. Noam builds models to understand and predict disease circulation in wildlife and spillover into people. Noam is also editor for software peer review at <a href='https://ropensci.org/'>ROpenSci<\/a>, a developer collective that builds R packages to enable open research and data. He has a Ph.D. in ecology from the <a href='http://ecology.ucdavis.edu/'>University of California-Davis<\/a>. Follow him on twitter at <a href='https://twitter.com/noamross'>@noamross<\/a>.<\/p> <p><br/><a href='https://nyhackr.org/pizzapoll.html'>Pizza<\/a> begins at 6:15, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Noam Ross"
+        ],
+        "topics": [
+            "Generalized Additive Models"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Noam Ross"
+                ],
+                "title": [
+                    "Nonlinear Modeling in R with GAMs"
+                ],
+                "topics": [
+                    "Generalized Additive Models"
+                ],
+                "file": [
+                    "2017-11-14-noamross-gams-nyhackr.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/q4_t8jXcQgc"
+        ],
+        "VideoSource": [
+            "Youtube"
         ]
     }
 ]
