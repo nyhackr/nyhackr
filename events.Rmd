@@ -2,6 +2,9 @@
 title: "Events"
 ---
 
+Our next event will be announced soon. In the meantime check out the [New York R Conference](https://www.rstats.nyc).
+
+<!--
 From time to time we put on events beyond the regular meetup programming such as the [New York R Conference](www.rstats.nyc) and master classes in topics such as Rcpp, Stan, data.table and other advanced topics.
 
 Our next event is a __three-day__ [Stan class](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054) taught by [__Andrew Gelman__](http://andrewgelman.com/), [__Jonah Gabry__](http://jgabry.github.io/about/) and [__Michael Betancourt__](https://betanalpha.github.io/).
@@ -59,3 +62,4 @@ Specific topics on Bayesian inference and computation include, but are not limit
 - Gaussian processes
 
 Members of the meetup receive a 20% discount with code [nyhackr](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054?discount=nyhackr).
+-->
