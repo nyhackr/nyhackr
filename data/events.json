@@ -8595,10 +8595,95 @@
             }
         ],
         "video": [
-          "https://youtu.be/MsrX4BsIAYU"
+            "https://youtu.be/MsrX4BsIAYU"
         ],
         "VideoSource": [
-          "Youtube"
+            "Youtube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "246529804"
+        ],
+        "name": [
+            "Optimizing Personalized Driver Incentives using R and More"
+        ],
+        "rsvp_limit": [
+            165
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1516835700000
+        ],
+        "local_date": [
+            "2018-01-24"
+        ],
+        "local_time": [
+            "18:15"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            163
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/246529804/"
+        ],
+        "description": [
+            "<p>We kick off the new year with two data scientists from Via discussing how to optimize driver incentives.<\/p> <p>Thank you to eBay NYC (<a href='http://friends.ebaynyc.com/' class=\"linkified\">http://friends.ebaynyc.com/<\/a>) for hosting us.<\/p> <p>About the Talk:<\/p> <p>The ridesharing industry depends heavily on dynamic incentives on both the rider and driver side. We’ll present Via’s methodology for addressing the driver incentive side. Offering drivers personalized promotions to get them to work exactly when we need them requires a combination of a couple of different components, each of which is complex on its own:<\/p> <p>• Predicting how each driver responds to each promotion<\/p> <p>• Selecting the appropriate promo for each driver to hit attendance targets at the lowest cost<\/p> <p>We’ll go over why predicting how drivers respond to monetary incentives is a complex problem, and the active academic research on the topic. We’ll then explain the different models we built and how we selected an appropriate model, and how we tied the models to an optimization module to make promo recommendations on an ongoing basis.<\/p> <p>About the Speakers:<\/p> <p>Aleks Sinayev (<a href='http://asinayev.github.io/' class=\"linkified\">http://asinayev.github.io/<\/a>) is a data scientist at Via (<a href='https://ridewithvia.com/' class=\"linkified\">https://ridewithvia.com/<\/a>) Transportation working on building datasets and models used to describe and predict driver behavior as well as designing and analyzing experiments. He holds a PhD in Quantitative Psychology which informs his work at Via.<\/p> <p>Saar Golde (<a href='http://engineering.nyu.edu/people/saar-golde' class=\"linkified\">http://engineering.nyu.edu/people/saar-golde<\/a>) is the Chief Data Scientist at Via, a long-time member (<a href='https://www.meetup.com/nyhackr/members/11255075/' class=\"linkified\">https://www.meetup.com/nyhackr/members/11255075/<\/a>) of the R meetup group and previous speaker at both the meetup (<a href='https://www.meetup.com/nyhackr/events/219837183/' class=\"linkified\">https://www.meetup.com/nyhackr/events/219837183/<\/a>) and R Conference (<a href='https://youtu.be/GFeiRfmaNYU' class=\"embedded\">https://youtu.be/GFeiRfmaNYU<\/a>). He holds a Ph.D in Economics from Stanford and a Masters in Decisions and Operations Research, both of which come in handy at least twice a week.<\/p> <p>Pizza (<a href='https://nyhackr.org/pizzapoll.html' class=\"linkified\">https://nyhackr.org/pizzapoll.html<\/a>)<\/p> <p>begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Aleks Sinayev"
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": [
+            "https://youtu.be/UOidbGreVEM"
+        ],
+        "VideoSource": [
+            ""
         ]
     }
 ]
