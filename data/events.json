@@ -8685,6 +8685,111 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "247168714"
+        ],
+        "name": [
+            "Machine Learning with TensorFlow and R"
+        ],
+        "rsvp_limit": [
+            220
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1518735600000
+        ],
+        "local_date": [
+            "2018-02-15"
+        ],
+        "local_time": [
+            "18:00"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            211
+        ],
+        "venue": {
+            "id": [
+                24846509
+            ],
+            "name": [
+                "AWS Loft"
+            ],
+            "lat": [
+                40.7228
+            ],
+            "lon": [
+                -74.0037
+            ],
+            "address_1": [
+                "350 West Broadway "
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/247168714/"
+        ],
+        "description": [
+            "<p>This month we Have J.J. Allaire, the Founder of RStudio (<a href='https://www.rstudio.com/' class=\"linkified\">https://www.rstudio.com/<\/a>), talking about keras (<a href='https://keras.rstudio.com/' class=\"linkified\">https://keras.rstudio.com/<\/a>) for deep learning in R.<\/p> <p>Thank you to AWS Loft for hosting us.<\/p> <p>We have also opened up registration for the 2018 New York R Conference (<a href='https://www.rstats.nyc' class=\"linkified\">https://www.rstats.nyc<\/a>)! Use code nyhackr (<a href='https://www.eventbrite.com/e/the-2018-new-york-r-conference-tickets-42341112407?discount=nyhackr' class=\"linkified\">https://www.eventbrite.com/e/the-2018-new-york-r-conference-tickets-42341112407?discount=nyhackr<\/a>) for a 20% discount. Check out www.rstats.nyc for more information.<\/p> <p>About the Talk:<\/p> <p>TensorFlow (<a href='https://www.tensorflow.org/' class=\"linkified\">https://www.tensorflow.org/<\/a>) is an open-source software library for numerical computation using data flow graphs. TensorFlow was originally developed by researchers and engineers working on the Google Brain Team within Google's Machine Intelligence research organization for the purposes of conducting machine learning and deep neural networks research, but the system is general enough to be applicable in a wide variety of other domains as well. In this talk we'll cover the R interface to TensorFlow (<a href='https://tensorflow.rstudio.com' class=\"linkified\">https://tensorflow.rstudio.com<\/a>), a suite of packages that provide high-level interfaces to both deep learning models (Keras) and standard regression and classification models (Estimators), as well as tools for cloud training, experiment management, and production deployment.<\/p> <p>About J.J.:<\/p> <p>J.J. Allaire is the Founder of RStudio and the creator of the RStudio IDE. J.J. is the author of the R interfaces to TensorFlow and Keras.<\/p> <p>Pizza (<a href='https://nyhackr.org/pizzapoll.html' class=\"linkified\">https://nyhackr.org/pizzapoll.html<\/a>) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "J.J. Allaire"
+        ],
+        "topics": [
+            "TensorFlow",
+            "Keras",
+            "Machine Learning"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "J.J. Allaire"
+                ],
+                "title": [
+                    "Machine Learning with TensorFlow and R"
+                ],
+                "topics": [
+                    "Machine Learning",
+                    "TensorFlow",
+                    "Keras"
+                ],
+                "file": [
+                    "ml-with-tensorflow-and-r.html"
+                ],
+                "format": [
+                    "html"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/eryaBs2dJzk"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
 
