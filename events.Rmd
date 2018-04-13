@@ -5,10 +5,12 @@ title: "Events"
 # New York R Conference
 ### April 20-21
 
-Check out the [New York R Conference](https://www.rstats.nyc).
+[![](images/R-Conference-Logo.png)](https://rstats.nyc)
 
 # Learning Applied Machine Learning in R with Max Kuhn
 ### May 17-18
+
+[![](images/Max-Kuhn-Caret-Class.jpg)](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709)
 
 Learn modern machine learning with the creator of the [caret](http://topepo.github.io/caret/index.html) package, [__Max Kuhn__](https://github.com/topepo).
 
@@ -31,6 +33,8 @@ You can buy tickets [here](https://www.eventbrite.com/e/learn-applied-machine-le
 # Learn Time Series Forecasting with Rob Hyndman
 ### June 25-27
 
+[![](images/Rob-Hyndman-TS-Class.jpg)](https://www.eventbrite.com/e/learn-time-series-forecasting-with-rob-hyndman-tickets-45083602268)
+
 Learn time series and forecasting with the creator of the [forecast](http://pkg.robjhyndman.com/forecast/) package, [__Rob Hyndman__](https://robjhyndman.com/hyndsight/thief/).
 
 Forecasting is required in many situations: deciding whether to build another power generation plant in the next five years requires forecasts of future demand; scheduling staff in a call centre next week requires forecasts of call volume; stocking inventory requires forecasts of stock requirements. Forecasts can be required several years in advance (for the case of capital investments), or only a few minutes beforehand (for telecommunication routing). Whatever the circumstances or time horizons involved, forecasting is an important aid in effective and efficient planning.
@@ -47,6 +51,8 @@ You can buy tickets [here](https://www.eventbrite.com/e/learn-time-series-foreca
 
 # Learn Bayesian Data Analysis and Stan with Stan developer Johan Gabry
 ### August 6-8
+
+[![](images/Jonah-Gabry-Stan-Class.jpg)](https://www.eventbrite.com/e/learn-bayesian-data-analysis-and-stan-with-stan-developer-jonah-gabry-tickets-45084364548)
 
 Learn Bayesian Data Analysis (BDA) and Markov chain Monte Carlo (MCMC) computation using Stan with Stan developer [__Jonah Gabry__](http://jgabry.github.io/about/).
 
