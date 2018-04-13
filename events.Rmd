@@ -2,7 +2,61 @@
 title: "Events"
 ---
 
-Our next event will be announced soon. In the meantime check out the [New York R Conference](https://www.rstats.nyc).
+# New York R Conference
+### April 20-21
+
+Check out the [New York R Conference](https://www.rstats.nyc).
+
+# Learning Applied Machine Learning in R with Max Kuhn
+### May 17-18
+
+Learn modern machine learning with the creator of the [caret](http://topepo.github.io/caret/index.html) package, [__Max Kuhn__](https://github.com/topepo).
+
+This two-day workshop will step through the process of building, visualizing, testing and comparing models that are focused on prediction. The goal of the workshop is to provide a thorough workflow in R that can be used with many different regression or classification techniques. Case studies are used to illustrate functionality. Basic familiarity with R is required.
+
+By the end of this workshop, you should be able to easily build predictive/machine learning models in R using a variety of packages and model types.
+
+Participants will receive a copy of Max Kuhn's book, [_Applied Predictive Modeling_](http://appliedpredictivemodeling.com/).
+
+The workshop is broken into five parts.
+
+1. Introduction
+1. Basic Principals: Data Splitting, Models in R, Resampling, Tuning
+1. Feature Engineering and Preprocessing: Data treatments
+1. Regression Modeling: Measuring Performance, penalized regression, multivariate adaptive regression splines (MARS), ensembles
+1. Classification Modeling: Measuring Performance, trees, ensembles, naive Bayes
+
+You can buy tickets [here](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709).
+
+# Learn Time Series Forecasting with Rob Hyndman
+### June 25-27
+
+Learn time series and forecasting with the creator of the [forecast](http://pkg.robjhyndman.com/forecast/) package, [__Rob Hyndman__](https://robjhyndman.com/hyndsight/thief/).
+
+Forecasting is required in many situations: deciding whether to build another power generation plant in the next five years requires forecasts of future demand; scheduling staff in a call centre next week requires forecasts of call volume; stocking inventory requires forecasts of stock requirements. Forecasts can be required several years in advance (for the case of capital investments), or only a few minutes beforehand (for telecommunication routing). Whatever the circumstances or time horizons involved, forecasting is an important aid in effective and efficient planning.
+
+In this three-day workshop, we will explore methods and models for forecasting time series. Topics to be covered include seasonality and trends, exponential smoothing, ARIMA modelling, dynamic regression and hierarchical forecasting, as well as forecast accuracy methods and forecast evaluation techniques such as cross-validation.
+
+The three-day agenda for the workship is:
+
+1. Time series graphics, benchmark forecasting methods, forecast evaluation, seasonality and trends, exponential smoothing.
+1. ETS models, transformations and differencing, ARIMA models
+1. Dynamic regression, forecasting with multiple seasonality, hierarchical forecasting
+
+You can buy tickets [here](https://www.eventbrite.com/e/learn-time-series-forecasting-with-rob-hyndman-tickets-45083602268).
+
+# Learn Bayesian Data Analysis and Stan with Stan developer Johan Gabry
+### August 6-8
+
+Learn Bayesian Data Analysis (BDA) and Markov chain Monte Carlo (MCMC) computation using Stan with Stan developer [__Jonah Gabry__](http://jgabry.github.io/about/).
+
+This three-day workshop will be taught by Jonah Gabry. Jonah is a Stan developer based at Columbia University and the developer of [many R packages](https://jgabry.github.io/software-and-papers/) for applied Bayesian data analysis (rstan, rstanarm, rstantools, bayesplot, shinystan, loo). Jonah will be joined by fellow Stan developer Rob Trangucci, and other members of the Stan Development Team will make some guest appearances at various times throughout the course.
+
+The course consists of three main themes: Bayesian inference and computation; the Stan modeling language; applied statistics/Bayesian data analysis in practice. There will be some lectures to cover important concepts, but the course will also be heavily interactive, with much of the time dedicated to hands on examples. We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the course as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered in the course) can be used with any of the [Stan interfaces](http://mc-stan.org/users/interfaces/).
+
+Participants will receive a copy of Andrew Gelman's landmark book [_Bayesian Data Analysis_](http://www.stat.columbia.edu/~gelman/book/). Proceeds from the class support further development of [Stan](http://mc-stan.org/) and the [New York Open Statistical Programming Meetup](https://www.nyhackr.org/).
+
+You can find out more and purchase tickets [here](https://www.eventbrite.com/e/learn-bayesian-data-analysis-and-stan-with-stan-developer-jonah-gabry-tickets-45084364548).
 
 <!--
 From time to time we put on events beyond the regular meetup programming such as the [New York R Conference](www.rstats.nyc) and master classes in topics such as Rcpp, Stan, data.table and other advanced topics.
