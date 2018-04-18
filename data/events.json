@@ -8862,7 +8862,7 @@
             "<p>Our March meetup features Jennifer Hill, co-author of Data Analysis Using Regression and Multilevel/Hierarchical Models (<a href='http://amzn.to/2sBvunJ' class='linkified'>http://amzn.to/2sBvunJ<\/a>) and Professor at NYU.<\/p> <p>Thank you to eBay NYC (<a href='http://friends.ebaynyc.com/' class='linkified'>http://friends.ebaynyc.com/<\/a>) for hosting us.<\/p> <p>We have a number of other events planned for the next few months, including office hours, master class and the 2018 New York R Conference (<a href='http://www.rstats.nyc' class='linkified'>http://www.rstats.nyc<\/a>). Members can use code nyhackr for a 20% discount.<\/p> <p>About the Talk:<\/p> <p>There has been increasing interest in the past decade in the use of machine learning tools in causal inference to help reduce reliance on parametric assumptions and allow for more accurate estimation of heterogeneous effects. This talk reviews the work in this area that capitalizes on Bayesian Additive Regression Trees, an algorithm that embeds a tree-based machine learning technique within a Bayesian framework to allow for flexible estimation and valid assessments of uncertainty. It will further describe extensions of the original work to address common issues in causal inference: lack of common support, violations of the ignorability assumption, and generalizability of results to broader populations. It will also describe existing R packages for traditional BART implementation as well as debut a new R package for causal inference using BART, bartCause.<\/p> <p>About Jennifer:<\/p> <p>Jennifer Hill (<a href='https://steinhardt.nyu.edu/faculty/Jennifer_L_Hill' class='linkified'>https://steinhardt.nyu.edu/faculty/Jennifer_L_Hill<\/a>) works on development of methods that help us to answer the causal questions that are so vital to policy research and scientific development. In particular, she focuses on situations in which it is difficult or impossible to perform traditional randomized experiments, or when even seemingly pristine study designs are complicated by missing data or hierarchically structured data. Most recently Hill has been pursuing two major strands of research. The first focuses on Bayesian nonparametric methods that allow for flexible estimation of causal models without the need for methods such as propensity score matching. The second line of work pursues strategies for exploring the impact of violations of typical assumptions in this work that require that all confounders have been measured. Hill has published in a variety of leading journals including Journal of the American Statistical Association, Annals of Applied Statistics, American Political Science Review, American Journal of Public Health, Political Analysis, and Developmental Psychology. Hill earned her PhD in Statistics at Harvard University in 2000 and completed a post-doctoral fellowship in Child and Family Policy at Columbia University's School of Social Work in 2002.<\/p> <p>Pizza ( <a href='https://nyhackr.org/pizzapoll.html' class='linkified'>https://nyhackr.org/pizzapoll.html<\/a> ) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
         ],
         "speakers": [
-          "Jennifer Hill"
+            "Jennifer Hill"
         ],
         "topics": [
 
@@ -8887,10 +8887,115 @@
             }
         ],
         "video": [
-          "https://youtu.be/mJVTg8PWjW4"
+            "https://youtu.be/mJVTg8PWjW4"
         ],
         "VideoSource": [
-          "YouTube"
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "248453571"
+        ],
+        "name": [
+            "Random Forests: What, Why and How"
+        ],
+        "rsvp_limit": [
+            160
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1523917800000
+        ],
+        "local_date": [
+            "2018-04-16"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            159
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/248453571/"
+        ],
+        "description": [
+            "<p>It has become our tradition to hold R Week in April with both a Meetup and the R Conference (rstats.nyc) in the same week. For this mega dose of R, we have Andy Liaw, the author of the randomForest package.<\/p> <p>Members of the meetup get a 20% discount with code nyhackr.<\/p> <p>Thank you to eBay NYC (friends.ebaynyc.com) for hosting us.<\/p> <p>About the Talk:<\/p> <p>Random Forests have been a very popular machine learning method for nearly two decades since its introduction by Leo Breiman. This classification and regression algorithm has proven itself very effective in many applications, and is robust as well as easy to use. In this talk we will briefly explain what the algorithm is. We discuss on an intuitive level what is needed for ensemble methods to work, and how random forests achieve that. Comparison will be made with other tree ensemble methods such as boosting. Based on the intuition, we will discuss possibilities for tuning random forests for better performance. We will also touch on how the variable importance idea that Breiman introduced in random forests can be applied to other Machine Learning methods.<\/p> <p>About Andy:<\/p> <p>Andy Liaw is a Senior Principal Scientist in Biometrics Research, Merck &amp; Co., Inc., where he applies statistics and machine learning to complex chemical and biological data to address problems in drug discovery. He is the author of the randomForest package for R. He holds a Ph.D. and M.S. in Statistics from Texas A&amp;M University.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Andrew Liaw"
+        ],
+        "topics": [
+            "Random Forest",
+            "Statistical Learning",
+            "Machine Learning"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Andrew Liaw"
+                ],
+                "title": [
+                    "Random Forests - What, Why, And How"
+                ],
+                "topics": [
+                    "Random Forest",
+                    "Statistical Learning",
+                    "Machine Learning"
+                ],
+                "file": [
+                    "2018-04-15-Andy-Liaw-RandomForests.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/XJnjlpW9w5A"
+        ],
+        "VideoSource": [
+            "YouTube"
         ]
     }
 ]
