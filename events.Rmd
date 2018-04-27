@@ -2,11 +2,6 @@
 title: "Events"
 ---
 
-# New York R Conference
-### April 20-21
-
-[![](images/R-Conference-Logo.png)](https://rstats.nyc)
-
 # Learning Applied Machine Learning in R with Max Kuhn
 ### May 17-18
 
