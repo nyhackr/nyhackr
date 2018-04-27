@@ -114,8 +114,8 @@ events <- events %>%
     dplyr::mutate(EventMeetup=Meetup) %>% 
     dplyr::mutate(Meetup=sprintf('<a href="%s" target="_blank">%s</a>', URL, Meetup)) %>% 
     # create links to files
-    dplyr::mutate(Presentation=sprintf('<a href="https://slides.nyhackr.org/presentations/%s" target="_blank">%s</a>', 
-                                File, Title)) %>% 
+    dplyr::mutate(Presentation=sprintf('<a href="https://nyhackr.blob.core.windows.net/presentations/%s" target="_blank">%s</a>',
+                                File, Title)) %>%
     # get rid of list() in VideoSource
     dplyr::mutate(VideoSource=stringr::str_replace(VideoSource, 'list\\(\\)', '')) %>% 
     dplyr::mutate(Video=dplyr::if_else(!is.na(Video) & Video != "", 
