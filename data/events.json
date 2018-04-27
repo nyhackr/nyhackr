@@ -8593,6 +8593,24 @@
                 "format": [
                     "pdf"
                 ]
+            },
+            {
+                "presenter": [
+                    "Niels Bantilan"
+                ],
+                "title": [
+                    "Themis-ml: A Fairness-aware Machine Learning Interface for End-to-end Discrimination Discovery and Mitigation"
+                ],
+                "topics": [
+                    "Machine Learning",
+                    "Statistical Learning"
+                ],
+                "file": [
+                    "Themis-ml_Niels-Bantilan.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
             }
         ],
         "video": [
