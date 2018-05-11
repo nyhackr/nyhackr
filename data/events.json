@@ -7930,7 +7930,7 @@
             "<p>To make an R-packed week we have <a href='https://www.meetup.com/nyhackr/members/4652347/'>Melissa Donovan<\/a> speaking about <a href='http://www.htmlwidgets.org/'>htmlwidgets<\/a> and <a href='http://rmarkdown.rstudio.com/flexdashboard/'>Flex Dashboards<\/a> just days before the <a href='http://www.rstats.nyc/'>R Conference<\/a>.<\/p> <p>Thank you to <a href='http://www.ebaynyc.com/'>eBay NYC<\/a> for hosting. <\/p> <p><br/>It seems the <a href='https://www.facebook.com/pg/LanderAnalytics/videos/'>Facebook livestreams<\/a> are working well so we will continue to broadcast the meetups live whenever possible.<\/p> <p><b>About the talk:<\/b><\/p> <p>Becoming proficient visualizing your data using <a href='https://shiny.rstudio.com/'>Shiny<\/a> or <a href='https://d3js.org/'>D3<\/a> takes a lot of work.  But moving from a base graphics or <a href='http://ggplot2.org/'>ggplot<\/a> to an interactive visualization can be simple with <a href='http://www.htmlwidgets.org/'>htmlwidgets<\/a>.  In this talk we explore what you can do with htmlwidgets, the levels of customization available, and using <a href='http://rmarkdown.rstudio.com/flexdashboard/'>flex dashboards<\/a> for beautiful packaging and easy sharing of data viz.  We will create annotated visualizations in a standalone html document that can be hosted online or even shared over email.  If you have been stymied in efforts to move beyond static visualizations, have struggled with how to create easily sharable and attractive plots, or just want to dress up your ggplots, you will leave leave this talk with the tools you need.<\/p> <p><br/><b>About Melissa:<\/b><\/p> <p>Melissa is a Senior Data Scientist at the College Board where she uses analysis and visualization to help inform business decisions on such epic products as the SAT and AP tests.  At the College Board she has implemented machine learning to help detect security threats, discovered the suboptimal structure to the SAT administration calendar, and operationalized a set of organizational metrics.  Melissa earned her second Masters degree in Quantitative Methods in the Social Sciences with a concentration in Data Science from Columbia in 2014.  In previous iterations Melissa worked in process improvement for large-scale solar construction, was a door-to-door canvasser, a Physics PhD student at Stanford (\"ask me about my dropout Masters!\"), and a yoga teacher.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
         ],
         "speakers": [
-
+            "Melissa Donovan"
         ],
         "topics": [
 
@@ -8009,7 +8009,7 @@
             "<p>To celebrate <a href='https://twitter.com/harlanh'>Harlan Harris<\/a> moving back to New York, he will be our May speaker.<\/p> <p>Thank you to <a href='http://www.ebaynyc.com/'>eBay NYC<\/a> for hosting.<\/p> <p>We will once again livestream on <a href='https://www.facebook.com/pg/LanderAnalytics/videos/'>Facebook<\/a>.<\/p> <p><img src='https://secure.meetupstatic.com/photos/event/3/8/7/0/600_460874448.jpeg' /><\/p> <p>Thank you to <a href='http://www.oreilly.com/pub/cpc/79865'>O'Reilly<\/a> for sponsoring. They are offering members of our group a 20% discount to their Artificial Intelligence Conference June 26-29 with code <a href='http://www.oreilly.com/pub/cpc/79865'>UGNYHACKR20<\/a>.<\/p> <p><b>Overflow Room:<\/b><\/p> <p>Due to the popularity of this event eBay will provide an overflow room where we will stream the <a href='https://www.facebook.com/pg/LanderAnalytics/videos/'>broadcast<\/a>. Entrance to the main room is on a first-come-first-served basis, and after we reach capacity people will be directed to the overflow room for the video feed.<\/p> <p><b>About the Talk:<\/b><\/p> <p>Some business forecasting problems take the form of a count that accumulates up to a deadline, such as total monthly sales of a product, or student signups to an educational event before it starts. In this talk, I'll describe two real-world examples of this problem, and then will describe a Bayesian approach that combines a prior distribution with a (mostly) principled, statistically honest extrapolation method. A key piece of this approach is a class of semiparametric regression models called GAMLSS--Generalized Additive Models for Location, Scale, and Shape. These models can flexibly describe the shapes of the priors and temporal accumulation functions, and allow posterior predictive intervals that become more precise over time as information accumulates. This is important for nontechnical users of business predictions--the inevitable errors in overly precise predictions lead quickly to mistrust. I'll also compare the approach with classic time series forecasting techniques and with dynamic linear models.<\/p> <p><br/><b>About Harlan:<\/b><\/p> <p>Harlan Harris has a PhD in Computer Science/Machine Learning from the <a href='http://illinois.edu/'>University of Illinois at Urbana-Champaign<\/a>, and worked as a Cognitive Psychology researcher at <a href='http://www.columbia.edu/'>Columbia University<\/a> and <a href='http://www.nyu.edu/'>NYU<\/a> before turning to industry. He has worked at Kaplan Test Prep, the Advisory Board Company, and several startups. Harlan also co-founded the <a href='https://www.meetup.com/Data-Science-DC/'>Data Science DC Meetup<\/a> and <a href='http://www.datacommunitydc.org/'>Data Community DC, Inc.<\/a>, and co-wrote <a href='http://www.oreilly.com/data/free/analyzing-the-analyzers.csp'>Analyzing the Analyzers<\/a>, a short O'Reilly book about the variety of data scientists. Follow him on Twitter and Medium at <a href='https://twitter.com/harlanh'>@harlanh<\/a>.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> "
         ],
         "speakers": [
-
+            "Harlan Harris"
         ],
         "topics": [
 
@@ -8088,7 +8088,7 @@
             "<p>We are very excited to have <a href='https://youtu.be/oPCIqDagGSk'>three-time<\/a> <a href='https://youtu.be/CAy0udiWwmg'>conference<\/a> <a href='https://youtu.be/6VO_CTtGlnk'>speaker<\/a>, and long time meetup member, <a href='https://github.com/chendaniely'>Dan Chen<\/a> presenting for the first time at the meetup.  He'll be talking about RMarkdown, starting with the basics and working into advanced uses, such as building the <a href='https://nyhackr.org/'>meetup's new website<\/a>.<\/p> <p><b>About the talk:<\/b><\/p> <p><a href='http://rmarkdown.rstudio.com/'>RMarkdown<\/a> allows you to create dynamic reports that interweave (R) code and prose text into a single document. It's come a long way over the years, and can be used for more than literate programming, all while using simple markdown notation. You can make <a href='http://rmarkdown.rstudio.com/html_document_format.html'>documents<\/a>, <a href='http://rmarkdown.rstudio.com/pdf_document_format.html'>reports<\/a>, <a href='http://rmarkdown.rstudio.com/flexdashboard/'>dashboards<\/a>, <a href='http://rmarkdown.rstudio.com/ioslides_presentation_format.html'>presentations<\/a>, <a href='https://bookdown.org/'>books<\/a>, and even <a href='http://rmarkdown.rstudio.com/rmarkdown_websites.html'>websites<\/a>!<\/p> <p>We will go back to the basics, and start from what is markdown and reproducible documents, and move on to show how the basics all tie into all the other presentation <a href='http://rmarkdown.rstudio.com/formats.html'>formats<\/a>.<\/p> <p><br/><b>About Dan:<\/b><\/p> <p>Daniel is currently a PhD Student at <a href='http://gbcb.vbi.vt.edu/'>Virginia Tech in Genetics, Bioinformatics, and Computational Biology<\/a>. His current area of research involves how ideas and behaviors spread in social networks. He is a Data Scientist with Lander Analytics,<br/>and also serves as a DevOps Engineer in his research lab, the <a href='https://www.bi.vt.edu/sdal'>Social and Decision Analytics Laboratory<\/a>, in Arlington, VA.<\/p> <p><br/><a href='http://bit.ly/pizzapoll'>Pizza<\/a> begins at 6:30, the talk starts at 7, then after we head to the local bar. <\/p> <p><br/>Thank you to <a href='https://www.work-bench.com/'>Work-Bench<\/a> for hosting.<\/p> <p><br/>Despite the difficulties with audio we will continue attempting <a href='https://www.facebook.com/LanderAnalytics/videos/'>live broadcasts<\/a> and will hopefully resolve all the problems.<\/p> <p>A big thank you to O'Reilly for sponsoring us again.  They have two upcoming conferences and have given our group 20% discounts to both with code <a href='http://www.oreilly.com/pub/cpc/79528'>UGNYHACKR20<\/a>.  The first is the <a href='http://www.oreilly.com/pub/cpc/79865'>AI Conference<\/a>, June 26-29.  The second is <a href='http://www.oreilly.com/pub/cpc/79528'>JupyterCon<\/a> August 22-25.  The code <a href='http://www.oreilly.com/pub/cpc/79528'>UGNYHACKR20<\/a> works for both.<\/p> <p><img src='https://secure.meetupstatic.com/photos/event/3/7/0/5/600_460994085.jpeg' /><\/p> <p><img src='https://secure.meetupstatic.com/photos/event/9/1/7/a/600_461977242.jpeg' /><\/p> "
         ],
         "speakers": [
-
+            "Dan Chen"
         ],
         "topics": [
 
@@ -8570,7 +8570,7 @@
             "<p>We close out the year with Niels Bantilan talking about how to reduce bias and discrimination that can unintentionally exist in machine learning models.<\/p> <p>Thank you to the AWS Loft (<a href='https://aws.amazon.com/start-ups/loft/ny-loft/' class=\"linkified\">https://aws.amazon.com/start-ups/loft/ny-loft/<\/a>) for hosting us. The sign-in process can be time consuming so please allow extra time to enter the building. We will try to move people inside as quickly as possible.<\/p> <p>About the Talk:<\/p> <p>Machine learning (ML) has the ability to learn the discriminatory patterns encoded in training data to influence socially sensitive decisions like parole-granting, hiring, and loan-approval. Many ML applications in these areas are classifiers that are part of larger systems that have a 'human in the loop' who uses the predictions generated by these classifiers to make better informed decisions.<\/p> <p>While this goal might be well-intentioned, measures must be taken to ensure that machine learning models don’t reproduce discriminatory patterns in training data because we risk amplifying those patterns in the real world. In this talk, I’ll be describing my thinking around what a 'fairness-aware machine learning interface' means and showing a bit of the functionality of themis-ml, a package that enables the user to measure and reduce potential discrimination in supervised ML models.<\/p> <p>About Niels:<\/p> <p>Niels Bantilan is a data scientist at Arena (<a href='https://arena.io' class=\"linkified\">https://arena.io<\/a> (<a href='https://arena.io/' class=\"linkified\">https://arena.io/<\/a>)), a startup that applies machine learning to transform the labor market by finding the best fit between people and organizations, primarily in healthcare organizations. He builds models to improve outcomes like retention rate, patient satisfaction, and employee engagement, and also builds internal tools to facilitate data science R&amp;D. His research interests include reinforcement learning, artificial neural networks, and fairness-aware machine learning. Recently, he released themis-ml ( <a href='https://github.com/cosmicBboy/themis-ml' class=\"linkified\">https://github.com/cosmicBboy/themis-ml<\/a> ), which is a Python library built on top of sklearn that implements an API for discrimination discovery and fairness-aware modeling.<\/p> <p>Pizza (<a href='https://nyhackr.org/pizzapoll.html' class=\"linkified\">https://nyhackr.org/pizzapoll.html<\/a>) begins at 6:15, the talk starts at 7, then after we head to the local bar.<\/p> "
         ],
         "speakers": [
-
+            "Niels Bantilan"
         ],
         "topics": [
 
@@ -9011,6 +9011,107 @@
         ],
         "video": [
             "https://youtu.be/XJnjlpW9w5A"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "250182828"
+        ],
+        "name": [
+            "Tidy by Nature: Down with OPP (other people's pipes)"
+        ],
+        "rsvp_limit": [
+            225
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1525905000000
+        ],
+        "local_date": [
+            "2018-05-09"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            199
+        ],
+        "venue": {
+            "id": [
+                15501742
+            ],
+            "name": [
+                "Google New York"
+            ],
+            "lat": [
+                40.7418
+            ],
+            "lon": [
+                -74.0045
+            ],
+            "address_1": [
+                "76 Ninth Ave"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/250182828/"
+        ],
+        "description": [
+            "<p>For our first post-conference meetup we have long-time friend of the meetup, JD Long, better known as @cmastication.<\/p> <p>Thank you to Google for hosting us this month.<\/p> <p>To learn about more events, including our upcoming caret master class with Max Kuhn, check out nyhackr.org/events.html.<\/p> <p>About the Talk:<\/p> <p>JD Long will present on dplyr, one of the core components of the Tidyverse. dplyr allows easy creation of data pipelines within R. In addition to that, however, dplyr can also create complex data workflows in R and then convert them to SQL and execute them on your favorite database. The ability to read and write to SQL databases without the user having to write any SQL at all can save users precious time and decrease headaches around debugging SQL. JD will illustrate some basic uses of dplyr and also give examples of how he uses dplyr in practice.<\/p> <p>About JD:<\/p> <p>James (JD) Long works in reinsurance in New York City. He builds risk models which, according to George Box, are wrong. In spite of this inconvenient truth, James has proved successful at convincing his employer that his models are useful. James writes poorly commented, inefficient code using Python, R, SQL, and expletives.<\/p> <p>James grew up in Kentucky and has multiple degrees from the University of Kentucky. After being marooned on the archipelago of Bermuda for four years, James now lives in Jersey City, NJ with his Minecraft addicted 10 year old daughter and his wife, a recovering trial lawyer.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "JD Long"
+        ],
+        "topics": [
+            "dplyr"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "JD Long"
+                ],
+                "title": [
+                    "Down with OPP (Other People's Pipes)"
+                ],
+                "topics": [
+                    "dplyr"
+                ],
+                "file": [
+                    "Down-With-Other-Peoples-Pipes_JD-Long.html"
+                ],
+                "format": [
+                    "html"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/EOvN3wPdQoM"
         ],
         "VideoSource": [
             "YouTube"
