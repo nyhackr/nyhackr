@@ -9015,6 +9015,107 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "250182828"
+        ],
+        "name": [
+            "Tidy by Nature: Down with OPP (other people's pipes)"
+        ],
+        "rsvp_limit": [
+            225
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1525905000000
+        ],
+        "local_date": [
+            "2018-05-09"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            199
+        ],
+        "venue": {
+            "id": [
+                15501742
+            ],
+            "name": [
+                "Google New York"
+            ],
+            "lat": [
+                40.7418
+            ],
+            "lon": [
+                -74.0045
+            ],
+            "address_1": [
+                "76 Ninth Ave"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/250182828/"
+        ],
+        "description": [
+            "<p>For our first post-conference meetup we have long-time friend of the meetup, JD Long, better known as @cmastication.<\/p> <p>Thank you to Google for hosting us this month.<\/p> <p>To learn about more events, including our upcoming caret master class with Max Kuhn, check out nyhackr.org/events.html.<\/p> <p>About the Talk:<\/p> <p>JD Long will present on dplyr, one of the core components of the Tidyverse. dplyr allows easy creation of data pipelines within R. In addition to that, however, dplyr can also create complex data workflows in R and then convert them to SQL and execute them on your favorite database. The ability to read and write to SQL databases without the user having to write any SQL at all can save users precious time and decrease headaches around debugging SQL. JD will illustrate some basic uses of dplyr and also give examples of how he uses dplyr in practice.<\/p> <p>About JD:<\/p> <p>James (JD) Long works in reinsurance in New York City. He builds risk models which, according to George Box, are wrong. In spite of this inconvenient truth, James has proved successful at convincing his employer that his models are useful. James writes poorly commented, inefficient code using Python, R, SQL, and expletives.<\/p> <p>James grew up in Kentucky and has multiple degrees from the University of Kentucky. After being marooned on the archipelago of Bermuda for four years, James now lives in Jersey City, NJ with his Minecraft addicted 10 year old daughter and his wife, a recovering trial lawyer.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "JD Long"
+        ],
+        "topics": [
+            "dplyr"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "JD Long"
+                ],
+                "title": [
+                    "Down with OPP (Other People's Pipes)"
+                ],
+                "topics": [
+                    "dplyr"
+                ],
+                "file": [
+                    "Down-With-Other-Peoples-Pipes_JD-Long.html"
+                ],
+                "format": [
+                    "html"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/EOvN3wPdQoM"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
 
