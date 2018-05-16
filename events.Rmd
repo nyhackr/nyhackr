@@ -2,29 +2,6 @@
 title: "Events"
 ---
 
-# Learning Applied Machine Learning in R with Max Kuhn
-### May 17-18
-
-[![](images/Max-Kuhn-Caret-Class.jpg)](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709)
-
-Learn modern machine learning with the creator of the [caret](http://topepo.github.io/caret/index.html) package, [__Max Kuhn__](https://github.com/topepo).
-
-This two-day workshop will step through the process of building, visualizing, testing and comparing models that are focused on prediction. The goal of the workshop is to provide a thorough workflow in R that can be used with many different regression or classification techniques. Case studies are used to illustrate functionality. Basic familiarity with R is required.
-
-By the end of this workshop, you should be able to easily build predictive/machine learning models in R using a variety of packages and model types.
-
-Participants will receive a copy of Max Kuhn's book, [_Applied Predictive Modeling_](http://appliedpredictivemodeling.com/).
-
-The workshop is broken into five parts.
-
-1. Introduction
-1. Basic Principals: Data Splitting, Models in R, Resampling, Tuning
-1. Feature Engineering and Preprocessing: Data treatments
-1. Regression Modeling: Measuring Performance, penalized regression, multivariate adaptive regression splines (MARS), ensembles
-1. Classification Modeling: Measuring Performance, trees, ensembles, naive Bayes
-
-You can buy tickets [here](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709).
-
 # Learn Time Series Forecasting with Rob Hyndman
 ### June 25-27
 
@@ -58,6 +35,29 @@ The course consists of three main themes: Bayesian inference and computation; th
 Participants will receive a copy of Andrew Gelman's landmark book [_Bayesian Data Analysis_](http://www.stat.columbia.edu/~gelman/book/). Proceeds from the class support further development of [Stan](http://mc-stan.org/) and the [New York Open Statistical Programming Meetup](https://www.nyhackr.org/).
 
 You can find out more and purchase tickets [here](https://www.eventbrite.com/e/learn-bayesian-data-analysis-and-stan-with-stan-developer-jonah-gabry-tickets-45084364548).
+
+# Learning Applied Machine Learning in R with Max Kuhn
+### September 13-14
+
+[![](images/Max-Kuhn-Caret-Class.jpg)](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709)
+
+Learn modern machine learning with the creator of the [caret](http://topepo.github.io/caret/index.html) package, [__Max Kuhn__](https://github.com/topepo).
+
+This two-day workshop will step through the process of building, visualizing, testing and comparing models that are focused on prediction. The goal of the workshop is to provide a thorough workflow in R that can be used with many different regression or classification techniques. Case studies are used to illustrate functionality. Basic familiarity with R is required.
+
+By the end of this workshop, you should be able to easily build predictive/machine learning models in R using a variety of packages and model types.
+
+Participants will receive a copy of Max Kuhn's book, [_Applied Predictive Modeling_](http://appliedpredictivemodeling.com/).
+
+The workshop is broken into five parts.
+
+1. Introduction
+1. Basic Principals: Data Splitting, Models in R, Resampling, Tuning
+1. Feature Engineering and Preprocessing: Data treatments
+1. Regression Modeling: Measuring Performance, penalized regression, multivariate adaptive regression splines (MARS), ensembles
+1. Classification Modeling: Measuring Performance, trees, ensembles, naive Bayes
+
+You can buy tickets [here](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709).
 
 <!--
 From time to time we put on events beyond the regular meetup programming such as the [New York R Conference](www.rstats.nyc) and master classes in topics such as Rcpp, Stan, data.table and other advanced topics.
