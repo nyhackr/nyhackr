@@ -1,4 +1,4 @@
-makeDatatable <- function(data, 
+makeDatatable <- function(data,
                           extensions=c('Scroller',
                                        'Responsive'),
                           dom="tS",
@@ -13,7 +13,7 @@ makeDatatable <- function(data,
     colsToNums <- which(names(data$data()) %in% colsToHide) - 1
     colsToFixWidthNums <- which(names(data$data()) %in% colsToFixWidth) - 1
     # hideList <- if(is.na(data)) {list()} else {list(list(visible=FALSE, targets=colsToHide))}
-    
+
     DT::datatable(data,
                   escape=escape,
                   rownames=FALSE,
@@ -35,7 +35,7 @@ makeDatatable <- function(data,
                       scroller=TRUE,
                       colReorder=TRUE,
                       keys=TRUE
-                  ), 
+                  ),
                   elementId=elementID
-    )
+    ) %>% DT::formatStyle(names(data$data()), verticalAlign = "top")
 }
