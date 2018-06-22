@@ -9116,6 +9116,109 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "250830999"
+        ],
+        "name": [
+            "Feature-Based Time Series Analysis"
+        ],
+        "rsvp_limit": [
+            160
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1529620200000
+        ],
+        "local_date": [
+            "2018-06-21"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            157
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/250830999/"
+        ],
+        "description": [
+            "<p>We have Rob Hyndman, author of the forecast package, coming to us all the from Australia.<\/p> <p>If you want to learn more about forecasting from Rob, he's teaching a three-day workshop (<a href='http://bit.ly/2wMsua4' class=\"linkified\">http://bit.ly/2wMsua4<\/a>) the following week.<\/p> <p>Thank you to eBay for hosting both the meetup and the workshop.<\/p> <p>About the Talk:<\/p> <p>It is becoming increasingly common for organizations to collect very large amounts of data over time. Data visualization is essential for exploring and understanding structures and patterns, and to identify unusual observations. However, the sheer quantity of data available means that new time series visualisation methods are needed.<\/p> <p>I will demonstrate an approach to this problem using a vector of features on each time series, measuring characteristics of the series. These feature vectors can then be mapped to a 2-dimensional space for visualization.<\/p> <p>The feature-based approach to time series can also be used to identify the best forecasting model using a pre-trained classifier, and to identify anomalous time series within a collection of time series.<\/p> <p>I will demonstrate how to do feature-based time series analysis using the tsfeatures, seer, stray and oddstream packages for R.<\/p> <p>About Rob:<\/p> <p>Rob J Hyndman is Professor of Statistics in the Department of Econometrics and Business Statistics at Monash University. He is also Editor-in-Chief of the International Journal of Forecasting and a Director of the International Institute of Forecasters. Rob is the author of over 150 research papers and 5 books in statistical science. In 2007, he received the Moran medal from the Australian Academy of Science for his contributions to statistical research, especially in the area of statistical forecasting. For over 30 years, Rob has maintained an active consulting practice, assisting hundreds of companies and organizations around the world. He has won awards for his research, teaching, consulting and graduate supervision.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Rob Hyndman"
+        ],
+        "topics": [
+            "Time Series",
+            "Forecasting"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Rob Hyndman"
+                ],
+                "title": [
+                    "Feature-based time series analysis"
+                ],
+                "topics": [
+                    "Time Series",
+                    "Forecasting"
+                ],
+                "file": [
+                    "Feature-Based-Time-Series-Analysis_Rob-Hyndman.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/yx6OQ-8HofU"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
 
