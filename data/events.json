@@ -9219,6 +9219,111 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "251652534"
+        ],
+        "name": [
+            "Docker for the UseR"
+        ],
+        "rsvp_limit": [
+            140
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1531261800000
+        ],
+        "local_date": [
+            "2018-07-10"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            127
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/251652534/"
+        ],
+        "description": [
+            "<p>Noam Ross brings a little DevOps to the meetup so we can learn how to use Docker with R.<\/p> <p>About the Talk:<br/>Docker and \"containerization\" have revolutionized the world of cloud computing, web applications, and DevOps, but what use are they to you, the R-using data scientist? I will present a tutorial on getting started with Docker and using it for a variety of data science challenges, including web scraping, sharing reproducible analyses, and building and testing R packages, and moving your analyses to cloud computing services. I will show you how to choose and use Docker tools from the Rocker Project, the R community's premier source of Docker images, as well as discuss Docker snafus, solutions, and alternatives for other common data science workflows.<\/p> <p>About Noam:<br/>Noam Ross is a Senior Research Scientist at EcoHealth Alliance, a non-profit in NYC that researches the connections between human and wildlife health. Noam builds models to understand and predict disease circulation in wildlife and spillover into people. Noam is also editor for software peer review at rOpenSci, a developer collective that builds R packages and catalyzes communities to enable open research and data. He has a Ph.D. in ecology from the University of California-Davis. Follow him on twitter at @noamross.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Noam Ross"
+        ],
+        "topics": [
+            "Containerization",
+            "Docker",
+            "Reproducible Research"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Noam Ross"
+                ],
+                "title": [
+                    "Docker for the UseR"
+                ],
+                "topics": [
+                    "docker",
+                    "containerization",
+                    "reproducible research"
+                ],
+                "file": [
+                    "Docker-for-the-UseR_Noam-Ross.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/Ota-BrDtBcA"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
 
