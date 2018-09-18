@@ -9324,6 +9324,192 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "253063253"
+        ],
+        "name": [
+            "This is Not a Pipe: Composing Functions with Gestalt"
+        ],
+        "rsvp_limit": [
+            160
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1533249000000
+        ],
+        "local_date": [
+            "2018-08-02"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            105
+        ],
+        "venue": {
+            "id": [
+                11144072
+            ],
+            "name": [
+                "eBay NYC"
+            ],
+            "lat": [
+                40.7402
+            ],
+            "lon": [
+                -73.9948
+            ],
+            "address_1": [
+                "625 6th Avenue, Floor 3"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/253063253/"
+        ],
+        "description": [
+            "<p>Our speaker this month, Eugene Ha, comes all the way from Berlin to talk about composing functions.<\/p> <p>About the Talk:<br/>The magrittr pipe (%&gt;%) is a powerful and widely used idiom for chaining serial computations, aka pipelines. In practice, however, overuse of the pipe tends to conflate two rather distinct operations: passing a value to a function versus composing functions. Burdening the pipe to handle both operations can lead to unnecessarily slow and rigid code.<\/p> <p>In this talk, I'll introduce a new tool for working with, and thinking about, function composition: the gestalt (<a href=\"https://github.com/egnha/gestalt\" class=\"linkified\">https://github.com/egnha/gestalt<\/a>) %&gt;&gt;&gt;%. It enriches the semantics of the familiar %&gt;% syntax with annotations and tidyverse quasiquotation. Using concrete examples, we'll explore how %&gt;&gt;&gt;% works, how it complements %&gt;%, and how you can use it to improve the malleability, transparency, and performance of your functions.<\/p> <p>As a highlight, we'll also see how %&gt;&gt;&gt;% enables you to treat values as objects with internal structure. This is a new technique for extracting latent information from values, on demand, to aid exploration and understanding: instead of perusing and editing source code, you compute on values directly to inspect their creation and intermediate structure.<\/p> <p>About Eugene:<br/>Eugene Ha has enjoyed a varied career as a mathematician, acquisitions editor, technical writer and, most recently, data scientist. He has a Ph.D. in mathematics from the University of Bonn. In his open source work, he focuses on leveraging R's expressivity to make tools that enable you to do more with less fuss. Based in Berlin, he is currently in New York on sabbatical at the Recurse Center (<a href=\"https://www.recurse.com\" class=\"linkified\">https://www.recurse.com<\/a>).<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Eugene Ha"
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": [
+            "https://youtu.be/4uJzZ38sGgs"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "253855279"
+        ],
+        "name": [
+            " Life in the Fast Lane:  data.table Intro and Best Practices"
+        ],
+        "rsvp_limit": [
+            180
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1537223400000
+        ],
+        "local_date": [
+            "2018-09-17"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            130
+        ],
+        "venue": {
+            "id": [
+                24846509
+            ],
+            "name": [
+                "AWS Loft"
+            ],
+            "lat": [
+                40.7228
+            ],
+            "lon": [
+                -74.0037
+            ],
+            "address_1": [
+                "350 West Broadway "
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/253855279/"
+        ],
+        "description": [
+            "<p>As a counterpoint to JD Long's dplyr talk (<a href=\"https://www.meetup.com/nyhackr/events/250182828/\" class=\"linkified\">https://www.meetup.com/nyhackr/events/250182828/<\/a>) Bill Gold will show the same functionality in data.table.<\/p> <p>To learn more about the meetup and see videos of past presentations visit nyhackr.org.<\/p> <p>About the Talk:<\/p> <p>data.table, an extension of R's data.frame, is a popular package that enables the user to focus more on finding new insights and less on managing data and also provides fast data processing capabilities.<\/p> <p>Reasons to consider using data.table include: it’s fast, really fast; it works great with large datasets; it offers concise and easy to read code.<\/p> <p>We will show fast manipulation of 100GB+ of data and share best practices and sample code. For some people data.table syntax may at first appear less than intuitive so our goal is to reduce data.table’s learning curve by connecting data.table syntax with SQL and dplyr equivalents.<\/p> <p>About Bill:<\/p> <p>Bill Gold’s career intersects data science, management consulting and technology. He has delivered $500MM+ in ROI to financial services and healthcare clients. Across the customer lifecycle he’s developed and deployed: hundreds of models (some patented), commercial software and data science infrastructure with trillions of transactions and hundreds of terabytes of data, all servicing thousands of data scientists.<\/p> <p>Bill guest lectures as Columbia and NYU. He has a BS in Electrical Engineering from Hofstra University.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Bill Gold"
+        ],
+        "topics": [
+            "data.table"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Bill Gold"
+                ],
+                "title": [
+                    "data.table: an introduction and best practices"
+                ],
+                "topics": [
+                    "data.table"
+                ],
+                "file": [
+                    "data.table-an-introduction_Bill-Gold.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/ztTDLefpPVY"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
 
