@@ -2,119 +2,15 @@
 title: "Events"
 ---
 
-# Learn Time Series Forecasting with Rob Hyndman
-### June 25-27
+# Washington DC R Conference
+### November 8 - 9
 
-[![](images/Rob-Hyndman-TS-Class.jpg)](https://www.eventbrite.com/e/learn-time-series-forecasting-with-rob-hyndman-tickets-45083602268)
+[![](images/DCR2018_WebsiteLogo.png)](https://dc.rstats.ai)
 
-Learn time series and forecasting with the creator of the [forecast](http://pkg.robjhyndman.com/forecast/) package, [__Rob Hyndman__](https://robjhyndman.com/hyndsight/thief/).
+After selling out the New York R Conference in each of the last four years, attracting 350+ data scientists from around the world, we are excited to announce that the R conference is back and we are taking it to Washington DC this fall on November 8th and 9th at the Ronald Reagan Building.
 
-Forecasting is required in many situations: deciding whether to build another power generation plant in the next five years requires forecasts of future demand; scheduling staff in a call centre next week requires forecasts of call volume; stocking inventory requires forecasts of stock requirements. Forecasts can be required several years in advance (for the case of capital investments), or only a few minutes beforehand (for telecommunication routing). Whatever the circumstances or time horizons involved, forecasting is an important aid in effective and efficient planning.
+For two days in November, the 2018 DCR Conference will feature world-class data scientists sharing cutting-edge research and lessons from the field including Roger Peng, Mara Averick, Max Kuhn, Kelly O’Briant, Dan Chen, Emily Robinson, David Smith and so many more. This will be our first R Conference held in Washington DC.
 
-In this three-day workshop, we will explore methods and models for forecasting time series. Topics to be covered include seasonality and trends, exponential smoothing, ARIMA modelling, dynamic regression and hierarchical forecasting, as well as forecast accuracy methods and forecast evaluation techniques such as cross-validation.
+For more about the conference visit https://dc.rstats.ai and follow us on Twitter at [\@rstatsdc](https://twitter.com/rstatsdc).
 
-The three-day agenda for the workship is:
-
-1. Time series graphics, benchmark forecasting methods, forecast evaluation, seasonality and trends, exponential smoothing.
-1. ETS models, transformations and differencing, ARIMA models
-1. Dynamic regression, forecasting with multiple seasonality, hierarchical forecasting
-
-You can buy tickets [here](https://www.eventbrite.com/e/learn-time-series-forecasting-with-rob-hyndman-tickets-45083602268).
-
-# Learn Bayesian Data Analysis and Stan with Stan developer Johan Gabry
-### August 6-8
-
-[![](images/Jonah-Gabry-Stan-Class.jpg)](https://www.eventbrite.com/e/learn-bayesian-data-analysis-and-stan-with-stan-developer-jonah-gabry-tickets-45084364548)
-
-Learn Bayesian Data Analysis (BDA) and Markov chain Monte Carlo (MCMC) computation using Stan with Stan developer [__Jonah Gabry__](http://jgabry.github.io/about/).
-
-This three-day workshop will be taught by Jonah Gabry. Jonah is a Stan developer based at Columbia University and the developer of [many R packages](https://jgabry.github.io/software-and-papers/) for applied Bayesian data analysis (rstan, rstanarm, rstantools, bayesplot, shinystan, loo). Jonah will be joined by fellow Stan developer Rob Trangucci, and other members of the Stan Development Team will make some guest appearances at various times throughout the course.
-
-The course consists of three main themes: Bayesian inference and computation; the Stan modeling language; applied statistics/Bayesian data analysis in practice. There will be some lectures to cover important concepts, but the course will also be heavily interactive, with much of the time dedicated to hands on examples. We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the course as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered in the course) can be used with any of the [Stan interfaces](http://mc-stan.org/users/interfaces/).
-
-Participants will receive a copy of Andrew Gelman's landmark book [_Bayesian Data Analysis_](http://www.stat.columbia.edu/~gelman/book/). Proceeds from the class support further development of [Stan](http://mc-stan.org/) and the [New York Open Statistical Programming Meetup](https://www.nyhackr.org/).
-
-You can find out more and purchase tickets [here](https://www.eventbrite.com/e/learn-bayesian-data-analysis-and-stan-with-stan-developer-jonah-gabry-tickets-45084364548).
-
-# Learning Applied Machine Learning in R with Max Kuhn
-### September 13-14
-
-[![](images/Max-Kuhn-Caret-Class.jpg)](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709)
-
-Learn modern machine learning with the creator of the [caret](http://topepo.github.io/caret/index.html) package, [__Max Kuhn__](https://github.com/topepo).
-
-This two-day workshop will step through the process of building, visualizing, testing and comparing models that are focused on prediction. The goal of the workshop is to provide a thorough workflow in R that can be used with many different regression or classification techniques. Case studies are used to illustrate functionality. Basic familiarity with R is required.
-
-By the end of this workshop, you should be able to easily build predictive/machine learning models in R using a variety of packages and model types.
-
-Participants will receive a copy of Max Kuhn's book, [_Applied Predictive Modeling_](http://appliedpredictivemodeling.com/).
-
-The workshop is broken into five parts.
-
-1. Introduction
-1. Basic Principals: Data Splitting, Models in R, Resampling, Tuning
-1. Feature Engineering and Preprocessing: Data treatments
-1. Regression Modeling: Measuring Performance, penalized regression, multivariate adaptive regression splines (MARS), ensembles
-1. Classification Modeling: Measuring Performance, trees, ensembles, naive Bayes
-
-You can buy tickets [here](https://www.eventbrite.com/e/learn-applied-machine-learning-in-r-with-max-kuhn-tickets-43445850709).
-
-<!--
-From time to time we put on events beyond the regular meetup programming such as the [New York R Conference](www.rstats.nyc) and master classes in topics such as Rcpp, Stan, data.table and other advanced topics.
-
-Our next event is a __three-day__ [Stan class](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054) taught by [__Andrew Gelman__](http://andrewgelman.com/), [__Jonah Gabry__](http://jgabry.github.io/about/) and [__Michael Betancourt__](https://betanalpha.github.io/).
-
-This __three-day__ course consists of three main themes: Bayesian inference and computation; the Stan programming language; applied statistics.
-Participants will receive a copy of Andrew Gelman's landmark book [__Bayesian Data Analysis__](http://www.stat.columbia.edu/~gelman/book/). Proceeds from the class support __further development__ of Stan and this meetup.
-
-Before class everyone __should install__ [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/) and [RStan](http://mc-stan.org/rstan.html) on their computers. If problems occur please join the [stan-users](https://groups.google.com/forum/#!forum/stan-users) group and post any questions. It is __important__ that all participants get Stan running and bring their laptops to the course.
-
-Class structure and example topics for the three days:
-
-## Day 1: Foundations
-
-- Foundations of Bayesian inference 
-- Foundations of Bayesian computation with Markov Chain Monte Carlo
-- Intro to Stan with hands-on exercises 
-- Real-life Stan
-- Bayesian Workflow
-
-## Day 2: Linear and Generalized Linear Models
-
-- Foundations of Bayesian regression
-- Fitting GLMs in Stan (e.g., logistic regression, Poisson regression)
-- Diagnosing model misfit using graphical posterior predictive checks
-- Little data: How traditional statistical ideas remain relevant in a big data world
-- Generalizing from sample to population (surveys, xbox example, etc)
-
-## Day 3: Hierarchical Models
-
-- Foundations of Bayesian hierarchical/multilevel models
-- Accurately fitting hierarchical models in Stan
-- Why we don’t (usually) have to worry about multiple comparisons
-- Hierarchical modeling and prior information
-- Topics
-
-Specific topics on Bayesian inference and computation include, but are not limited to:
-
-- Bayesian inference and prediction
-- Naive Bayes, supervised, and unsupervised classification
-- Overview of Monte Carlo methods
-- Convergence and effective sample size
-- Hamiltonian Monte Carlo and the no-U-turn sampler
-- Continuous and discrete-data regression models
-- Mixture models
-- Measurement-error and item-response models
-- Specific topics on Stan include, but are not limited to:
-- Reproducible research
-- Probabilistic programming
-- Stan syntax and programming
-- Optimization
-- Warmup, adaptation, and convergence
-- Identifiability and problematic posteriors
-- Handling missing data
-- Ragged and sparse data structures
-- Gaussian processes
-
-Members of the meetup receive a 20% discount with code [nyhackr](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054?discount=nyhackr).
--->
+You can see a recap of the [NYR Conference](https://nyhackr.org) held this April in NYC here on the [Conference page](nyr.html).
