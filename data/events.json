@@ -9510,6 +9510,108 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "256440844"
+        ],
+        "name": [
+            "Visualization in a Bayesian Workflow"
+        ],
+        "rsvp_limit": [
+            180
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1543447800000
+        ],
+        "local_date": [
+            "2018-11-28"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            120
+        ],
+        "venue": {
+            "id": [
+                24543316
+            ],
+            "name": [
+                "Work-Bench"
+            ],
+            "lat": [
+                40.7377
+            ],
+            "lon": [
+                -73.9929
+            ],
+            "address_1": [
+                "110 Fifth Avenue, 5th Floor"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/256440844/"
+        ],
+        "description": [
+            "<p>We're going Bayesian this month as we welcome Jonah Gabry back to talk about the role of visualization in Bayesian analysis.<\/p> <p>About the Talk:<br/>Bayesian data analysis is about more than just computing a posterior distribution, and Bayesian visualization is about more than trace plots of Markov chains. Practical Bayesian data analysis, like all data analysis, is an iterative process of model building, inference, model checking and evaluation, and model expansion. We will discuss how visualization is helpful in each of these stages of the Bayesian workflow (and statistical workflow more broadly) and is indispensable when drawing inferences from the types of modern, high-dimensional models that are used by applied researchers.<\/p> <p>About Jonah:<br/>Jonah Gabry is a core developer of the widely used open-source Stan software for statistical modeling and a researcher in statistics at Columbia University collaborating primarily with Andrew Gelman on methods and software for Bayesian data analysis. Jonah is an author of the rstan and rstanarm R packages, which provide interfaces to Stan, as well as the author of the shinystan and bayesplot packages for model visualization, and the loo package for model comparison. In addition to developing statistical software, Jonah is affiliated with several research centers at Columbia, including the Applied Statistics Center, the Institute of Social and Economic Research and Policy, and the Population Research Center. Outside of academia, he has provided statistical consulting to professional sports teams, major publishing companies, and other businesses, as well as US and European Union government agencies.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Jonah Gabry"
+        ],
+        "topics": [
+            "Bayesian Data Analysis",
+            "Data Visualization"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Jonah Gabry"
+                ],
+                "title": [
+                    "Visualization in a Bayesian Workflow"
+                ],
+                "topics": [
+                    "Bayesian Data Analysis",
+                    "Data Visualization"
+                ],
+                "file": [
+                    "Visualization-in-a-Bayesian-Workflow_Jonah-Gabry.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://bit.ly/2vCbWN1"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
-
