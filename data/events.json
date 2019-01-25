@@ -9516,6 +9516,92 @@
             5
         ],
         "id": [
+            "254888660"
+        ],
+        "name": [
+            "Tidy Your Time Series Analysis with tsibble"
+        ],
+        "rsvp_limit": [
+            90
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1538692200000
+        ],
+        "local_date": [
+            "2018-10-04"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            87
+        ],
+        "venue": {
+            "id": [
+                25608394
+            ],
+            "name": [
+                "AT&T NYC Data Science Research Center"
+            ],
+            "lat": [
+                40.7166
+            ],
+            "lon": [
+                -74.0061
+            ],
+            "address_1": [
+                "33 Thomas Street  New York, NY 10007"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/254888660/"
+        ],
+        "description": [
+            "<p>Following up on our earlier meetup about time series forecasting we have Earo Wang coming to us from Australia to talk about tsibble for tidy time series data.<\/p> <p>Thank you to AT&amp;T for hosting us. Note, this is a smaller space than usual for us so slots will fill up fast.<\/p> <p>About the Talk:<\/p> <p>Mining temporal-context data for information is often inhibited by a multitude of time formats: irregular or multiple time intervals, multiple observational units or repeated measurements on multiple individuals, heterogeneous data types and nested and crossed factors indicating hierarchical sub-groups. Time series models, in particular, the software supporting time series forecasting, makes strict assumptions on data that need to be provided, typically a matrix of numeric data with an implicit time index. Going from raw data to model-ready data is painful.<\/p> <p>This work presents a cohesive and conceptual framework for organizing and manipulating temporal data, which in turn flows into visualization and forecasting routines. Tidy data principles are applied, and extended to temporal data: (1) mapping the semantics of a dataset into its physical layout, (2) including an explicitly declared index variable representing time, (3) incorporating a \"key\" comprised of single or multiple variables to uniquely identify units over time, using a syntax-based and user-oriented approach in which it imposes nested or crossed structures on the data.<\/p> <p>This tidy data representation most naturally supports thinking of operations on the data as building blocks, forming part of a \"data pipeline\" in time-based context. A sound data pipeline facilitates a fluent and transparent workflow for analyzing temporal data. Applications are included to illustrate tidy temporal data structure, data pipeline structure and usage. The infrastructure of tidy temporal data has been implemented in the R package tsibble.<\/p> <p>About Earo:<\/p> <p>Earo is currently doing research on tidy data structure and visualisation of temporal-context data, as part of her PhD at Monash University. She enjoys developing open-source tools with R, and (co)authors some widely-used R packages including tsibble, sugrrants, hts, rwalkr, anomalous and icon. She was described by Yihui Xie (author of rmarkdown, knitr, bookdown and blogdown) as \"one of the most impressive R ladies I have ever met\".<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Earo Wang"
+        ],
+        "topics": [
+            "Time Series",
+            "Tidy Data"
+        ],
+        "slides": [
+
+        ],
+        "video": [
+            "https://youtu.be/AH7n2LflQZo"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
             "256440844"
         ],
         "name": [
@@ -9609,6 +9695,110 @@
         ],
         "video": [
             "https://bit.ly/2vCbWN1"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "257005725"
+        ],
+        "name": [
+            "What Data Scientists Really Do, According to 50 Data Scientists"
+        ],
+        "rsvp_limit": [
+            90
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1545089400000
+        ],
+        "local_date": [
+            "2018-12-17"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            78
+        ],
+        "venue": {
+            "id": [
+                25204132
+            ],
+            "name": [
+                "Two Sigma"
+            ],
+            "lat": [
+                40.7234
+            ],
+            "lon": [
+                -74.0054
+            ],
+            "address_1": [
+                "101 6th Avenue"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/257005725/"
+        ],
+        "description": [
+            "<p>For the end of the year we have Hugo of DataFramed fame.<\/p> <p>This is a new venue and it has tight security restrictions. So the name on your government-issued ID MUST MATCH the name you registered, with which is your Meetup username, or you WILL NOT be allowed entry. So please make sure your Meetup username has your full name.<\/p> <p>About the Talk:<br/>This talk will focus on what data scientists do, what they don’t and what people expect them to do, from C-level to citizens and from pollster to politicians.<\/p> <p>Armed with insights from over 50 hours of conversations with data scientists from tech, academic research, digital media, management consulting, healthcare and many other verticals, Hugo will dive into the current state of data science, beginning with the responsibilities of today’s data scientists, how data science is becoming integral to every industry and how it necessarily relates to the decision function in organizations. He'll also explore the increasing professional specialization that’s emerging in the discipline, as well as the tools today and tomorrow’s data scientists need. Finally, he'll examine the future of the profession, including whether it will even exist in 10 years and ethical issues that can no longer be ignored.<\/p> <p>About Hugo:<br/>Hugo is a data scientist at DataCamp, a data science training company educating over 3 million learners worldwide through interactive courses on the use of Python, R, SQL, Git, Bash and Excel in a data science context. He has spearheaded the development of over 25 courses in DataCamp’s Python curriculum, impacting 300,000 learners worldwide through his own courses. Hugo is also host of the data science podcast DataFramed. Hugo earned his PhD in Mathematics from the University of New South Wales, Australia and has conducted biomedical research at the Max Planck Institute in Germany and Yale University, New Haven.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Hugo Bowne-Anderson"
+        ],
+        "topics": [
+            "Data Science"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Hugo Bowne-Anderson"
+                ],
+                "title": [
+                    "What Data Scientists Really Do"
+                ],
+                "topics": [
+                    "Data Science"
+                ],
+                "file": [
+                    "What-Data-Scientists-Really-Do_Hugo-Bowne-Anderson.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/vSFWw6n0CZs"
         ],
         "VideoSource": [
             "YouTube"
