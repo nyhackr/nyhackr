@@ -9803,5 +9803,111 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "257714694"
+        ],
+        "name": [
+            "Real World Reinforcement Learning"
+        ],
+        "rsvp_limit": [
+            225
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1548718200000
+        ],
+        "local_date": [
+            "2019-01-28"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            225
+        ],
+        "venue": {
+            "id": [
+                26036792
+            ],
+            "name": [
+                "Google"
+            ],
+            "lat": [
+                40.7409
+            ],
+            "lon": [
+                -74.002
+            ],
+            "address_1": [
+                "111 8th Ave"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/257714694/"
+        ],
+        "description": [
+            "<p>Starting off the new year we have John Langford of Vowpal Wabbit fame.<\/p> <p>Please be sure to bring a government-issued photo ID that matches the name on your Meetup account.<\/p> <p>About the Talk:<br/>Nearly all deployed machine learning tends to operate on supervised learning principles which are often inappropriate in settings where the learning algorithm generates the data that it is trained against. A new approach has been gaining traction over the last few years: treating such problems as reinforcement learning problems. I’ll discuss why, how, and where to do this with a few stories about where we have applied this approach in practice successfully, solving problems that supervised learning approaches simply fail at.<\/p> <p>About John:<br/>John Langford is a machine learning research scientist, a field which he says \"is shifting from an academic discipline to an industrial tool\". He is the author of the weblog hunch.net and the principal developer of Vowpal Wabbit. John works at Microsoft Research New York, of which he was one of the founding members, and was previously affiliated with Yahoo! Research, Toyota Technological Institute at Chicago, and IBM's Watson Research Center. He studied Physics and Computer Science at the California Institute of Technology, earning a double bachelor's degree in 1997, and received his Ph.D. in Computer Science from Carnegie Mellon University in 2002. He was the program co-chair for the 2012 International Conference on Machine Learning.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "John Langford"
+        ],
+        "topics": [
+            "Reinforcement Learning",
+            "Interactive Learning"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "John Langford"
+                ],
+                "title": [
+                    "Real World Interactive Learning"
+                ],
+                "topics": [
+                    "Reinforcement Learning",
+                    "Interactive Learning"
+                ],
+                "file": [
+                    "Real-World-Interactive-Learning_John-Langford.pptx"
+                ],
+                "format": [
+                    "pptx"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/1EKIHEtR2E4"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
