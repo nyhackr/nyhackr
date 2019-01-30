@@ -9889,14 +9889,30 @@
                     "John Langford"
                 ],
                 "title": [
-                    "Real World Interactive Learning"
+                    "Real World Reinforcement Learning with Vowpal Wabbit"
                 ],
                 "topics": [
-                    "Reinforcement Learning",
-                    "Interactive Learning"
+                    "Reinforcement Learning"
                 ],
                 "file": [
-                    "Real-World-Interactive-Learning_John-Langford.pptx"
+                    "Real-World-Reinforcement-Learning-with-Vowpal-Wabbit_John-Langford.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            },
+            {
+                "presenter": [
+                    "John Langford"
+                ],
+                "title": [
+                    "The Supervised Learning Paradigm"
+                ],
+                "topics": [
+                    "Reinforcement Learning"
+                ],
+                "file": [
+                    "The-Supervised-Learning-Paradigm_John-Langford.pptx"
                 ],
                 "format": [
                     "pptx"
