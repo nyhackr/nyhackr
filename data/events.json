@@ -9401,7 +9401,23 @@
 
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Eugene Ha"
+                ],
+                "title": [
+                    "Composing Functions with Gestalt"
+                ],
+                "topics": [
+                    "Function Composition"
+                ],
+                "file": [
+                    "Composing-Functions-with-Gestalt_Eugene-Ha.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
         ],
         "video": [
             "https://youtu.be/4uJzZ38sGgs"
