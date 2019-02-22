@@ -9941,5 +9941,114 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "258501180"
+        ],
+        "name": [
+            "Time Series, Two Ways: Anomaly Detection & Forecasting"
+        ],
+        "rsvp_limit": [
+            160
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1550100600000
+        ],
+        "local_date": [
+            "2019-02-13"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            156
+        ],
+        "venue": {
+            "id": [
+                26127927
+            ],
+            "name": [
+                "466 Lexington Ave"
+            ],
+            "lat": [
+                40.7537
+            ],
+            "lon": [
+                -73.9747
+            ],
+            "address_1": [
+                "466 Lexington Ave"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10017"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/258501180/"
+        ],
+        "description": [
+            "<p>For February we turn our attention to time series and anomaly detection.<\/p> <p>Please be sure to bring a government-issued photo ID that matches the name on your Meetup account. If you do not have a last name on your Meetup account we cannot guarantee you will be allowed in the building.<\/p> <p>About the Talk:<br/>Data scientists and researchers are often tasked with measuring how a metric changes over time. Whether it's daily website visits, weekly sales, monthly unemployment rate, or annual population count, time series is one of the most commonly analyzed data formats across fields. This talk will demonstrate two statistical methods for approaching times series analysis, forecasting and anomaly detection, and when to apply them.<\/p> <p>While forecasting allows us to predict future trends, anomaly detection helps us uncover irregularities in our data. We will draw upon real-life examples to explore different anomaly detection algorithms and illustrate how forecasting can help us identify seasonal trends and set targets for the future.<\/p> <p>I will be introducing the following packages in R: Facebook's open-source forecasting package, prophet, Twitter's open-source AnomalyDetection, and its tidyverse counterpart, anomalize. Prior experience is not necessary and people of all levels are encouraged to attend.<\/p> <p>About the Speaker:<br/>Catherine leads the data science team at Codecademy, where her research helps empower millions of users around the world to learn how to code. She has been working on statistical programming for the past decade. Prior to transitioning to a tech startup, she worked on airline ticket pricing and demand economics at JetBlue, subscription modeling at New York Sports Clubs, and various stints in politics, healthcare, and consulting. Before that, she was a bike mechanic.<\/p> <p>Catherine is passionate about the future of data science, cities, technology, and code education. She is a repeat New York R Conference speaker, member of R-Ladies New York, and a graduate of NYC public schools and Wesleyan University. Follow her work at catzhou.com or on twitter @catherinezh.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Catherine Zhou"
+        ],
+        "topics": [
+            "Time Series",
+            "Forecasting",
+            "Anomaly Detection"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Catherine Zhou"
+                ],
+                "title": [
+                    "Time Series, Two Ways: Anomaly Detection & Forecasting"
+                ],
+                "topics": [
+                    "Time Series",
+                    "Forecasting",
+                    "Anomaly Detection"
+                ],
+                "file": [
+                    "Time-Series-Two-Ways_Catherine-Zhou.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/n9GOvto69aQ"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
+
