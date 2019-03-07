@@ -10049,6 +10049,112 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "258981324"
+        ],
+        "name": [
+            "Choosing a Deep Learning Library:   There are a Lot of Them"
+        ],
+        "rsvp_limit": [
+            180
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1551915000000
+        ],
+        "local_date": [
+            "2019-03-06"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            151
+        ],
+        "venue": {
+            "id": [
+                26011292
+            ],
+            "name": [
+                "WeWork"
+            ],
+            "lat": [
+                40.7404
+            ],
+            "lon": [
+                -73.9958
+            ],
+            "address_1": [
+                "115 W 18th St 2nd Floor"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10011"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/258981324/"
+        ],
+        "description": [
+            "<p>Once again, we bring you Deep Learning.<\/p> <p>This month's meetup is sponsored by the O'Reilly Artificial Intelligence Conference taking place at the New York Hilton April 15-18. Use code UGNYHACKR for a 20% discount.<\/p> <p>You can also use code nyhackr for a 20% discount to the New York R Conference May 9-11.<\/p> <p>About the Talk:<br/>The rise of deep learning has led to innovations such as self-driving cars, AlphaGO’s world champion beating Go AI, and the rise of voice assistants and computational photography. As a result, there has been a surge in companies and researchers looking to find the best deep learning library to experiment with, build their next app, or modernize their existing products in the age of AI.<\/p> <p>There are many deep learning toolkits, ranging from long used, supported, and robust academic libraries to new, state-of-the-art, industry-backed platforms. In this talk, I’ll share lessons learned from my fortunate (unfortunate?) experience working with different deep learning libraries in production. I will focus on what to look for in a deep learning library with a lens on building reliable, production-ready applications and services, or experiments that are easy to design and iterate. This talk will help you gain an understanding of ALL of the deep learning libraries: from the popular (Tensorflow, PyTorch, Caffe), to the lesser-known (CNTK, Deeplearning4j, coreML). You might even find that your best fit is using more than one!<\/p> <p>About Jesse:<br/>Jesse Brizzi is a Computer Vision Research Engineer at Curalate, a Philadelphia-based startup that leverages social content imagery and influencers/audiences to help their clients to sell more effectively online. He owns the full pipeline of Machine Learning Software Development; from the research and training of state-of-the-art deep learning models; to the engineering, design, and deployment of those models and services into production environments that see millions of deep learning requests a day.<\/p> <p>Jesse earned his MS in Computer Science from Stony Brook University, where he specialized in Computer Vision and Machine Learning. He graduated from the University of South Florida with a BS in Computer Science. In his spare time, he likes powerlifting, gaming, transportation memes, and eating at international McDonald’s. Follow his work at www.jessebrizzi.com.<\/p> <p>Pizza (nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Jesse Brizzi"
+        ],
+        "topics": [
+            "Deep Learning",
+            "Machine Learning"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Jesse Brizzi"
+                ],
+                "title": [
+                    "Choosing a Deep Learning Library"
+                ],
+                "topics": [
+                    "Machine Learning",
+                    "Deep Learning"
+                ],
+                "file": [
+                    "Choosing-a-Deep-Learning-Library_Jesse-Brizzi.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/3lWh4_baT3g"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
 
