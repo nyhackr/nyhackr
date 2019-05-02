@@ -10155,6 +10155,111 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "260545903"
+        ],
+        "name": [
+            "Whose Line Graph is it Anyway? Improvising an Exploratory Data Analysis with R"
+        ],
+        "rsvp_limit": [
+            160
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1556577000000
+        ],
+        "local_date": [
+            "2019-04-29"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            159
+        ],
+        "venue": {
+            "id": [
+                26127927
+            ],
+            "name": [
+                "466 Lexington Ave"
+            ],
+            "lat": [
+                40.7537
+            ],
+            "lon": [
+                -73.9747
+            ],
+            "address_1": [
+                "466 Lexington Ave"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10017"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/260545903/"
+        ],
+        "description": [
+            "<p>This month marks the tenth anniversary of the meetup! We've grown from 21 people to over 10,000 in that time.<\/p> <p>To celebrate we will have a series of events in the coming weeks, including meetups, workshops and the Fifth Annual New York R Conference (www.rstats.nyc).<\/p> <p>First up we have David Robinson.<\/p> <p>About the Talk:<br/>The best approach to a technical presentation is careful planning and preparation. But where's the fun in that?<\/p> <p>In this talk, I'll demonstrate an exploratory data analysis in R on a dataset I've never seen in advance, and which was chosen by a friend for its novelty value. I'll demonstrate the use of tools such as dplyr and ggplot2 for data transformation and visualization, as well as other packages from the tidyverse as they're needed. I'll narrate my thought process to show how a data scientist thinks through a problem, and take suggestions from the audience at key points.<\/p> <p>About David:<br/>David Robinson is the Chief Data Scientist at DataCamp. He has previously worked as a data scientist at Stack Overflow and received his PhD from Princeton University. He is the co-author with Julia Silge of the tidytext package and the O’Reilly book Text Mining with R, as well as the author of the broom and fuzzyjoin R packages and of the e-book Introduction to Empirical Bayes. He writes about R, statistics and education on his blog Variance Explained, as well as on Twitter as @drob. This talk is inspired by his experience sharing screencasts of improvised data analyses on YouTube.<\/p> <p>Pizza (www.nyhackr.org/pizzapoll.html) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "David Robinson"
+        ],
+        "topics": [
+            "Exploratory Data Analysis",
+            "Plotting"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "David Robinson"
+                ],
+                "title": [
+                    "Trees in NYC"
+                ],
+                "topics": [
+                    "Exploratory Data Analysis",
+                    "Plotting"
+                ],
+                "file": [
+                    "trees.Rmd"
+                ],
+                "format": [
+                    "Rmd"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/lxr8CNoabMs"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
-
