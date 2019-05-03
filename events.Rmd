@@ -2,15 +2,16 @@
 title: "Events"
 ---
 
-# Washington DC R Conference
-### November 8 - 9
+# New York DC R Conference
+### Conference
+#### May 10 - 11
+### Workshops
+#### May 9
 
-[![](images/DCR2018_WebsiteLogo.png)](https://dc.rstats.ai)
+[![](images/R-Conference-Logo.png)](https://www.rstats.nyc)
 
-After selling out the New York R Conference in each of the last four years, attracting 350+ data scientists from around the world, we are excited to announce that the R conference is back and we are taking it to Washington DC this fall on November 8th and 9th at the Ronald Reagan Building.
+On May 10 and 11, the fifth New York R Conference will feature world-class data scientists sharing cutting-edge research and lessons from the field including [Andrew Gelman](https://statmodeling.stat.columbia.edu/), [Emily Robison](https://hookedondata.org/), [Wes McKinney](https://wesmckinney.com/), [Namita Nandakumar](https://hockey-graphs.com/author/namitanandakumar/), Brooke Watson, Mike Band and so many more. In addition, there will be will be [workshops](https://www.rstats.nyc/workshops/) by Max Kuhn, Elizabeth Sweeny, Dan Chen and Kaz Sakamoto on May 9. The conference and workshops will be hosted at [Work-Bench](https://www.work-bench.com/).
 
-For two days in November, the 2018 DCR Conference will feature world-class data scientists sharing cutting-edge research and lessons from the field including Roger Peng, Mara Averick, Max Kuhn, Kelly O’Briant, Dan Chen, Emily Robinson, David Smith and so many more. This will be our first R Conference held in Washington DC.
+For more about the conference visit https://www.rstats.nyc and follow us on Twitter at [\@rstatsnyc](https://twitter.com/rstatsnyc).
 
-For more about the conference visit https://dc.rstats.ai and follow us on Twitter at [\@rstatsdc](https://twitter.com/rstatsdc).
-
-You can see a recap of the [NYR Conference](https://nyhackr.org) held this April in NYC here on the [Conference page](nyr.html).
+You can see a recap of the previous [NYR Conferences](https://nyhackr.org) or our [DC R Conference](https://dc.rstats.ai/) on the [Conference page](nyr.html).
