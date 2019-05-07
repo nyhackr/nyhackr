@@ -10261,5 +10261,111 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "261036437"
+        ],
+        "name": [
+            "Making Bayes Easier: A Tour Through rstanarm and the Stan Ecosystem in R"
+        ],
+        "rsvp_limit": [
+            125
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1557181800000
+        ],
+        "local_date": [
+            "2019-05-06"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            98
+        ],
+        "venue": {
+            "id": [
+                26070407
+            ],
+            "name": [
+                "Rise New York"
+            ],
+            "lat": [
+                40.7423
+            ],
+            "lon": [
+                -73.9914
+            ],
+            "address_1": [
+                "43 W 23rd St"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10010"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/261036437/"
+        ],
+        "description": [
+            "<p>We continue our tenth anniversary celebration with R Week! We have four days of R events, including a Meetup, a day of workshops and two days of the fifth annual New York R Conference. Visit www.rstats.nyc for more information.<\/p> <p>First up, we have repeat Meetup speaker Jonah Gabry talking about Bayes in R using Stan.<\/p> <p>Thank you to Rise New York for hosting us this month.<\/p> <p>About the Talk:<br/>In this talk we will demonstrate the rstanarm interface to Stan, which emulates standard R model-fitting functions but uses Stan for the back-end estimation. As part of the demonstration we will also take a tour of the broader Stan ecosystem in R, which consists of many packages that assist with various stages of the applied Bayesian workflow. Finally, we will briefly cover the rstantools package, which enables anyone to develop their own R packages interfacing with Stan and contribute to the growing number of R packages available for fitting complex Bayesian models.<\/p> <p>About Jonah:<br/>Jonah Gabry is a member of the Stan development team and a researcher at Columbia University working with Andrew Gelman on methods and software for Bayesian data analysis. He is co-author of the rstan and rstanarm R packages, which provide interfaces to Stan, as well as the bayesplot and shinystan packages for model visualization, the loo R package for approximate cross-validation and model comparison, and the rstantools package for assisting with Stan-based R package development.<\/p> <p>Pizza (bit.ly/pizzapoll) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "speakers": [
+            "Jonah Gabry"
+        ],
+        "topics": [
+            "Bayes",
+            "Stan"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Jonah Gabry"
+                ],
+                "title": [
+                    "Making Bayes Easier: A tour through rstanarm and the Stan ecosystem in R"
+                ],
+                "topics": [
+                    "Bayes",
+                    "Stan"
+                ],
+                "file": [
+                    "Stan-R-Ecosystem_Jonah-Gabry.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/U0GpcWH5OV8"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
