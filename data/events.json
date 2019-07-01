@@ -9604,7 +9604,24 @@
             "Tidy Data"
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Earo Wang"
+                ],
+                "title": [
+                    "Tidy your time series analysis with tsibble"
+                ],
+                "topics": [
+                    "Time Series",
+                    "Tidy Data"
+                ],
+                "file": [
+                    "Tidy-Your-Time-Series-Analysis-with-Tsibble_Earo-Wang.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
         ],
         "video": [
             "https://youtu.be/AH7n2LflQZo"
