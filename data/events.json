@@ -10490,5 +10490,277 @@
         "VideoSource": [
 
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "263937015"
+        ],
+        "name": [
+            "Training & Explaining: Demystifying Long Short-Term Memory (LSTM) Behaviors"
+        ],
+        "rsvp_limit": [
+            100
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1566513000000
+        ],
+        "local_date": [
+            "2019-08-22"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            98
+        ],
+        "venue": {
+            "id": [
+                26545522
+            ],
+            "name": [
+                "33 Thomas Street"
+            ],
+            "lat": [
+                40.7166
+            ],
+            "lon": [
+                -74.0061
+            ],
+            "address_1": [
+                "33 Thomas St"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10007"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/263937015/"
+        ],
+        "description": [
+            "<p>Turning again to deep learning we have Bill Gold talking to us about LSTM models.<\/p> <p>Thank you to AT&amp;T Labs for hosting us.<\/p> <p>About the Talk:<br/>Deep learning models can be highly effective at finding patterns contained in unstructured data. The impact on our lives from these deep learning models is profoundly redefining consumer products and business processes. However, deep learning is a black box often using millions of activations.<\/p> <p>As a result, businesses that value explainability resist or do not leverage deep learning. For example, some risk, compliance and legal stakeholders resist using deep learning. The topic of this presentation is training &amp; explaining behaviors, strengths and gaps in deep learning and natural language processing (NLP) with Long Short-Term Memory (LSTM) models.<\/p> <p>About BIll:<br/>Bill Gold’s career intersects data science, management consulting and technology. He has delivered $500MM+ in ROI to financial services, healthcare and legal clients. Across the customer lifecycle he’s trained and deployed: hundreds of models (some patented), commercial software and data science infrastructure with trillions of transactions and hundreds of terabytes of data, all servicing thousands of data scientists.<\/p> <p>Bill guest lectures at Columbia and NYU, is working toward an MS in Computer Science &amp; Machine Learning from Georgia Tech (expected 2022) and has a BS in Electrical Engineering from Hofstra University.<\/p> <p>Pizza (bit.ly/pizzapoll) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Bill Gold"
+        ],
+        "topics": [
+            "Deep Learning",
+            "Neural Networks"
+        ],
+        "slides": [
+        ],
+        "video": [
+            "https://youtu.be/0cY8T8kaNek"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "264566290"
+        ],
+        "name": [
+            "The ggplot glow-up: Making Lovely Data Visualizations in R"
+        ],
+        "rsvp_limit": [
+            130
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1568932200000
+        ],
+        "local_date": [
+            "2019-09-19"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            122
+        ],
+        "venue": {
+            "id": [
+                26545522
+            ],
+            "name": [
+                "33 Thomas Street"
+            ],
+            "lat": [
+                40.7166
+            ],
+            "lon": [
+                -74.0061
+            ],
+            "address_1": [
+                "33 Thomas St"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10007"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/264566290/"
+        ],
+        "description": [
+            "<p>It has been long time since we have done a ggplot talk so Luda will discuss packages that extend ggplot's functionality.<\/p> <p>Thank you to AT&amp;T Labs for hosting us.<\/p> <p>About the Talk:<br/>This talk will cover using ggplot and other ggplot-friendly packages in order to make impressive data visualizations with R. We will look at how several well-liked Tidy Tuesday submissions were generated and use a few packages that allow for different types of visualizations while also discussing ways to make even a simple bar chart more compelling.<\/p> <p>About Luda:<br/>Ludmila Janda is a Data Scientist at Amplify, a pioneer in K–12 education since 2000, leading the way in next-generation curriculum and assessment. Today, Amplify serves four million students in all 50 states. Luda’s work provides insights on student and teacher usage, student success, and Amplify’s broader impact. She is a proud R-Lady and has a Master’s in Public Policy from the University of North Carolina-Chapel Hill. Follow her on twitter at @ludmila_janda.<\/p> <p>Pizza (bit.ly/pizzapoll) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Ludmila Janda"
+        ],
+        "topics": [
+            "Data Visualization"
+        ],
+        "slides": [
+        ],
+        "video": [
+            "https://youtu.be/yrZS8mGL-2E"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "265464477"
+        ],
+        "name": [
+            "A Matter of Time: A Brief History of Time Series in R and Beyond"
+        ],
+        "rsvp_limit": [
+            120
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1571869800000
+        ],
+        "local_date": [
+            "2019-10-23"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            118
+        ],
+        "venue": {
+            "id": [
+                26669643
+            ],
+            "name": [
+                "Visiting Nurse Service of New York"
+            ],
+            "lat": [
+                40.75
+            ],
+            "lon": [
+                -73.973
+            ],
+            "address_1": [
+                "220 E 42nd St"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10017"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/265464477/"
+        ],
+        "description": [
+            "<p>We have more time series, this month from Jeff Ryan, the creator of the xts and quantmod packages.<\/p> <p>Thank you to the Visiting Nurse Service of New York for hosting us at the Daily Planet (<a href=\"https://bit.ly/2IryeJZ\" class=\"linkified\">https://bit.ly/2IryeJZ<\/a>), I mean Daily News, Building<\/p> <p>About the Talk:<br/>Time series are everywhere, and fundamentally different than all other data. To effectively work with these series demands highly specialized tools--as dates, times, notation, calendars, time zones, and more must be carefully managed while doing even basic operations like subsetting, merging, aggregating and dealing with missingness. If not handled properly, all of your analysis could be at risk. Specialized tools for time have been part of R since the beginning, but have seen enormous changes over the last decade. In this talk we’ll explore where we started, what we have now and what might be on the horizon. I'll try to show the whole story in code and tell my unique perspective as someone who’s been lucky enough to be part of its history--and actively working on crafting its future for R, and beyond.<\/p> <p>About Jeff:<br/>Jeff Ryan is a practitioner in the quantitative hedge fund space and a long time contributor to R in both finance and data management. He introduced quantmod and xts in 2007, and co-founded the successful R/Finance conference, held annually since 2009. Over the years he's watched how time series went from an esoteric topic to the hottest thing in databases. He thinks this increased focus is only getting started. He's a bit opinionated, and enjoys building simple but powerful tools that can stand the test of time. Jeff is currently working on what he believes is be the next big step in time series management.<\/p> <p>Pizza (<a href=\"https://bit.ly/pizzapoll\" class=\"linkified\">https://bit.ly/pizzapoll<\/a>) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Jeff Ryan"
+        ],
+        "topics": [
+            "Time Series"
+        ],
+        "slides": [
+
+        ],
+        "video": [
+            "https://youtu.be/yrZS8mGL-2E"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
