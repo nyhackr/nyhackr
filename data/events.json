@@ -10574,6 +10574,7 @@
             "Neural Networks"
         ],
         "slides": [
+
         ],
         "video": [
             "https://youtu.be/0cY8T8kaNek"
@@ -10664,6 +10665,7 @@
             "Data Visualization"
         ],
         "slides": [
+
         ],
         "video": [
             "https://youtu.be/yrZS8mGL-2E"
@@ -10867,6 +10869,117 @@
         ],
         "video": [
             "https://youtu.be/JAFAaWtoG2w"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "266441037"
+        ],
+        "name": [
+            "Totally Tidy Tuning Tools"
+        ],
+        "rsvp_limit": [
+            120
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1576107000000
+        ],
+        "local_date": [
+            "2019-12-11"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            105
+        ],
+        "venue": {
+            "id": [
+                26070407
+            ],
+            "name": [
+                "Rise New York"
+            ],
+            "lat": [
+                40.7425
+            ],
+            "lon": [
+                -73.9912
+            ],
+            "address_1": [
+                "43 W 23rd St"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10010"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/266441037/"
+        ],
+        "description": [
+            "<p>We have Max Kuhn, the author of caret and the tidymodels suite of packages, speaking about the new tune package.<\/p> <p>Thank you to Rise NY for hosting us.<\/p> <p>About the Talk:<br/>Many machine learning models have hyperparameters whose values cannot be analytically estimated from the data. For example, the number of neighbors in a nearest-neighbor classification model. The tidymodels collection of R packages are a tidyverse interface to modeling. In this talk, the new tune package will be introduced. Examples of the tidy interface to model tuning will be demonstrated.<\/p> <p>About Max:<br/>Max Kuhn is a software engineer at RStudio. He is currently working on improving R's modeling capabilities. He was a Director of Nonclinical Statistics at Pfizer Global R&amp;D in Connecticut. He was applying models in the pharmaceutical and diagnostic industries for over 18 years. Max has a Ph.D. in Biostatistics. Max is the author of numerous R packages for techniques in machine learning and reproducible research and is an Associate Editor for the Journal of Statistical Software. He, and Kjell Johnson, wrote the book Applied Predictive Modeling, which won the Ziegel award from the American Statistical Association, which recognizes the best book reviewed in Technometrics in 2015. Their latest book, Feature Engineering and Selection, was published in 2019.<\/p> <p>Pizza (<a href=\"https://bit.ly/pizzapoll\" class=\"linkified\">https://bit.ly/pizzapoll<\/a>) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Max Kuhn"
+        ],
+        "topics": [
+            "Tidymodels",
+            "Machine Learning",
+            "Feature Engineering"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Max Kuhn"
+                ],
+                "title": [
+                    "Totally Tidy Tuning Tools"
+                ],
+                "topics": [
+                    "Tidymodels",
+                    "Machine Learning",
+                    "Feature Engineering"
+                ],
+                "file": [
+                    "Totally_Tidy_Tuning_Tools-Max_Kuhn.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/vhQF958xoPk"
         ],
         "VideoSource": [
             "YouTube"
