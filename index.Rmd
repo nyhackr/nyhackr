@@ -30,7 +30,7 @@ nyhackrFollow <- div(a(href="https://twitter.com/nyhackr",
 )
 ```
 
-Founded by [Josh Reich](https://www.meetup.com/nyhackr/members/8912279/) and [Drew Conway](https://www.meetup.com/nyhackr/members/9179090/), the [New York Open Statistical Programming Meetup](https://www.meetup.com/nyhackr/) started as the New York R Meetup with a handful of people in an office at [Union Square Ventures](https://www.usv.com/).  Since then it has grown to over 8,000 members and has been hosted at [NYU](www.nyu.edu), [Columbia](columbia.edu), [AOL](http://www.aol.com/), [iHeartRadio](https://www.iheart.com/), [eBay](ebaynyc.com), [Work-Bench](https://www.work-bench.com/) and other locations.
+Founded by [Josh Reich](https://www.meetup.com/nyhackr/members/8912279/) and [Drew Conway](https://www.meetup.com/nyhackr/members/9179090/), the [New York Open Statistical Programming Meetup](https://www.meetup.com/nyhackr/) started as the New York R Meetup with a handful of people in an office at [Union Square Ventures](https://www.usv.com/).  Since then it has grown to over 11,000 members and has been hosted at [NYU](www.nyu.edu), [Columbia](columbia.edu), [AOL](http://www.aol.com/), [iHeartRadio](https://www.iheart.com/), [eBay](ebaynyc.com), [Work-Bench](https://www.work-bench.com/) and other locations.
 
 Our mission is to spread knowledge of statistical programming techniques in open-source languages such as R, Python, Julia and Go, and data science in general.  Another important aspect is community building and socializing.  The meetups start with pizza, followed by a 45-90 minute talk, ending with a trip to the local bar.
 
