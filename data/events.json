@@ -11091,5 +11091,203 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "267493644"
+        ],
+        "name": [
+            "Relational Data Models with the dm Package"
+        ],
+        "rsvp_limit": [
+            120
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1580859000000
+        ],
+        "local_date": [
+            "2020-02-04"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            102
+        ],
+        "venue": {
+            "id": [
+                26070407
+            ],
+            "name": [
+                "Rise New York"
+            ],
+            "lat": [
+                40.7425
+            ],
+            "lon": [
+                -73.9912
+            ],
+            "address_1": [
+                "43 W 23rd St"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10010"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/267493644/"
+        ],
+        "description": [
+            "<p>The first of two meetups in February features Kirill Müller of {DBI} fame.<\/p> <p>For the February 11th talk with Thomas Lumley please visit <a href=\"https://www.meetup.com/nyhackr/events/267494537/\" class=\"linkified\">https://www.meetup.com/nyhackr/events/267494537/<\/a><\/p> <p>Thank you to Rise NY for hosting.<\/p> <p>About the Talk:<br/>Kirill will present {dm}, a new package that facilitates working with multiple tables. Three principal use cases can be identified: consuming a data model, building in-memory or local data models without relying on relational databases, and preparing consistent relational data models for consumption by others. Based on these use cases, he outlines the features of this package and discusses future development. The presentation will be interactive with live coding and a script that attendees can run during or after the presentation. The package is available on GitHub at krlmlr.github.io/dm.<\/p> <p>About Kirill:<br/>Kirill works on the boundary between data and computer science with more than 20 years of software engineering experience. He enjoys working with and contributing to the R ecosystem since 2012. In 2018 he joined forces with Christoph Sax to found cynkra, a Zurich-based consultancy that helps businesses and government institutions better understand their valuable data and communicate the insights, with a focus on the R ecosystem.<\/p> <p>Pizza (<a href=\"https://bit.ly/pizzapoll\" class=\"linkified\">https://bit.ly/pizzapoll<\/a>) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Kirill Müller"
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Kirill Müller"
+                ],
+                "title": [
+                    "Relational Data Models with the dm Package"
+                ],
+                "topics": [
+                    ""
+                ],
+                "file": [
+                    "Relational_Data_Models_with_the_dm_Package-Kirill_Müller.R"
+                ],
+                "format": [
+                    "R"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/SgnMoll9vc0"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "267494537"
+        ],
+        "name": [
+            "Analysing Multistage Survey Data Using R"
+        ],
+        "rsvp_limit": [
+            150
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1581463800000
+        ],
+        "local_date": [
+            "2020-02-11"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            123
+        ],
+        "venue": {
+            "id": [
+                26127927
+            ],
+            "name": [
+                "466 Lexington Ave"
+            ],
+            "lat": [
+                40.7538
+            ],
+            "lon": [
+                -73.9746
+            ],
+            "address_1": [
+                "466 Lexington Ave"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10017"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "link": [
+            "https://www.meetup.com/nyhackr/events/267494537/"
+        ],
+        "description": [
+            "<p>For the second talk in February we are very excited to have R Core member Thomas Lumley talking about the {survey} package.<\/p> <p>For the February 4th talk with Kirill Müller please visit <a href=\"https://www.meetup.com/nyhackr/events/267493644\" class=\"linkified\">https://www.meetup.com/nyhackr/events/267493644<\/a><\/p> <p>Thank you to New York Presbyterian for hosting.<\/p> <p>About the Talk:<br/>Multistage surveys run by all levels of government and academic research groups are a rich source of data. Traditionally, their analysis involved specialised software (and even specialised hardware); one aim of survey research in recent decades has been to make survey analysis relatively boring, so that it can be done safely by people with domain expertise. I will talk about the R survey package, which just had its 16th birthday. The package allows for exploratory analysis and modelling, and supports research into more efficient estimation in two-phase samples.<\/p> <p>About Thomas:<br/>Thomas Lumley is originally from Australia, and was at the University of Washington in Seattle for 15 years. He is now Professor of Biostatistics at the University of Auckland. His research interests include study design in epidemiology, semiparametric theory, computing and graphics, and genomics. Thomas blogs about statistics in the media at statschat.org.nz and about other topics at notstatschat.rbind.io. He is a Fellow of the Royal Society of New Zealand and the American Statistical Association, and a member of R Core, and has taught short courses on R in thirteen time zones.<\/p> <p>Pizza (<a href=\"https://bit.ly/pizzapoll\" class=\"linkified\">https://bit.ly/pizzapoll<\/a>) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Thomas Lumley"
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": [
+            "https://youtu.be/y8pXe7nGNhA"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
