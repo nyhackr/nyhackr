@@ -11281,7 +11281,23 @@
 
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Thomas Lumley"
+                ],
+                "title": [
+                    "Analysing Multistage Survey Data Using R"
+                ],
+                "topics": [
+                    ""
+                ],
+                "file": [
+                    "Analysing_Multistage_Survey_Data_Using_R-Thomas_Lumley.pdf"
+                ],
+                "format": [
+                    "PDF"
+                ]
+            }
         ],
         "video": [
             "https://youtu.be/y8pXe7nGNhA"
