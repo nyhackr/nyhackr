@@ -2,16 +2,38 @@
 title: "Events"
 ---
 
-# New York DC R Conference
-### Conference
-#### May 10 - 11
-### Workshops
-#### May 9
+# Stan Class | April 22-24, 2020
 
-[![](images/R-Conference-Logo.png)](https://www.rstats.nyc)
+[![](images/Stan2020.jpg)](https://www.tickettailor.com/events/landeranalytics/351264)
 
-On May 10 and 11, the fifth New York R Conference will feature world-class data scientists sharing cutting-edge research and lessons from the field including [Andrew Gelman](https://statmodeling.stat.columbia.edu/), [Emily Robison](https://hookedondata.org/), [Wes McKinney](https://wesmckinney.com/), [Namita Nandakumar](https://hockey-graphs.com/author/namitanandakumar/), Brooke Watson, Mike Band and so many more. In addition, there will be will be [workshops](https://www.rstats.nyc/workshops/) by Max Kuhn, Elizabeth Sweeny, Dan Chen and Kaz Sakamoto on May 9. The conference and workshops will be hosted at [Work-Bench](https://www.work-bench.com/).
+**Learn Bayesian Data Analysis** (BDA) and Markov chain Monte Carlo (MCMC) computation using Stan with Stan **developer [Jonah Gabry](https://jgabry.github.io/)**.
 
-For more about the conference visit https://www.rstats.nyc and follow us on Twitter at [\@rstatsnyc](https://twitter.com/rstatsnyc).
+This three-day workshop will be taught by [Jonah Gabry](https://jgabry.github.io/). Jonah is a Stan developer based at Columbia University and the developer of [many R packages](https://jgabry.github.io/software-and-papers/) for applied Bayesian data analysis (rstan, rstanarm, rstantools, bayesplot, shinystan, loo). Jonah will be joined by fellow Stan developers Ben Bales and Rob Trangucci, special guest Andrew Gelman, and other members of the Stan Development Team will make some guest appearances at various times throughout the course.
 
-You can see a recap of the previous [NYR Conferences](https://nyhackr.org) or our [DC R Conference](https://dc.rstats.ai/) on the [Conference page](nyr.html).
+Participants will receive a copy of Andrew Gelman's landmark book **[Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/)**. Proceeds from the class support **further development** of [Stan](http://mc-stan.org/) and the [New York Open Statistical Programming Meetup](http://www.nyhackr.org/).
+
+The course description, location, and to register, visit the [**Ticket Page**](https://www.tickettailor.com/events/landeranalytics/351264).
+
+# New York R Conference | May 7-9, 2020
+
+[![](images/NYR2020.png)](https://rstats.ai/nyr/#about)
+
+### Workshops | May 7th, 2020
+### Conference | May 8-9, 2020
+
+The sixth annual [R Conference | New York](https://rstats.ai/nyr/?utm_source=landeranalytics) will take place May 8-9, 2020 at [Florence Gould Hall](https://www.google.com/maps/place/FIAF+French+Institute+Alliance+Fran%C3%A7aise:+Florence+Gould+Hall/@40.763586,-73.9728647,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258effed7b8b9:0xfec6ab518a7647a!8m2!3d40.763586!4d-73.970676), with [workshops](https://rstats.ai/nyr?utm_source=landeranalytics#workshops) on May 7th. Early Bird admission is now available through February! 
+
+We will be gathering a great group of data scientists like [Andrew Gelman](https://twitter.com/StatModeling), [Emily Robinson](https://twitter.com/robinson_es), [David Smith](https://twitter.com/revodavid), [Erin LeDell](https://twitter.com/ledell), [Max Kuhn](https://twitter.com/topepos) and [Gabriela de Queiroz](https://twitter.com/gdequeiroz) with so many more great [speakers](https://rstats.ai/nyr?utm_source=landeranalytics#speakers) joining us. To see what it's like you can check out past [New York highlights](https://www.youtube.com/watch?v=4TE3ZX1Q6dc&list=PLlzRFZmxVl9Tyu0itZAPNKAPoQ8PMH7i_) and past [Washington, D.C. highlights](https://www.youtube.com/watch?v=MbbACqguWhA&list=PLlzRFZmxVl9Q5cgX9-DtLmnA_YVRwkTgr&index=1).  
+
+
+Following their popular introduction last year, workshops will be held prior to the Conference. These exciting classes will be available on [May 7th](https://rstats.ai/nyr?utm_source=landeranalytics#workshops):
+ 
+Exploring Data With the Tidyverse with [David Robinson](http://varianceexplained.org/about?utm_source=landeranalytics)
+Geospatial Statistics and Mapping in R with [Kaz Sakamoto](https://www.arch.columbia.edu/faculty/669-kaz-sakamoto?utm_source=landeranalytics)
+Git for Data Science with [Daniel Chen](https://chendaniely.github.io/?utm_source=landeranalytics)
+Machine Learning in R with [Max Kuhn](https://github.com/topepo?utm_source=landeranalytics)
+Machine learning in Python with scikit-learn by [Andreas Mueller](https://amueller.github.io/?utm_source=landeranalytics)
+
+A big thank you to conference sponsors [Microsoft](https://www.microsoft.com/en-us/?utm_source=landeranalytics), [Flatiron School](https://flatironschool.com/?utm_source=landeranalytics), [Codecademy](https://www.codecademy.com/?utm_source=landeranalytics), [CloudFactory](http://www.cloudfactory.com?utm_source=landeranalytics), [Pearson](https://www.pearson.com/us/?utm_source=landeranalytics) and [NausicaaDistribution](https://www.etsy.com/shop/NausicaaDistribution?utm_source=landeranalytics). [You can contact Lander Analytics](https://www.landeranalytics.com/contact?utm_source=landeranalytics) if you would like to sponsor.
+
+For more about the community, visit our website at [nyhackr.org](https://nyhackr.org/?utm_source=nyhackr), join our [slack team](https://nyhackr.slack.com/shared_invite/MTg0ODY4ODE2MjkwLTE0OTUwNTY3NTEtZGYzYzNiOTg2OA) and follow us on Twitter at @[nyhackr](https://twitter.com/nyhackr) and @[rstatsnyc](https://twitter.com/rstatsnyc) and follow the [#rstatsnyc](https://twitter.com/hashtag/rstatsnyc) hashtag.

@@ -1,19 +1,31 @@
 ---
-title: "New York R Conference"
+title: "R Conference"
 ---
 
 ```{r setup,include=FALSE}
 knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
 ```
 
-The [New York R Conference](http://www.rstats.nyc) grew out of the meetup as another outlet for people to gather and nerd out over statistical programming, especially R.  Now in its third year, the conference takes place every April.  The format is meant to be fun and fast paced, with each talk (with only one or two exceptions) lasting 20 minutes with no question time.  There is a social break after every two or three sessions.
+# New York | May 7-9, 2020
 
-Videos and presentations from [2015](http://www.rstats.nyc/2015), [2016](http://www.rstats.nyc/2016), [2017](http://www.rstats.nyc/2017) and [2018](http://www.rstats.nyc/2018) can be found at [rstats.nyc](http://www.rstats.nyc).
+[![](images/NYR2020.png)](https://rstats.ai/nyr/#about)
 
-For more information visit [rstats.nyc](http://www.rstats.nyc).
+### Workshops | May 7th, 2020
+### Conference | May 8-9, 2020
 
-[![New York R Conference](images/R-Conference-Logo.png)](http://www.rstats.nyc)
+The sixth annual [R Conference | New York](https://rstats.ai/nyr/?utm_source=landeranalytics) will take place May 8-9, 2020 at [Florence Gould Hall](https://www.google.com/maps/place/FIAF+French+Institute+Alliance+Fran%C3%A7aise:+Florence+Gould+Hall/@40.763586,-73.9728647,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258effed7b8b9:0xfec6ab518a7647a!8m2!3d40.763586!4d-73.970676), with [workshops](https://rstats.ai/nyr?utm_source=landeranalytics#workshops) on May 7th. Early Bird admission is now available through February! 
 
-This year the R Conference is being brought to Washington DC. For more information check out the [Events page](events.html).
+We will be gathering a great group of data scientists like [Andrew Gelman](https://twitter.com/StatModeling), [Emily Robinson](https://twitter.com/robinson_es), [David Smith](https://twitter.com/revodavid), [Erin LeDell](https://twitter.com/ledell), [Max Kuhn](https://twitter.com/topepos) and [Gabriela de Queiroz](https://twitter.com/gdequeiroz) with so many more great [speakers](https://rstats.ai/nyr?utm_source=landeranalytics#speakers) joining us. To see what it's like you can check out past [New York highlights](https://www.youtube.com/watch?v=4TE3ZX1Q6dc&list=PLlzRFZmxVl9Tyu0itZAPNKAPoQ8PMH7i_) and past [Washington, D.C. highlights](https://www.youtube.com/watch?v=MbbACqguWhA&list=PLlzRFZmxVl9Q5cgX9-DtLmnA_YVRwkTgr&index=1).  
 
-[![](images/DCR2018_WebsiteLogo.png)](https://dc.rstats.ai)
+
+Following their popular introduction last year, workshops will be held prior to the Conference. These exciting classes will be available on [May 7th](https://rstats.ai/nyr?utm_source=landeranalytics#workshops):
+ 
+Exploring Data With the Tidyverse with [David Robinson](http://varianceexplained.org/about?utm_source=landeranalytics)
+Geospatial Statistics and Mapping in R with [Kaz Sakamoto](https://www.arch.columbia.edu/faculty/669-kaz-sakamoto?utm_source=landeranalytics)
+Git for Data Science with [Daniel Chen](https://chendaniely.github.io/?utm_source=landeranalytics)
+Machine Learning in R with [Max Kuhn](https://github.com/topepo?utm_source=landeranalytics)
+Machine learning in Python with scikit-learn by [Andreas Mueller](https://amueller.github.io/?utm_source=landeranalytics)
+
+A big thank you to conference sponsors [Microsoft](https://www.microsoft.com/en-us/?utm_source=landeranalytics), [Flatiron School](https://flatironschool.com/?utm_source=landeranalytics), [Codecademy](https://www.codecademy.com/?utm_source=landeranalytics), [CloudFactory](http://www.cloudfactory.com?utm_source=landeranalytics), [Pearson](https://www.pearson.com/us/?utm_source=landeranalytics) and [NausicaaDistribution](https://www.etsy.com/shop/NausicaaDistribution?utm_source=landeranalytics). [You can contact Lander Analytics](https://www.landeranalytics.com/contact?utm_source=landeranalytics) if you would like to sponsor.
+
+For more about the community, visit our website at [nyhackr.org](https://nyhackr.org/?utm_source=nyhackr), join our [slack team](https://nyhackr.slack.com/shared_invite/MTg0ODY4ODE2MjkwLTE0OTUwNTY3NTEtZGYzYzNiOTg2OA) and follow us on Twitter at @[nyhackr](https://twitter.com/nyhackr) and @[rstatsnyc](https://twitter.com/rstatsnyc) and follow the [#rstatsnyc](https://twitter.com/hashtag/rstatsnyc) hashtag.
