@@ -10,20 +10,20 @@ title: "Events"
 
 This three-day workshop will be taught by [Jonah Gabry](https://jgabry.github.io/). Jonah is a Stan developer based at Columbia University and the developer of [many R packages](https://jgabry.github.io/software-and-papers/) for applied Bayesian data analysis (rstan, rstanarm, rstantools, bayesplot, shinystan, loo). Jonah will be joined by fellow Stan developers Ben Bales and Rob Trangucci, special guest Andrew Gelman, and other members of the Stan Development Team will make some guest appearances at various times throughout the course.
 
-Participants will receive a copy of Andrew Gelman's landmark book **[Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/)**. Proceeds from the class support **further development** of [Stan](http://mc-stan.org/) and the [New York Open Statistical Programming Meetup](http://www.nyhackr.org/).
+Participants will receive a copy of Andrew Gelman's landmark book **[Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/)**. Proceeds from the class support **further development** of [Stan](http://mc-stan.org/) and the [New York Open Statistical Programming Meetup](http://www.nyhackr.org/). We will be offering virtual access to the workshop in addition to holding it at the [New York–Presbyterian Hospital](https://www.nyp.org/). For those who wish to join the physical workshop, which will include no more than 20 attendees at NYP, you can still do so. In the next few weeks, we will provide signup instructions for virtual workshop access for those who choose to join remotely. Virtual access will afford you the ability to ask questions, participate, and engage in an active way.
 
 The course description, location, and to register, visit the [**Ticket Page**](https://www.tickettailor.com/events/landeranalytics/351264).
 
-# New York R Conference | May 7-9, 2020
+# New York R Conference | June 11 - 13, 2020
 
 [![](images/NYR2020.png)](https://rstats.ai/nyr/#about)
 
-### Workshops | May 7th, 2020
-### Conference | May 8-9, 2020
+### Workshops | June 11, 2020
+### Conference | June 12 - 13, 2020
 
-The sixth annual [R Conference | New York](https://rstats.ai/nyr/?utm_source=landeranalytics) will take place May 8-9, 2020 at [Florence Gould Hall](https://www.google.com/maps/place/FIAF+French+Institute+Alliance+Fran%C3%A7aise:+Florence+Gould+Hall/@40.763586,-73.9728647,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258effed7b8b9:0xfec6ab518a7647a!8m2!3d40.763586!4d-73.970676), with [workshops](https://rstats.ai/nyr?utm_source=landeranalytics#workshops) on May 7th. Early Bird admission is now available through February! 
+The sixth annual [R Conference | New York](https://rstats.ai/nyr/?utm_source=landeranalytics) will take place June 12-13, 2020 at [Florence Gould Hall](https://www.google.com/maps/place/FIAF+French+Institute+Alliance+Fran%C3%A7aise:+Florence+Gould+Hall/@40.763586,-73.9728647,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258effed7b8b9:0xfec6ab518a7647a!8m2!3d40.763586!4d-73.970676), with [workshops](https://rstats.ai/nyr?utm_source=landeranalytics#workshops) on May 7th. Early Bird admission is now available through February! 
 
-We will be gathering a great group of data scientists like [Andrew Gelman](https://twitter.com/StatModeling), [Emily Robinson](https://twitter.com/robinson_es), [David Smith](https://twitter.com/revodavid), [Erin LeDell](https://twitter.com/ledell), [Max Kuhn](https://twitter.com/topepos) and [Gabriela de Queiroz](https://twitter.com/gdequeiroz) with so many more great [speakers](https://rstats.ai/nyr?utm_source=landeranalytics#speakers) joining us. To see what it's like you can check out past [New York highlights](https://www.youtube.com/watch?v=4TE3ZX1Q6dc&list=PLlzRFZmxVl9Tyu0itZAPNKAPoQ8PMH7i_) and past [Washington, D.C. highlights](https://www.youtube.com/watch?v=MbbACqguWhA&list=PLlzRFZmxVl9Q5cgX9-DtLmnA_YVRwkTgr&index=1).  
+We will be gathering a great group of data scientists like [Andrew Gelman](https://twitter.com/StatModeling), [Emily Robinson](https://twitter.com/robinson_es), [David Smith](https://twitter.com/revodavid), [Erin LeDell](https://twitter.com/ledell) and [Max Kuhn](https://twitter.com/topepos) with so many more great [speakers](https://rstats.ai/nyr?utm_source=landeranalytics#speakers) joining us. To see what it's like you can check out past [New York highlights](https://www.youtube.com/watch?v=4TE3ZX1Q6dc&list=PLlzRFZmxVl9Tyu0itZAPNKAPoQ8PMH7i_) and past [Washington, D.C. highlights](https://www.youtube.com/watch?v=MbbACqguWhA&list=PLlzRFZmxVl9Q5cgX9-DtLmnA_YVRwkTgr&index=1).  
 
 
 Following their popular introduction last year, workshops will be held prior to the Conference. These exciting classes will be available on [May 7th](https://rstats.ai/nyr?utm_source=landeranalytics#workshops):
