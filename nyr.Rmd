@@ -6,14 +6,14 @@ title: "R Conference"
 knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
 ```
 
-# New York | May 7-9, 2020
+# New York | June 11 - 13, 2020
 
 [![](images/NYR2020.png)](https://rstats.ai/nyr/#about)
 
-### Workshops | May 7th, 2020
-### Conference | May 8-9, 2020
+### Workshops | June 11, 2020
+### Conference | June 12 - 13, 2020
 
-The sixth annual [R Conference | New York](https://rstats.ai/nyr/?utm_source=landeranalytics) will take place May 8-9, 2020 at [Florence Gould Hall](https://www.google.com/maps/place/FIAF+French+Institute+Alliance+Fran%C3%A7aise:+Florence+Gould+Hall/@40.763586,-73.9728647,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258effed7b8b9:0xfec6ab518a7647a!8m2!3d40.763586!4d-73.970676), with [workshops](https://rstats.ai/nyr?utm_source=landeranalytics#workshops) on May 7th. Early Bird admission is now available through February! 
+The sixth annual [R Conference | New York](https://rstats.ai/nyr/?utm_source=landeranalytics) will take place June 12 - 13, 2020 at [Florence Gould Hall](https://www.google.com/maps/place/FIAF+French+Institute+Alliance+Fran%C3%A7aise:+Florence+Gould+Hall/@40.763586,-73.9728647,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258effed7b8b9:0xfec6ab518a7647a!8m2!3d40.763586!4d-73.970676), with [workshops](https://rstats.ai/nyr?utm_source=landeranalytics#workshops) on June 11. Early Bird admission is now available through February! 
 
 We will be gathering a great group of data scientists like [Andrew Gelman](https://twitter.com/StatModeling), [Emily Robinson](https://twitter.com/robinson_es), [David Smith](https://twitter.com/revodavid), [Erin LeDell](https://twitter.com/ledell), [Max Kuhn](https://twitter.com/topepos) and [Gabriela de Queiroz](https://twitter.com/gdequeiroz) with so many more great [speakers](https://rstats.ai/nyr?utm_source=landeranalytics#speakers) joining us. To see what it's like you can check out past [New York highlights](https://www.youtube.com/watch?v=4TE3ZX1Q6dc&list=PLlzRFZmxVl9Tyu0itZAPNKAPoQ8PMH7i_) and past [Washington, D.C. highlights](https://www.youtube.com/watch?v=MbbACqguWhA&list=PLlzRFZmxVl9Q5cgX9-DtLmnA_YVRwkTgr&index=1).  
 
