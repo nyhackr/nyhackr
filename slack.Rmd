@@ -12,6 +12,6 @@ div#sign-up-here-to-join-the-nyhackr-slack-team img {
 knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center')
 ```
 
-#### Sign up here to join the [nyhackr Slack team](https://nyhackr.slack.com/shared_invite/MTg0ODY4ODE2MjkwLTE0OTUwNTY3NTEtZGYzYzNiOTg2OA)!
+#### Sign up here to join the [nyhackr Slack team]https://join.slack.com/t/nyhackr/shared_invite/zt-djd4fi2c-M9Y5gHIsry_m_xPI0wKPqA)!
 
-[![NYR Selfie](images/R-Conference-Selfie.jpg "NYR Selfie")](https://nyhackr.slack.com/shared_invite/MTg0ODY4ODE2MjkwLTE0OTUwNTY3NTEtZGYzYzNiOTg2OA)
+[![NYR Selfie](images/R-Conference-Selfie.jpg "NYR Selfie")]https://join.slack.com/t/nyhackr/shared_invite/zt-djd4fi2c-M9Y5gHIsry_m_xPI0wKPqA)
