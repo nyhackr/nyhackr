@@ -11305,5 +11305,203 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "fee": [
+            5
+        ],
+        "id": [
+            "268711446"
+        ],
+        "name": [
+            "Zen and the Art of R Package Development"
+        ],
+        "rsvp_limit": [
+            150
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1583191800000
+        ],
+        "local_date": [
+            "2020-03-02"
+        ],
+        "local_time": [
+            "18:30"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            90
+        ],
+        "venue": {
+            "id": [
+                26127927
+            ],
+            "name": [
+                "466 Lexington Ave"
+            ],
+            "lat": [
+                40.7538
+            ],
+            "lon": [
+                -73.9746
+            ],
+            "address_1": [
+                "466 Lexington Ave"
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                "10017"
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "is_online_event": [
+            false
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/268711446/"
+        ],
+        "description": [
+            "<p>Our March speaker comes to us from the LA R Meetup.<\/p> <p>Thank you to New York Presbyterian for hosting.<\/p> <p>Those of you who would like to attend the R Conference (<a href=\"https://www.rstats.ai\" class=\"linkified\">https://www.rstats.ai<\/a>) May 8-9 can use code nyhackr for a 20% discount.<\/p> <p>About the Talk:<br/>Modern tools for R development like usethis make it easy to work with packages, and treating projects as packages makes it easier to write reproducible code. When you write R packages, you also unlock a whole ecosystem of tools that will make it easier to test, document, and share your code. A fundamental belief in Zen is that you are already complete, that you already have everything you need. I’ll talk about why your project is already an R package, why you’re already an R package developer, and why you already have the skills to walk the path of development.<\/p> <p>About Daniel:<br/>Malcolm Barrett (<a href=\"https://malco.io/\" class=\"linkified\">https://malco.io/<\/a>) is an epidemiologist, an R developer, and a co-organizer of the Los Angeles R Users Group. He likes to write R code, talk about R, and teach R. He was also recently the R Markdown intern at RStudio.<\/p> <p>Pizza (<a href=\"https://bit.ly/pizzapoll\" class=\"linkified\">https://bit.ly/pizzapoll<\/a>) begins at 6:30, the talk starts at 7, then after we head to the local bar.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Malcolm Barret"
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": [
+            "https://youtu.be/d6JPRyp0bzY"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "id": [
+            "269506434"
+        ],
+        "name": [
+            "R, Coronavirus, and Pandemic Prevention [Remote Only]"
+        ],
+        "rsvp_limit": [
+            600
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1587423600000
+        ],
+        "local_date": [
+            "2020-04-20"
+        ],
+        "local_time": [
+            "19:00"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            588
+        ],
+        "venue": {
+            "id": [
+                26019022
+            ],
+            "name": [
+                "New York"
+            ],
+            "lat": [
+                40.7128
+            ],
+            "lon": [
+                -74.006
+            ],
+            "city": [
+                "New York"
+            ],
+            "country": [
+                "USA"
+            ],
+            "zip": [
+                ""
+            ],
+            "state": [
+                "NY"
+            ],
+            "countrycode": [
+                "us"
+            ]
+        },
+        "is_online_event": [
+            false
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/269506434/"
+        ],
+        "description": [
+            "<p>We have a special remote meetup this month featuring our resident expert in emerging viruses, Noam Ross.<\/p> <p>Due to COVID-19 there is no in-person component to this meetup but rather it will take place completely online at <a href=\"https://zoom.us/j/339371523\" class=\"linkified\">https://zoom.us/j/339371523<\/a>. Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>About the Talk:<br/>COVID-19 is the latest, and most impactful, of new infectious diseases emerging with increasing frequency in the 21st century. Novel contacts between humans and wildlife, and dense and increasingly mobile human populations all drive risk of pandemics like the one we are living through. I will discuss the data science and analytical challenges in identifying and predicting new emerging diseases and tracking, predicting, and managing COVID-19. I will discuss the R tools used by virus hunters and epidemiologists in addressing these challenges, and lessons that apply to other fields. Finally, I'll discuss ways R users and data scientists can contribute to supporting public health and preventing the next pandemic.<\/p> <p>About Noam:<br/>Noam Ross is Principal Scientist for Computational Science at EcoHealth Alliance, a non-profit in NYC that researches the connections between human and wildlife health. Noam builds models to understand and predict disease circulation in wildlife, spillover into people, and spread through travel and trade. Noam also leads software peer review at rOpenSci, a developer collective that builds R packages and catalyzes communities to enable open research and data. He has a Ph.D. in ecology from the University of California-Davis. Follow him on twitter at @noamross.<\/p> <p>Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Noam Ross"
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Noam Ross"
+                ],
+                "title": [
+                    "R, Coronavirus, and Pandemic Prevention"
+                ],
+                "topics": [
+                    ""
+                ],
+                "file": [
+                    "R_Coronavirus_and_Pandemic_Prevention-Noah_Ross.pptx"
+                ],
+                "format": [
+                    "pptx"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/5UXbfs5xIq0"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
