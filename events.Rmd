@@ -2,18 +2,6 @@
 title: "Events"
 ---
 
-# Stan Class | April 22-24, 2020
-
-[![](images/Stan2020.jpg)](https://www.tickettailor.com/events/landeranalytics/351264)
-
-**Learn Bayesian Data Analysis** (BDA) and Markov chain Monte Carlo (MCMC) computation using Stan with Stan **developer [Jonah Gabry](https://jgabry.github.io/)**.
-
-This three-day workshop will be taught by [Jonah Gabry](https://jgabry.github.io/). Jonah is a Stan developer based at Columbia University and the developer of [many R packages](https://jgabry.github.io/software-and-papers/) for applied Bayesian data analysis (rstan, rstanarm, rstantools, bayesplot, shinystan, loo). Jonah will be joined by fellow Stan developers Ben Bales and Rob Trangucci, special guest Andrew Gelman, and other members of the Stan Development Team will make some guest appearances at various times throughout the course.
-
-Participants will receive a copy of Andrew Gelman's landmark book **[Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/)**. Proceeds from the class support **further development** of [Stan](http://mc-stan.org/) and the [New York Open Statistical Programming Meetup](http://www.nyhackr.org/). We will be offering virtual access to the workshop in addition to holding it at the [New York–Presbyterian Hospital](https://www.nyp.org/). For those who wish to join the physical workshop, which will include no more than 20 attendees at NYP, you can still do so. In the next few weeks, we will provide signup instructions for virtual workshop access for those who choose to join remotely. Virtual access will afford you the ability to ask questions, participate, and engage in an active way.
-
-The course description, location, and to register, visit the [**Ticket Page**](https://www.tickettailor.com/events/landeranalytics/351264).
-
 # New York R Conference | June 11 - 13, 2020
 
 [![](images/NYR2020.png)](https://rstats.ai/nyr/#about)
