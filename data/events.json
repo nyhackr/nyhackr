@@ -11503,5 +11503,94 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "270279676"
+        ],
+        "name": [
+            "The Covid19R Project [Remote Only]"
+        ],
+        "rsvp_limit": [
+            300
+        ],
+        "date_in_series_pattern": [
+            false
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1589497200000
+        ],
+        "local_date": [
+            "2020-05-14"
+        ],
+        "local_time": [
+            "19:00"
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            239
+        ],
+        "venue": {
+            "id": [
+                26906060
+            ],
+            "name": [
+                "Online event"
+            ],
+            "country": [
+                ""
+            ],
+            "countrycode": [
+                ""
+            ]
+        },
+        "is_online_event": [
+            true
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/270279676/"
+        ],
+        "description": [
+            "<p>Once again we have a special remote meetup and once again it is about COVID-19.<\/p> <p>Due to COVID-19 there is no in-person component to this meetup but rather it will take place completely online at <a href=\"https://zoom.us/j/93011906605\" class=\"linkified\">https://zoom.us/j/93011906605<\/a>. Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Even though we will not be in person to have pizza together, that has long been a central part of the meetup. So Scott's Pizza Tours is sponsoring the meetup this month and offering everyone 25% off virtual tours booked by June 1. Use code NerdsLovePizza at <a href=\"https://www.scottspizzatours.com/\" class=\"linkified\">https://www.scottspizzatours.com/<\/a> for the discount.<\/p> <p>About the Talk:<br/>The Covid19R project provides a set of tools and common language for developing covid19 dataset related R packages in a tidy format. The main goal of the project is to create a data structure standard that enables the users to load to R seamlessly a clean, ready to use, and up-to-date covid19 dataset. The project currently includes several dataset packages such as covid19france, covid19nytimes, covid19swiss, and the covid19R package that enable fast access for several data sources in a tidy format. In this talk, I will focus on approaches for creating a covid19 R dataset package and supporting elements such as dashboard, visualization, and automation with continuous integration tools. More details about the project are available here: <a href=\"https://github.com/Covid19R\" class=\"linkified\">https://github.com/Covid19R<\/a><\/p> <p>About Rami:<br/>Rami Krispin is a data scientist who mainly focuses on time series analysis and forecasting applications. He is the author of \"Hands-On Time Series Analysis with R\", and several R packages, including the TSstudio package for time series analysis and forecasting applications. Since the beginning of the covid19 outbreak, he wrote R dataset packages and created dashboards for tracking the outbreak (such as coronavirus, covid19italy, etc.)<\/p> <p>The meetup will start right at 7 and we will start admitting people to the meeting shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "member_pay_fee": [
+            false
+        ],
+        "speakers": [
+            "Rami Krispin"
+        ],
+        "topics": [
+            "Time Series"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Rami Krispin"
+                ],
+                "title": [
+                    "The Covid19 Project"
+                ],
+                "topics": [
+                    ""
+                ],
+                "file": [
+                    "The_Covid19R_Project-Rami_Krispin.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+
+        ],
+        "VideoSource": [
+
+        ]
     }
 ]
