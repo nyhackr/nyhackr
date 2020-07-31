@@ -1,12 +1,7 @@
 language: r
 r:
-  - 3.5.0
+  - release
 sudo: false
-cache:
-  directories:
-    - $TRAVIS_BUILD_DIR/packrat/src
-    - $TRAVIS_BUILD_DIR/packrat/lib
-  packages: true
 addons:
   ssh_known_hosts:
     - dev.nyhackr.org
@@ -16,8 +11,6 @@ before_install:
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/deploy_rsa
   - ssh-add /tmp/deploy_rsa
-install:
-  - R -e "0" --args --bootstrap-packrat
 script: Rscript -e "rmarkdown::render_site(\"$TRAVIS_BUILD_DIR\")"
 deploy:
   - provider: script
