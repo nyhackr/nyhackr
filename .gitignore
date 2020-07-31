@@ -7,3 +7,4 @@
 docs
 data/events.json.old
 packrat/lib*/
+.httr-oauth
