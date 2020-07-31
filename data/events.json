@@ -11592,5 +11592,155 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "271259461"
+        ],
+        "name": [
+            "Learning When, Where, and by How Much, Things Change"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1592866800000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/271259461/"
+        ],
+        "description": [
+            "<p>We are staying virtual this month which allows us to once again to bring in a speaker from afar. One of the most popular talks was about Generalized Additive Models, so we are excited to have Gavin Simpson give us another dose.<\/p> <p>Due to COVID-19 there is no in-person component to this meetup and it will take place entirely online. Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>To help recreate even a sliver of our normal experience we are going to experiment with a new virtual world for people to gather together. The link is <a href=\"https://gather.town/fAGXHrSx0tOJDlfC/r-conference\" class=\"linkified\">https://gather.town/fAGXHrSx0tOJDlfC/r-conference<\/a> . Starting at 6:30 you can go to <a href=\"https://gather.town/fAGXHrSx0tOJDlfC/r-conference\" class=\"linkified\">https://gather.town/fAGXHrSx0tOJDlfC/r-conference<\/a> at roam around a virtual office and chat with each other. At 7 you should proceed to the \"Talks\" room where you will be able to enter the Zoom presentation (also available at <a href=\"https://zoom.us/j/97889324001\" class=\"linkified\">https://zoom.us/j/97889324001<\/a>).<\/p> <p>Since we still can't be together for pizza, Scott's Pizza Tours is sponsoring again and offering everyone 25% off virtual tours booked by July 31. Use code NerdsLovePizza at <a href=\"https://www.scottspizzatours.com/\" class=\"linkified\">https://www.scottspizzatours.com/<\/a> for the discount.<\/p> <p>About the Talk:<br/>A defining characteristic of ecological or environmental time series is that they are messy. They're full of holes, rarely long enough but often too big, and they have a tendency to start and stop at inconvenient times and places. On top of this, the things these time series measure are inherently complex, the result of myriad interactions and processes operating throughout the biogeosphere.<\/p> <p>In this talk I'll discuss how we use generalized additive models (GAMs) to estimate nonlinear spatio-temporal trends from these messy time series and illustrate the range of models and data types that we can handle with the mgcv and brms packages. I'll explain what modern GAMs are and how they learn from data, before moving on to demonstrate modern developments in GAMs that allow us to model entire conditional distributions rather than the usual focus on means and expectations. And as I'm a geographer, not a statistician, I plan to do this with pictures, not math.<\/p> <p>About Gavin:<\/p> <p>Gavin Simpson is a Research Scientist in the Institute of Environmental Change and Society at the University of Regina, Saskatchewan, Canada. He is a #fakebiologist and a #fakestatistician, but he does have two degrees in Geography from University College London in the UK, though he doesn’t make many maps.<\/p> <p>Gavin's research is broadly concerned with how ecosystems and the communities of species they support change in time and space, from seconds to millennia, from ones backyard to globally. He's been using R since before v1.0 and has developed or maintains a number of R packages, including vegan, for multivariate data analyses, and gratia, a package for working with Generalized Additive Models, which feature in much of his research.<\/p> <p>The talk will begin at 7 and we will start admitting people to the event early, details will be sent beforehand. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            307
+        ],
+        "rsvp_limit": [
+            330
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Gavin Simpson"
+        ],
+        "topics": [
+            "Generalized Additive Models"
+        ],
+        "slides": [
+
+        ]
+    },
+    {
+        "id": [
+            "271926414"
+        ],
+        "name": [
+            "Everything Not Tested will Eventually Fail—Testing Shiny Apps Before Production"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1595973600000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/271926414/"
+        ],
+        "description": [
+            "<p>Continuing our virtual meetups we have another speaker from far away. This month we have Colin Fay from France.<\/p> <p>Due to COVID-19 the meetup will take place entirely online. Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Our annual R Conference in New York is also virtual-only. We have an excellent lineup including Max Kuhn, Erin LeDell, Rob Hyndman, Jacqueline Nolis and Andrew Gelman. There are also two-days of workshops covering Machine Learning with tidymodels, git, Shiny, web scraping, GIS &amp; Mapping, EDA with the tidyverse and even scikit-learn. Visit <a href=\"https://rstats.ai/nyr/\" class=\"linkified\">https://rstats.ai/nyr/<\/a> for more information and use code nyhackr for a 20% discount.<\/p> <p>Since we still can't be together for pizza, Scott's Pizza Tours is sponsoring again and offering everyone 25% off virtual tours booked by July 31. Use code NerdsLovePizza at <a href=\"https://www.scottspizzatours.com/\" class=\"linkified\">https://www.scottspizzatours.com/<\/a> for the discount.<\/p> <p>About the Talk:<br/>You've probably already heard that \"Everything not tested will eventually fail\", or read that \"If you're not writing unit tests, your users are the unit tests\"... As extreme as they might sound, these quotes reveal one of the most important things when it comes to production-software: testing should be done as extensively as possible. Most R developers are already familiar with standard package testing, but things can get a little bit different when it comes to interactive web applications: what do we test, why, and how? In this talk, Colin will start by developing the good practices when it comes to testing Shiny, and present some of the tools you can use to test your own applications.<\/p> <p>About Colin:<br/>Colin Fay works at ThinkR, a French agency Focused on everything R-related. During the day, he helps companies to take full advantage of the power of R, by providing training, tools and infrastructure. His main areas of expertise are data &amp; software engineering, back-end &amp; infrastructure, and R in production. During the night, Colin is also a hyperactive open source developer and an open data advocate. You can find a lot of his work on his GitHub account (<a href=\"https://github.com/ColinFay\" class=\"linkified\">https://github.com/ColinFay<\/a>) and on ThinkR's account (<a href=\"https://github.com/thinkr-open\" class=\"linkified\">https://github.com/thinkr-open<\/a>). He is also active in the Data Science community in France, and an international speaker.<\/p> <p>The talk will begin at 6 and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            210
+        ],
+        "rsvp_limit": [
+            300
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Colin Fay"
+        ],
+        "topics": [
+            "Shiny"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Colin Fay"
+                ],
+                "title": [
+                    "Everything Not Tested will Eventually Fail—Testing Shiny Apps Before Production"
+                ],
+                "topics": [
+                    "Shiny"
+                ],
+                "file": [
+                    "Colin Fay - NYC Data Hackers Meetup.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ]
     }
 ]
