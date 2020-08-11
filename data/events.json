@@ -11742,5 +11742,88 @@
                 ]
             }
         ]
+    },
+    {
+        "id": [
+            "272228751"
+        ],
+        "name": [
+            "That Feeling of Workflowing"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1597100400000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/272228751/"
+        ],
+        "description": [
+            "<p>We are staying virtual to kick off R Week, with Miles McBain coming to us from Australia, following in the footsteps of Rob Hyndman, Earo Wang and Di Cook.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>This is the first event of the week, with our Sixth Annual R Conference and Workshops taking place that Wednesday through Saturday, 12th-15th. The workshops cover machine learning in both R and Python, web scraping, shiny, GIS, git and the tidyverse. Speakers include Andrew Gelman, Emily Dodwell, Jon Krohn, Emily Robinson, Wes McKinney, Ludmila Janda, David Robinson and too many more to list here. Visit <a href=\"https://rstats.ai/nyr/\" class=\"linkified\">https://rstats.ai/nyr/<\/a> for more information and use code nyhackr for a 20% discount.<\/p> <p>About the Talk:<br/>When would you use an R notebook versus a project dependency graph solver? Should everything be an R package? What can your R project workflow optimise for, and which properties of your work can this affect?<\/p> <p>Despite the importance of questions like these to having a happy and productive time with R, there is little community consensus on the principles for establishing R project workflows.<\/p> <p>We will begin the session by examining these questions and mapping out workflow styles served by existing R tooling. In the second half I will demonstrate practical productivity boosters my team and I have implemented along the way to a workflow centered on {drake}.<\/p> <p>About Miles:<br/>I'm a Data Scientist at Queensland Fire and Emergency Services where I use R to identify and analyse investment options in our emergency services network. Since I started programming in R about 5 years ago I've become an active #rstats tweeter, blogger, and RWeekly editor. I was an organiser of a local meetup group, three rOpensci OzUnconferences, and useR! 2018 Brisbane. I release R packages that do extremely niche things. Everyone's favourite is {datapasta} but {fnmate} is probably the one I get the most personal joy out of. I am into workflows because of their capacity to change the way work feels.<\/p> <p>The talk will begin at 7 and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            215
+        ],
+        "rsvp_limit": [
+            300
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Miles McBain"
+        ],
+        "topics": [
+            "Workflow"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Miles McBain"
+                ],
+                "title": [
+                    "That feeling of workflowing"
+                ],
+                "topics": [
+                    "Workflow"
+                ],
+                "file": [
+                    "Miles McBain - That feeling of workflowing.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ]
     }
 ]
