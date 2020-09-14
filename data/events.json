@@ -11657,7 +11657,29 @@
             "Generalized Additive Models"
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Gavin Simpson"
+                ],
+                "title": [
+                    "Learning when, where, and by how much, things change"
+                ],
+                "topics": [
+                    "Generalized Additive Models"
+                ],
+                "file": [
+                    "GAMs-Gavin-Simpson.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/Zxokd_Eqrcg"
+        ],
+        "VideoSource": [
+            "https://youtu.be/Zxokd_Eqrcg"
         ]
     },
     {
