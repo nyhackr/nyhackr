@@ -10665,7 +10665,23 @@
             "Data Visualization"
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Ludmila Janda"
+                ],
+                "title": [
+                    "the ggplot glow-up: making lovely data visualizations in R"
+                ],
+                "topics": [
+                    "Data Visualization"
+                ],
+                "file": [
+                    "the-ggplot-glow-up_Ludmila-Janda.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
         ],
         "video": [
             "https://youtu.be/yrZS8mGL-2E"
