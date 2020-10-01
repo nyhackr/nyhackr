@@ -11863,5 +11863,94 @@
                 ]
             }
         ]
+    },
+    {
+        "id": [
+            "272727821"
+        ],
+        "name": [
+            "Creating a Command Line Focused Development Environment"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1601420400000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/272727821/"
+        ],
+        "description": [
+            "<p>Continuing our virtual meetups we have Nick Janetakis coming to us from the far end of Long Island.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>About the Talk:<br/>Configuring your terminal and learning how to use the command line from scratch can be a daunting task with a pretty high time investment initially. In this talk we're going to cover what makes the command line useful, practical work flows (live demos), picking a terminal and shell, customizing your prompt, using and configuring tools like tmux and Vim, the concept of dotfiles and if time permits using various Unix tools together to solve real world problems. By the end of the talk you'll be well on your way to having a tricked out command line focused development environment.<\/p> <p>About Nick:<br/>Nick Janetakis is a developer and sysadmin. He is an independent freelancer, course creator and hosts the Running in Production podcast. Nick also has hundreds of blog posts and YouTube videos focused on building and deploying web apps along with development environment tips and tricks. His website is at <a href=\"https://nickjanetakis.com/\" class=\"linkified\">https://nickjanetakis.com/<\/a> and he can be found on Twitter at @nickjanetakis.<\/p> <p>The talk will begin at 7 and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            190
+        ],
+        "rsvp_limit": [
+            300
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Nick Janetakis"
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Nick Janetakis"
+                ],
+                "title": [
+                    "Creating a Command Line Driven Dev Environment"
+                ],
+                "topics": [
+                    ""
+                ],
+                "file": [
+                    "nyhackr-cli-dev-env.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/-eASvILZj6w"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
