@@ -11952,5 +11952,94 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "273775979"
+        ],
+        "name": [
+            "Data Validation in R: From Principles to Tools and Packages"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1603317600000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/273775979/"
+        ],
+        "description": [
+            "<p>Continuing to bring speakers from around the world, we have Caterina Constantinescu from Scotland talking about data validation.<\/p> <p>Please note the 6 PM start time.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>We just launched our government-focused R conference and much like our recent NYR, this is virtual, so anyone around the world can attend. Visit <a href=\"https://rstats.ai/gov/\" class=\"linkified\">https://rstats.ai/gov/<\/a> to learn more and use code nyhackr for a 20% discount on tickets.<\/p> <p>About the Talk:<br/>Although data cleaning is a frequent topic of conversation (and commiseration) in the world of data science, data validation---somewhat surprisingly---is discussed relatively less often. So in this talk, data validation will take centre stage, as we take a look at what it is (and is not), as well as some guiding principles, best practices and overall criteria to assess/ensure data validity. The talk will also cover several R packages aimed at this precise topic, for instance: {validate}, {assertr} and {ensurer}, as well as other related packages or functions, with examples provided as we go along. By the end of this talk, the aim is to have provided an overview on the principles and tools in this area, while highlighting the importance of the topic itself.<\/p> <p>About Caterina:<br/>Dr. Caterina Constantinescu is a data scientist working at Tesco Bank, whose past work ranges across areas such as research methods, national health data, occupational therapy, transport and data for good. Her academic background prior to this involved researching if various emotion-generating stimuli used in lab settings could approximate emotional states occurring in daily life. For several years she was also the organiser of the R meetup in Edinburgh (EdinbR), followed by organising the DataTech conference in 2019. Currently, her work focuses on writing Shiny apps that support data-driven decision-making across the bank.<\/p> <p>The talk will begin at 6 and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            279
+        ],
+        "rsvp_limit": [
+            300
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Caterina Constantinescu"
+        ],
+        "topics": [
+            "Data Validation"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Caterina Constantinescu"
+                ],
+                "title": [
+                    "Data Validation in R: From Principles to Tools and Packages"
+                ],
+                "topics": [
+                    "Data Validation"
+                ],
+                "file": [
+                    "Data_Validation-Caterina_Constantinescu.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://www.youtube.com/watch?v=0d1c-8yw6Tk"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
