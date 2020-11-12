@@ -12041,5 +12041,94 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "274200133"
+        ],
+        "name": [
+            "Future - Simple, Friendly Parallel Processing for R"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1604966400000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/274200133/"
+        ],
+        "description": [
+            "<p>This month's speaker comes to us from the R Foundation and R Consortium to talk about parallelism in R.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>The Government &amp; Public Sector R Conference is coming December 2-4, 2020. Much like our recent NYR, this is virtual, so anyone around the world can attend. Visit <a href=\"https://rstats.ai/gov/\" class=\"linkified\">https://rstats.ai/gov/<\/a> to learn more and use code nyhackr for a 20% discount on tickets.<\/p> <p>About the Talk:<br/>The ‘future’ package provides a minimal and unifying framework for asynchronous, parallel, and distributed computing in R. It is being used to run R code in parallel on the local computer, on remote machines, in the cloud, and on high-performance computing. Popular packages such as 'shiny’, ‘plumber’, and ‘drake’ use futures internally. I will explain what futures are, discuss common feature requests, recent progress, and what is on the roadmap.<\/p> <p>About Henrik:<br/>Henrik Bengtsson is the author of over 30 R packages on CRAN and Bioconductor, e.g. 'future', 'matrixStats', 'progressr', and 'startup'. His research is on statistics and bioinformatics with an emphasis on high quality, reproducible method development, sustainable implementations, and large-scale processing. He is an Associate Professor in the Department of Epidemiology &amp; Biostatistics at the University of California, San Francisco (UCSF), affiliated with the UCSF Helen Diller Family Comprehensive Cancer Center, and a member of the R Foundation and the R Consortium Infrastructure Steering Committee.<\/p> <p>The talk will begin at 7 PM EST and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            186
+        ],
+        "rsvp_limit": [
+            250
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Henrik Bengtsson"
+        ],
+        "topics": [
+            "Parallel"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Henrik Bengtsson"
+                ],
+                "title": [
+                    "Future: Simple, Friendly Parallel Processing For R"
+                ],
+                "topics": [
+                    "Parallel"
+                ],
+                "file": [
+                    "BengtssonHenrik_Nov9_2020-futures-RMeetup.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/2ZlpFkFMy7E"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
