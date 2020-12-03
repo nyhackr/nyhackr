@@ -12130,5 +12130,96 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "274517411"
+        ],
+        "name": [
+            "Reproducible Computation at Scale in R with Targets"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1606867200000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/274517411/"
+        ],
+        "description": [
+            "<p>Following up our earlier meetup about drake, we have its creator talking about its successor, targets.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>This meetup is the kickoff to the second 2020 R week with The R Conference for Government &amp; Public Sector on December 2-4. Much like our recent NYR, this is virtual, so anyone around the world can attend. Visit <a href=\"https://rstats.ai/gov/\" class=\"linkified\">https://rstats.ai/gov/<\/a> to learn more and use code nyhackr for a 20% discount on tickets, including workshops.<\/p> <p>About the Talk:<br/>Ambitious workflows in R, such as machine learning analyses, can be difficult to manage. A single round of computation can take several hours to complete, and routine updates to the code and data tend to invalidate hard-earned results. You can enhance the maintainability, hygiene, speed, scale, and reproducibility of such projects with the targets R package. targets resolves the dependency structure of your analysis pipeline, skips tasks that are already up to date, executes the rest with optional distributed computing, and manages data storage for you. It surpasses the permanent limitations of its predecessor, drake, and provides increased efficiency and a smoother user experience. This talk demonstrates how to create and maintain a Bayesian model validation project using targets-powered automation.<\/p> <p>About Will:<br/>Will is a statistician and software developer. He likes to solve scientific problems and engage with data analysis technologies.<\/p> <p>The talk will begin at 7 PM EST and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            160
+        ],
+        "rsvp_limit": [
+            200
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Will Landau"
+        ],
+        "topics": [
+            "Reproducible Research",
+            "targets"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Will Landau"
+                ],
+                "title": [
+                    "Reproducible computation at scale in R"
+                ],
+                "topics": [
+                    "Reproducible Research",
+                    "targets"
+                ],
+                "file": [
+                    "targets_Will-Landau.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://www.youtube.com/watch?v=Gqn7Xn4d5NI"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
