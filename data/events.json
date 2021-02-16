@@ -12280,13 +12280,29 @@
             ]
         },
         "speakers": [
-            "Daniel Falber"
+            "Daniel Falbel"
         ],
         "topics": [
             "Torch"
         ],
         "slides": [
-
+            {
+                "presenter": [
+                    "Daniel Falbel"
+                ],
+                "title": [
+                    "Torch for R"
+                ],
+                "topics": [
+                    "Torch"
+                ],
+                "file": [
+                    "Torch for R-Daniel Falbel.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
         ],
         "video": [
             "https://youtu.be/On2vLEJMFgg"
