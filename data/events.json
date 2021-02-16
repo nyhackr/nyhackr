@@ -12221,5 +12221,78 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "275562716"
+        ],
+        "name": [
+            "Torch for R"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1611792000000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/275562716/"
+        ],
+        "description": [
+            "<p>The week after rstudio::global(2021) we have a talk about the latest deep learning framework in R, {torch}.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Conversation during the meetup are encouraged in the Zoom chat and on the nyhackr slack.<\/p> <p>About the Talk:<br/>In this talk we are going to discuss the implementation of torch, introduce its main components and show some exciting new features that we plan to implement in 2021. We will also discuss the ecosystem that we want to build around the torch project.<\/p> <p>About Daniel:<br/>Daniel is a software engineer at RStudio and co-author of the torch package. He is also the maintainer of the TensorFlow for R project.<\/p> <p>The talk will begin at 7 PM EST and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            247
+        ],
+        "rsvp_limit": [
+            300
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Daniel Falber"
+        ],
+        "topics": [
+            "Torch"
+        ],
+        "slides": [
+
+        ],
+        "video": [
+            "https://youtu.be/On2vLEJMFgg"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
