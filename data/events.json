@@ -12492,5 +12492,96 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "276955206"
+        ],
+        "name": [
+            "The extendr project: Integrating R and Rust"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1619132400000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/276955206/"
+        ],
+        "description": [
+            "<p>We have our second Rust talk in three months, this time about integrating R and Rust.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Conversations during the meetup are encouraged in the monthly-meetup-chat channel in the nyhackr slack.<\/p> <p>About the Talk:<br/>Rust is a relatively new programming language that is rapidly gaining in popularity. It is designed to be suitable for low-level system programming with high performance and low overhead while providing modern abstractions and protection from undefined behavior. The most common application scenarios for Rust are those that otherwise might be suitable for C or C++. As such, Rust may be a good choice for writing extensions to high-level interactive languages such as R. The extendr project was founded with the goal to make writing Rust extensions to R as easy and painless as possible. At the same time, extendr also enables the reverse use case, writing standalone Rust programs that call R code and take advantage of the R runtime. This talk will provide an overview of the extendr API and its key design choices, and it will highlight simple use cases and known pitfalls. The talk is meant primarily as an introduction to Rust for current R users. However, experienced Rust programmers who want to branch out into data science and statistical programming may also find this talk helpful.<\/p> <p>About Claus:<br/>Claus Wilke is the Jane and Roland Blumberg Centennial Professor in Molecular Evolution at The University of Texas at Austin. He holds a PhD in Theoretical Physics from the University of Bochum in Germany, and he received postdoctoral training in biological physics in the lab of Chris Adami at Caltech. Claus Wilke has published extensively in the areas of computational biology, evolutionary biology, protein biochemistry, and virology. He has also authored several popular R packages used for data visualization, such as cowplot, ggridges, and ggtext, and he is a regular contributor to the package ggplot2.<\/p> <p>The talk will begin at 7 PM EDT and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            151
+        ],
+        "rsvp_limit": [
+            250
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Claus Wilke"
+        ],
+        "topics": [
+            "Rust",
+            "R"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Claus Wilke"
+                ],
+                "title": [
+                    "The extendr project: Integrating R and Rust"
+                ],
+                "topics": [
+                    "Rust",
+                    "R"
+                ],
+                "file": [
+                    "The-extendr-project-Integrating-R-and-Rust_Claus-Wilke.html"
+                ],
+                "format": [
+                    "html"
+                ]
+            }
+        ],
+        "video": [
+            "https://www.youtube.com/watch?v=EX7YG2pmcC8"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
