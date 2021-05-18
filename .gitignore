@@ -9,3 +9,4 @@ data/events.json.old
 packrat/lib*/
 packrat/src
 .httr-oauth
+scratch/
