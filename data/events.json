@@ -12583,5 +12583,94 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "277831968"
+        ],
+        "name": [
+            "Comparing {lightgbm} to other R GBDT Libraries"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1621292400000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/277831968/"
+        ],
+        "description": [
+            "<p>For this meetup we turn to LightGBM, a competitor to xgboost and catboost.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Conversations during the meetup are encouraged in the monthly-meetup-chat channel in the nyhackr slack: <a href=\"https://nyhackr.org/slack.html\" class=\"linkified\">https://nyhackr.org/slack.html<\/a><\/p> <p>About the Talk:<br/>In this talk, attendees will learn about LightGBM, a popular gradient boosted decision tree (GBDT) framework. The talk begins with an overview of LightGBM and the features that allow it to be fast without sacrificing accuracy. After those fundamentals, attendees will learn about how {lightgbm} compares to two other popular GBDT projects with R packages: {catboost} and {xgboost}. That portion of the talk will cover why you might choose one library over the others, and will discuss issues ranging from ease-of-installation and data loading to algorithmic details like handling of sparse features and strategies used to decide which splits to evaluate.<\/p> <p>About James:<br/>James Lamb is an engineer at Saturn Cloud, where he works on a team building a managed Dask + Kubernetes product. He is a maintainer on LightGBM, and has made many contributions to other open source data science projects, including xgboost and prefect. He holds masters degrees in Applied Economics (2014) and Data Science (2018). Before joining Saturn, he worked as an IoT Data Scientist at Amazon Web Services and Uptake.<\/p> <p>GitHub: <a href=\"https://github.com/jameslamb\" class=\"linkified\">https://github.com/jameslamb<\/a><br/>LinkedIn: <a href=\"https://www.linkedin.com/in/jameslamb1/\" class=\"linkified\">https://www.linkedin.com/in/jameslamb1/<\/a><br/>Twitter: <a href=\"https://twitter.com/_jameslamb\" class=\"linkified\">https://twitter.com/_jameslamb<\/a><\/p> <p>The talk will begin at 7 PM EDT and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            119
+        ],
+        "rsvp_limit": [
+            200
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "James Lamb"
+        ],
+        "topics": [
+            "Gradient Boosted Machines"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "James Lamb"
+                ],
+                "title": [
+                    "The extendr project: Integrating R and Rust"
+                ],
+                "topics": [
+                    "Gradient Boosted Machines"
+                ],
+                "file": [
+                    "Comparing-lightgbm-to-other-R-GBDT-libraries_James-Lamb.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/z64JFJQR_J0"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
