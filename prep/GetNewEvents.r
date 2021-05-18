@@ -46,6 +46,10 @@ new_events <- past_events %>%
     ) %>%
     transpose()
 
+ignored_events <- c("273172949")
+
+new_events <- discard(new_events, ~ .x$id %in% ignored_events)
+
 updated <- c(old_events, new_events)
 updated %>%
     toJSON() %>%
