@@ -46,6 +46,12 @@ crosstalk::bscols(widths=c(6, 6),
                                    htmltools::img(
                                        src="images/sponsors/slice-logo-primary-web-large.png",
                                        style="width: 60%;")
+                      ),
+                      htmltools::tags$p(class='spacer'),
+                      htmltools::a(href="https://www.ecohealthalliance.org/",
+                                   htmltools::img(
+                                       src="images/sponsors/EcohealthAlliance-logo.png",
+                                       style="width: 60%;")
                       )
                   )
 )
