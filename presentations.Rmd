@@ -2,6 +2,10 @@
 title: "Presentations"
 ---
 
+Whenever possible we make presentations available at the [Presentations](/presentations.html) page.
+
+We now stream our meetups through Zoom, RSVP on our [meetup page](https://www.meetup.com/nyhackr/). You can find past meetup recordings on [YouTube](https://www.youtube.com/playlist?list=PLlzRFZmxVl9QqpFSfkv6JdYrg29xFwxRt&utm_source=nyhackr). They are also listed on the [Presentations page](/presentations.html).
+
 ```{r setup,include=FALSE}
 knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
 ```
