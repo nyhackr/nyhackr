@@ -6,16 +6,24 @@ title: "R Conference"
 knitr::opts_chunk$set(cache=FALSE,echo=FALSE)
 ```
 
-# New York R Conference \| September 8-10, 2021
+# New York R Conference \| September 9-10, 2021
 
-[![](images/NYR2020.png)](https://rstats.ai/nyr/#about)
+[![](images/NYR2021.jpg)](https://rstats.ai/nyr/#about)
 
-### Workshops \| September 8, 2021
+[**Click here to buy tickets to the conference & workshops!**](https://rstats.ai/tickets/)
+
+### Workshops \| September 1, 2021 (a week prior to the conference)
 
 ### Conference \| September, 9-10, 2021
 
-The seventh annual [R Conference \| New York](https://rstats.ai/nyr/?utm_source=landeranalytics) will take place as a hybrid (in-person & virtual) event on September 9-10, 2021 with workshops on September 8th. More details to come. Follow [\@rstatsai](https://twitter.com/rstatsai/?utm_source=nyhackr) on Twitter.
+**New York R Conference -- September 9-10, 2021**, where R enthusiasts and data scientists will gather to explore, share, and inspire ideas! You have the option to either attend in-person in NYC at FIAF or virtually online.
 
-If you are interested in being a sponsor for the 2021 New York R Conference, please contact us at [info\@landeranalytics.com](mailto:info@landeranalytics.com){.email}.
+All **workshops\*** will be held on **September 1st**, the week prior to the conference. You have the option to attend most workshops either in-person in NYC (location to be announced soon) or virtually online. Some workshops are only available virtually.
 
-For more about the community, visit our website at [nyhackr.org](https://nyhackr.org/?utm_source=nyhackr), join our [slack team](https://nyhackr.slack.com/shared_invite/MTg0ODY4ODE2MjkwLTE0OTUwNTY3NTEtZGYzYzNiOTg2OA) and follow us on Twitter at [\@nyhackr](https://twitter.com/nyhackr) and [\@rstatsnyc](https://twitter.com/rstatsnyc) and follow the [\#rstatsnyc](https://twitter.com/hashtag/rstatsnyc) hashtag.
+Please make sure you select the correct ticket type.
+
+*\*Workshop tickets do NOT include access to the conference. If you would like to attend both a workshop and the conference, you will have to add both tickets to your cart.*
+
+The R Conference is presented by [*Lander Analytics*](http://www.landeranalytics.com/). If you are interested in being a sponsor for the 2021 New York R Conference, please contact us at [info\@landeranalytics.com](mailto:info@landeranalytics.com){.email}.
+
+Join our slack team and follow us on Twitter at @nyhackr and @rstatsai and follow the [\#rstatsnyc](https://twitter.com/hashtag/rstatsnyc) hashtag.
