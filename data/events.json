@@ -12672,5 +12672,96 @@
         "VideoSource": [
             "YouTube"
         ]
+    },
+    {
+        "id": [
+            "278432228"
+        ],
+        "name": [
+            "Text Preprocessing in R"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1623798000000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/278432228/"
+        ],
+        "description": [
+            "<p>Continuing virtually, this month we have a talk about text preprocessing.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Conversations during the meetup are encouraged in the monthly-meetup-chat channel in the nyhackr slack: <a href=\"https://nyhackr.org/slack.html\" class=\"linkified\">https://nyhackr.org/slack.html<\/a><\/p> <p>Outside the meetups we have two events planned:<\/p> <p>The 2021 R Conference in NY, September 8-10 as both in-person and virtual: <a href=\"https://rstats.ai/nyr/\" class=\"linkified\">https://rstats.ai/nyr/<\/a><br/>The Bayes and Stan workshop, July 14-16, fully virtual: <a href=\"https://www.tickettailor.com/events/landeranalytics/505284\" class=\"linkified\">https://www.tickettailor.com/events/landeranalytics/505284<\/a><\/p> <p>About the Talk:<br/>Text constitutes an ever-growing part of the data available to us today. However, it is a non-trivial task to transform text, represented as long strings of characters, into numbers that we can use in our statistical and machine learning models. This talk will focus on the {textrecipes} package and its recent advancements in the realm of text preprocessing.<\/p> <p>About Emil:<br/>Emil Hvitfeldt is a clinical data analyst working in healthcare, and an adjunct professor at American University teaching statistical machine learning with tidymodels. He is also an open-source R developer and author of the {textrecipes} package.<\/p> <p>The talk will begin at 7 PM EDT and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            237
+        ],
+        "rsvp_limit": [
+            240
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "Emil Hvitfeldt"
+        ],
+        "topics": [
+            "Text Minig",
+            "Natural Language Processing"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Emil Hvitfeldt"
+                ],
+                "title": [
+                    "Text Preprocessing in R"
+                ],
+                "topics": [
+                    "Text Minig",
+                    "Natural Language Processing"
+                ],
+                "file": [
+                    "Text-Preprocessing-in-R_Emil-Hvitfeldt.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/kjA7LwaYYfM"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
     }
 ]
