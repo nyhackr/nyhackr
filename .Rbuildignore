@@ -2,3 +2,4 @@
 ^renv\.lock$
 ^packrat/
 ^\.Rprofile$
+^\.github$

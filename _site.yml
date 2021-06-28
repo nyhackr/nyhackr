@@ -8,6 +8,7 @@ exclude:
     - utils
     - travis
     - DESCRIPTION
+    - renv.lock
 navbar:
     title: "<a href='index.html'><img src='images/nyhackr-fav.png' /></a>"
     left:
