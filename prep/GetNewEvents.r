@@ -33,7 +33,7 @@ new_events <- past_events %>%
         venue
     ) %>%
     mutate(
-        time = time * 1000,
+        time = as.numeric(time) * 1000,
         speakers = list(list()),
         topics = list(list()),
         slides = list(list()),
