@@ -12645,7 +12645,7 @@
             "James Lamb"
         ],
         "topics": [
-            "Gradient Boosted Machines"
+            "Gradient Boosted Machines", "Machine Learning", "Boosted Trees"
         ],
         "slides": [
             {
@@ -12848,6 +12848,95 @@
         ],
         "video": [
             "https://youtu.be/2dv7NrYExzo"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "id": [
+            "279656145"
+        ],
+        "name": [
+            "tidyquery and queryparser: Translating SQL Queries to dplyr Pipelines"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1628809200000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/279656145/"
+        ],
+        "description": [
+            "<p>This month we look at the intersection of R and SQL.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Conversations during the meetup are encouraged in the monthly-meetup-chat channel in the nyhackr slack: <a href=\"https://nyhackr.org/slack.html\" class=\"linkified\">https://nyhackr.org/slack.html<\/a><\/p> <p>The R Conference returns in-person (and virtual) September 9-10 with workshops on September 1! Find out more at <a href=\"https://rstats.ai/nyr/\" class=\"linkified\">https://rstats.ai/nyr/<\/a>.<\/p> <p>About the Talk:<br/>The R package {tidyquery} runs SQL queries on R data frames. To do this, it uses the R package {queryparser} to translate SQL queries into R expressions, then uses {dplyr} to evaluate these expressions. In this talk, I'll describe the reasons for creating {tidyquery} and {queryparser} and compare them to several other packages with related goals, including {sqldf} and {dbplyr}. I'll also discuss the broader theme of \"syntaxes for data manipulation\"—how they differ across languages, packages, and frameworks and what other efforts are underway to loosen the tight coupling of these syntaxes to the compute engines they control.<\/p> <p>About Ian:<br/>Ian Cook is the director of developer relations at Ursa Computing, where he promotes and contributes to the Apache Arrow project. Previously he worked as a machine learning educator at Cloudera and a data scientist at TIBCO and AMD. He is the author of several R packages and the creator of the popular Coursera course “Analyzing Big Data with SQL.” Ian is a co-founder of Research Triangle Analysts, the largest data science meetup group in the Raleigh, North Carolina, area. He received a masters degree in statistics from Lehigh University.<\/p> <p>The talk will begin at 7 PM EDT and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            159
+        ],
+        "rsvp_limit": [
+            250
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Ian Cook"
+                ],
+                "title": [
+                    "tidyquery and queryparser: Translating SQL Queries to dplyr Pipelines"
+                ],
+                "topics": [
+                    "Data", "SQL", "dplyr", "Data Manipulation"
+                ],
+                "file": [
+                    "tidyquery-and-queryparser-Translating-SQL-Queries-to-dplyr-Pipelines_Ian-Cook.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/gIBFpeAXnKU"
         ],
         "VideoSource": [
             "YouTube"
