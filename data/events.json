@@ -12645,7 +12645,9 @@
             "James Lamb"
         ],
         "topics": [
-            "Gradient Boosted Machines", "Machine Learning", "Boosted Trees"
+            "Gradient Boosted Machines",
+            "Machine Learning",
+            "Boosted Trees"
         ],
         "slides": [
             {
@@ -12925,7 +12927,11 @@
                     "tidyquery and queryparser: Translating SQL Queries to dplyr Pipelines"
                 ],
                 "topics": [
-                    "Data", "SQL", "dplyr", "Data Manipulation"
+                    "R",
+                    "Data",
+                    "SQL",
+                    "dplyr",
+                    "Data Manipulation"
                 ],
                 "file": [
                     "tidyquery-and-queryparser-Translating-SQL-Queries-to-dplyr-Pipelines_Ian-Cook.pdf"
@@ -12937,6 +12943,98 @@
         ],
         "video": [
             "https://youtu.be/gIBFpeAXnKU"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "id": [
+            "280389587"
+        ],
+        "name": [
+            "I Made an Entire E-Commerce Platform on Shiny"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1630623600000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/280389587/"
+        ],
+        "description": [
+            "<p>We have repeat R Conference Speaker Jacqueline Nolis speaking at this year's pre-conference Meetup.<\/p> <p>The R Conference is now completely virtual with workshops on September 1st and the conference September 9-10. For tickets and more information visit <a href=\"https://rstats.ai/nyr/\" class=\"linkified\">https://rstats.ai/nyr/<\/a>.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Conversations during the meetup are encouraged in the monthly-meetup-chat channel in the nyhackr slack: <a href=\"https://nyhackr.org/slack.html\" class=\"linkified\">https://nyhackr.org/slack.html<\/a><\/p> <p>About the Talk:<br/>E-commerce has many components that must be securely handled–managing a user's shopping cart, checking out and taking payment, and fulfilling orders. I am excited to say that I've successfully created an e-commerce platform entirely in a single Shiny app for my side project: {ggirl}. Using the experimental {brochure} package by Colin Fay I was able to make a complex Shiny web service that lets R users order physical postcards of ggplots. I integrated Stripe for payments and used webhooks to know when to fulfill orders. I even used {httr} to make API calls to order the physical products from suppliers after the customer payments are received. In this talk I'll go through the architecture I devised and how you can make an ecommerce platform yourself!<\/p> <p>About Jacqueline:<br/>Dr. Jacqueline Nolis is a data science leader with over 15 years of experience in managing data science teams and projects at companies ranging from DSW to Airbnb. She currently is the Head of Data Science at Saturn Cloud where she helps design products for data scientists. Jacqueline has a PhD in Industrial Engineering and coauthored the book Build a Career in Data Science. For fun she likes to use data science for humor—like using deep learning to generate offensive license plates.<\/p> <p>The talk will begin at 7 PM EDT and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            134
+        ],
+        "rsvp_limit": [
+            200
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+
+        ],
+        "topics": [
+
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "Jacqueline Nolis"
+                ],
+                "title": [
+                    "I made an entire e-commerce platform on Shiny"
+                ],
+                "topics": [
+                    "R",
+                    "Shiny",
+                    "ggplot2",
+                    "Cloud"
+                ],
+                "file": [
+                    "I-made-an-entire-e-commerce-platform-on-shiny_Jacqueline-Nolis.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/fPF_MMPSqtA"
         ],
         "VideoSource": [
             "YouTube"
