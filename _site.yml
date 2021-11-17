@@ -26,8 +26,8 @@ navbar:
           href: books.html
         - text: "Sponsors"
           href: sponsors.html
-        - text: "Conference"
-          href: nyr.html
+        # - text: "Conference"
+        #   href: nyr.html
         - text: "Slack"
           href: slack.html
         - text: "Contact"
