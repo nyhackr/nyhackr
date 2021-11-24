@@ -13110,7 +13110,8 @@
             "Kun Ren"
         ],
         "topics": [
-            "VS Code", "Editor"
+            "VS Code",
+            "Editor"
         ],
         "slides": [
             {
@@ -13121,7 +13122,8 @@
                     "Using R in VS Code"
                 ],
                 "topics": [
-                    "VS Code", "Editor"
+                    "VS Code",
+                    "Editor"
                 ],
                 "file": [
                     "Using_R_in_VSCode-Ren_Kun.pdf"
@@ -13133,6 +13135,95 @@
         ],
         "video": [
             "https://www.youtube.com/watch?v=9xXBDU2z_8Y"
+        ],
+        "VideoSource": [
+            "YouTube"
+        ]
+    },
+    {
+        "id": [
+            "281842775"
+        ],
+        "name": [
+            "Fast(ish) Workflows with Billions of Records"
+        ],
+        "status": [
+            "past"
+        ],
+        "time": [
+            1637280000000
+        ],
+        "link": [
+            "https://www.meetup.com/nyhackr/events/281842775/"
+        ],
+        "description": [
+            "<p>Long time member of the meetup, and repeat speaker, JD Long returns, virtually, to tell us about big data.<\/p> <p>The 2021 Government &amp; Public Sector R Conference will be fully virtual December 8-10. Members of the group can use code nyhackr for a 20% discount at <a href=\"https://rstats.ai/gov/\" class=\"linkified\">https://rstats.ai/gov/<\/a>.<\/p> <p>Thank you to EcoHealth Alliance for providing the Zoom link.<\/p> <p>Conversations during the meetup are encouraged in the monthly-meetup-chat channel in the nyhackr slack: <a href=\"https://nyhackr.org/slack.html\" class=\"linkified\">https://nyhackr.org/slack.html<\/a><\/p> <p>About the Talk:<br/>Before we even dust off R and start to do analysis, we sometimes have to wrangle ridiculous quantities of data. The promise of cloud vendors is that it is easy with the cloud. The reality is often quite different. Recently, JD was faced with the problem of a recurring workflow that involves joining 35 billion records into a many-to-many join resulting in 75+ billion records and then collapsing that down to summary data. He grabbed a small team of developers and set out on a multi-week journey to figure out how to solve this workflow while minimizing runtime and costs. Some of the most important findings weren't just \"which platform to use?\" but, more importantly, \"how should a team think about this class of problem?\" This presentation will be light on R, and heavy on Amazon Web Services but will be of interest to anyone who's wondering what it takes to move billions of rows of data around efficiently.<\/p> <p>About JD:<br/>JD Long is co-author of The R Cookbook 2nd Edition and founder of the Chicago R User group. His day job is helping to build risk solutions at a global reinsurance company which involves using a suite of tools that include not only R but also Python, and a host of AWS tooling. JD lived in the NYC area for a number of years and now lives in Richmond, Virginia with his wife, daughter, and dog.<\/p> <p>The talk will begin at 7 PM America/New_York and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have pizza individually.<\/p> "
+        ],
+        "waitlist_count": [
+            0
+        ],
+        "yes_rsvp_count": [
+            179
+        ],
+        "rsvp_limit": [
+            250
+        ],
+        "venue": {
+            "id": [
+                "26906060"
+            ],
+            "name": [
+                "Online event"
+            ],
+            "lat": [
+                ""
+            ],
+            "lon": [
+                ""
+            ],
+            "address_1": [
+                ""
+            ],
+            "city": [
+                ""
+            ],
+            "state": [
+                ""
+            ],
+            "zip": [
+                ""
+            ],
+            "country": [
+                ""
+            ]
+        },
+        "speakers": [
+            "JD LONG"
+        ],
+        "topics": [
+            "SQL","Datbase","Spark","Dask","Data Manipulation","Big Data","AWS","Cloud"
+        ],
+        "slides": [
+            {
+                "presenter": [
+                    "JD Long"
+                ],
+                "title": [
+                    "A Random Journey Around Big Data Tooling"
+                ],
+                "topics": [
+                    "SQL","Datbase","Spark","Dask","Data Manipulation","Big Data","AWS","Cloud"
+                ],
+                "file": [
+                    "A-Random-Journey-Around-Big-Data-Tooling_JD-Long.pdf"
+                ],
+                "format": [
+                    "pdf"
+                ]
+            }
+        ],
+        "video": [
+            "https://youtu.be/NflaK16fIJQ"
         ],
         "VideoSource": [
             "YouTube"
