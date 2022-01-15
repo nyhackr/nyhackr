@@ -2,26 +2,8 @@
 title: "Events"
 ---
 
-# Government & Public Sector R Conference | December 8-10, 2021
+# New York R Conference | June 8-10, 2022
 
-[![](images/Email & Rstats.ai Banner - R Gov 2021.png)](https://rstats.ai/gov?utm_source=nyhackr)
 
-[**Click here to buy tickets to the conference & workshops!**](https://rstats.ai/tickets/?utm_source=nyhackr)
+[![](images/Save_the_date_2022_NYR_Conference.jpg)](https://rstats.ai/nyr/?utm_source=nyhackr)
 
-### Workshops \| December 8, 2021
-
-### Conference \| December 9-10, 2021
-
-[Government & Public Sector R Conference](https://rstats.ai/gov?utm_source=nyhackr) virtually online December 9-10, 2021, where R enthusiasts and data scientists will gather to explore, share, and inspire ideas!
-
-All **workshops\*** will be held on **December 8th**.
-
-Please make sure you select the correct ticket type.
-
-For more information visit [rstats.ai](https://rstats.ai/gov?utm_source=nyhackr).
-
-*\*Workshop tickets do NOT include access to the conference. If you would like to attend both a workshop and the conference, you will have to add both tickets to your cart.*
-
-The R Conference is presented by [*Lander Analytics*](http://www.landeranalytics.com/?utm_source=nyhackr). If you are interested in being a sponsor for the 2021 Government & Public Sector R Conference, please contact us at [info\@landeranalytics.com](mailto:info@landeranalytics.com){.email}.
-
-Join our slack team and follow us on Twitter at @[nyhackr](https://twitter.com/nyhackr?utm_source=nyhackr) and @[rstatsai](https://twitter.com/rstatsai?utm_source=nyhackr) and follow the [\#rstatsnyc](https://twitter.com/hashtag/rstatsgov) hashtag.

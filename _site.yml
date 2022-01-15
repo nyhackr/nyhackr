@@ -41,5 +41,5 @@ output:
         css: [css/DataTable.css, css/Spacer.css, css/FlexWrap.css]
         includes:
             in_header: includes/favicon.html
-            after_body: includes/GoogleAnalytics.html
+            after_body: includes/footer.html
         smart: false
