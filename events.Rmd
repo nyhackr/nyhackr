@@ -4,6 +4,25 @@ title: "Events"
 
 # New York R Conference | June 8-10, 2022
 
+<div style="max-width: 800px;">
+<a href="https://rstats.ai/nyr/?utm_source=nyhackr">
+<img src="images/2022_Email_website_Banner_NYR.png">
+</a>
+</div>
 
-[![](images/Save_the_date_2022_NYR_Conference.jpg)](https://rstats.ai/nyr/?utm_source=nyhackr)
 
+<br>
+
+[Click here to purchase tickets!](https://rstats.ai/tickets/?utm_source=rstatsai)  
+In-person & virtual tickets are available.
+
+**Workshops:** Wednesday, June 8, 2022  
+**Conference:** Thursday, June 9 & Friday, June 10, 2022  
+
+Join in on the fun for the eighth annual New York R Conference, where R enthusiasts and data scientists will gather to explore, share, and inspire ideas!  
+
+For more information about the speakers, workshops, agenda and more visit [rstats.ai](https://rstats.ai/nyr).  
+
+Follow [@rstatsai](https://twitter.com/rstatsai/?utm_source=rstatsai), [@LanderAnalytics](https://twitter.com/LanderAnalytics/?utm_source=rstatsai) and [#rstatsnyc](https://twitter.com/hashtag/rstatsnyc/?utm_source=rstatsai) on Twitter for conference updates.
+
+The R Conference is presented by Lander Analytics.
