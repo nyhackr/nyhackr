@@ -90,4 +90,3 @@ The nyhackr website was built as a [RMarkdown website](http://rmarkdown.rstudio.
 
 ```{r contributing, child='README.md'}
 ```
-
