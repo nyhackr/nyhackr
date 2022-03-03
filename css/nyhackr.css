@@ -1,0 +1,185 @@
+body {
+  font-size: 1.7rem
+}
+
+.main-container {
+  max-width: 1140px !important;
+  padding: 20px 15px 0 15px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo > img {
+  position: absolute;
+  max-width: 80px;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  border-radius: 8px;
+}
+
+/* flex box container */
+#meetup-card-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* individual cards are flex items */
+.meetup-card {
+  min-width: 45%;
+  padding: 0.5em;
+}
+
+.meetup-card img {
+  border-radius: 0.5em !important;  
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 89, 128, 0.8);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 89, 128, 0.8)
+}
+
+.home-card {
+  width: min(100%, 500px);
+  padding: 1em 0 1em 0;
+}
+
+.home-card img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.event-card {
+  padding: 1em 0 1em 0;
+}
+
+.event-card img {
+  width: min(100%, 600px);
+  border-radius: 1em !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 89, 128, 0.8);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 89, 128, 0.8)
+}
+
+
+/* https://codepen.io/MarioDesigns/pen/woJgeo */
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-15px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+#jobs-tag {
+  position: fixed;
+  top: 60px; /*controlled by js */
+  right: 40px; /*controlled by js */
+  z-index: 9999;
+	width: 75px;
+	height: 40px;  
+	
+	box-sizing: border-box;
+	border: 2px white solid;
+	border-radius: 0.7em;
+	overflow: hidden;
+  background: #4DD4B2;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+#jobs-tag > p {
+  color: white;
+  font-weight: 700;
+}
+
+.book-container > p > a > img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.book-text-container {
+  position: relative;
+  height: 8em;
+  line-height: normal;
+}
+
+.book-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.book-title {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: #525252;
+}
+
+.book-author {
+  font-size: 0.8em;
+}
+
+.bookthumb {
+    width: 50%;
+    margin: auto;
+}
+
+.book-flexArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blur {
+  filter: blur(6px);
+}
+
+.navbar {
+  background: #b51f1f;
+}
+
+.navbar a {
+  color: white !important;;
+}
+
+.navbar li.active > a {
+  background: #c95d5d !important;
+}
+
+.navbar li.open > a {
+  background: #c95d5d !important;
+}
+
+.dropdown-menu {
+  background: #b51f1f;
+}
+
+.dropdown-menu li:hover > a {
+  background: #c95d5d !important;
+}

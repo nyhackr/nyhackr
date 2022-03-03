@@ -11,3 +11,13 @@ packrat/src
 .httr-oauth
 scratch/
 C:\Users\jared\AppData\Local/meetupr/meetupr/meetupr-token.rds
+
+# built site
+/_site
+
+# google credentials
+service-account.json
+service-account.json.encrypted
+R/gs_auth.R
+
+.Renviron

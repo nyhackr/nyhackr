@@ -1,4 +1,6 @@
-### How to contribute
+# nyhackr
+
+## How to contribute
 
 If you wish to contribute to the website the process is pretty simple.
 
@@ -7,3 +9,39 @@ If you wish to contribute to the website the process is pretty simple.
 3. Make your changes. You can build and view your local version by using `rmarkdown::render_site()`
 4. When you are done, [submit a pull request](https://help.github.com/articles/about-pull-requests/). Your changes might not appear on the public site right away as we have a development version for making sure changes don't break the site.
 
+### Data access
+
+An .Renviron, json file, and gs_auth.R is required to access the data stored on Google Drive. Email Jared Lander to get access.
+
+### How to update the site with the latest events
+
+The site is built using Rmarkdown. `_site.yml` controls the site layout and the individual `*.Rmd` files control each page. Data is pulled from the MeetUp API and stored within Google Sheets. On render, the site pulls the latest data, updates the sheets, and repulls the sheet to render the site.
+
+After each event, update the topics, speakers, and video URLs columns in the Google Sheet. Data should be in tidy format with each row representing a speaker at a given event.
+
+Edit the individual `*.Rmd` files to update any static text.
+
+
+### Directory
+
+    .
+    ├── css/		   CSS files to be included with rendered site
+    ├── img/
+    │   ├── books/
+    │   ├── events/
+    │   ├── meetups/
+    │   └── sponsors/
+    ├── includes/         HTML files to include as specified in _site.yml
+    ├── js/               JavaScipt files to be included with rendered site
+    ├── R/                R functions to pull data and format HTML 
+    ├── renv/
+    ├── update-data/      Scripts to update the talks data
+    ├── _site.yml         Controls the site structure
+    ├── about.Rmd         Renders to the about page
+    ├── books.Rmd         Renders to the books page
+    ├── contact.Rmd       Renders to the contact page
+    ├── events.Rmd        Renders to the events page
+    ├── index.Rmd         Renders to the home page
+    ├── past-talks.Rmd    Renders to the past talks page
+    ├── pizza.Rmd         Renders to the pizza page
+    └── README.md

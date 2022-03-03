@@ -1,0 +1,50 @@
+---
+title: ""
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+purrr::map(list.files('R', full.names = TRUE), source)
+```
+
+
+## Recent talks
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# TODO: grab this from meetup api?
+meetups <- get_past_talk_links(n = 4)
+
+### create a flex box of images
+# links to meetups TODO: change to youtube talks !!!!
+# meetups <- c(
+#   "https://www.meetup.com/nyhackr/events/283508565/",
+#   "https://www.meetup.com/nyhackr/events/282701215/",
+#   "https://www.meetup.com/nyhackr/events/282272718/",
+#   "https://www.meetup.com/nyhackr/events/281842775/")
+# links to images
+images <- c(
+    "https://secure.meetupstatic.com/photos/event/3/3/5/9/highres_501613145.jpeg",
+    "https://secure.meetupstatic.com/photos/event/9/a/6/4/clean_500859524.jpeg",
+    "https://secure.meetupstatic.com/photos/event/4/8/2/b/clean_500418475.jpeg",
+    "https://secure.meetupstatic.com/photos/event/a/d/4/d/clean_499964365.jpeg"
+  )
+
+# wrap the images
+elements <- htmltools::tagList(purrr::map2(meetups, images, ~create_card(.x, .y)))
+
+# insert cards into flex box container
+htmltools::div(
+  id = 'meetup-card-container',
+  elements
+)
+```
+
+<br><br>
+
+## Archive
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+talks <- get_current_talks(gsheet_id)
+render_archive(talks)
+```
+
