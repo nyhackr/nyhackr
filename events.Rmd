@@ -3,6 +3,7 @@ title: ''
 ---
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
 source('R/gs_auth.R')
 source('R/events.R')
 

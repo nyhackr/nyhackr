@@ -52,12 +52,6 @@ get_past_talks <- function(n = 1000, flatten = TRUE){
   return(talks)
 }
 
-get_past_talk_links <- function(n = 4){
-  talks_json <- get_past_talks(n = n, flatten = FALSE)
-  links <- purrr::map_chr(talks_json, ~.x$link)
-  return(links)
-}
-
 flatten_talk_jsons <- function(.data){
   # extract and flatten the pulled api data into a dataframe
   # TOOD: implement for multiple speakers per event or is that just handled within google drive manual edit?
@@ -125,5 +119,4 @@ parse_current_talks <- function(.data){
   
   return(.data)
 }
-
 

@@ -2,6 +2,11 @@
 title: "About nyhackr"
 ---
 
+```{r message=FALSE, warning=FALSE, include=FALSE}
+source('R/about.R')
+```
+
+
 Founded by [Josh Reich](https://www.meetup.com/nyhackr/members/8912279/) and [Drew Conway](https://www.meetup.com/nyhackr/members/9179090/), the [New York Open Statistical Programming Meetup](https://www.meetup.com/nyhackr/) started as the New York R Meetup with a handful of people in an office at [Union Square Ventures](https://www.usv.com/).  Since then it has grown to over 11,000 members and has been hosted at [NYU](https://www.nyu.edu), [Columbia](https://www.columbia.edu), [AOL](http://www.aol.com/), [iHeartRadio](https://www.iheart.com/), [eBay](https://www.ebay.com), [Work-Bench](https://www.work-bench.com/) and other locations.
 
 Our mission is to spread knowledge of statistical programming techniques in open-source languages such as R, Python, Julia and Go, and data science in general.  Another important aspect is community building and socializing.  The meetups start with pizza, followed by a 45-90 minute talk, ending with a trip to the local bar.
@@ -20,54 +25,7 @@ Job openings and other announcements are on our [<i class="fa fa-slack"></i> Sla
 <br>
 
 ```{r sponsors, echo=FALSE, message=FALSE, warning=FALSE}
-crosstalk::bscols(widths=c(6, 6),
-                  list(
-                      htmltools::a(href="https://www.r-consortium.org/",
-                                   htmltools::img(src="img/sponsors/RConsortium-logo.png",
-                                                   style="width: 75%;")
-                      ),
-                      htmltools::tags$p(class='spacer'),
-                      htmltools::a(href="https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-2017-with-andrew-gelman-jonah-gabry-michael-betancourt-tickets-36284546054?discount=nyhackr",
-                                   htmltools::img(
-                                       src="img/sponsors/stanlogo-2.png",
-                                       style="width: 55%;")
-                      ),
-                      htmltools::tags$p(class='spacer'),
-                      htmltools::a(href="http://www.ebaynyc.com/",
-                                   htmltools::img(src="img/sponsors/ebaynyc-web.png",
-                                                   style="width: 75%;")
-                      ),
-                      htmltools::tags$p(class='spacer'),
-                      htmltools::a(href="https://www.oreilly.com/",
-                                   htmltools::img(src="img/sponsors/oreilly-logo.png")
-                      )
-                  ),
-                  list(
-                      htmltools::a(href="http://www.oreilly.com/pub/cpc/79528",
-                                   htmltools::img(src="img/sponsors/JupyterCon.png")
-                      ),
-                      htmltools::tags$p(class='spacer'),
-                      htmltools::a(href="https://mran.microsoft.com/open/",
-                                   htmltools::img(src="img/sponsors/microsoft-logo.png")
-                      ),
-                      htmltools::tags$p(class='spacer'),
-                      htmltools::a(href="https://www.datacamp.com/home",
-                                   htmltools::img(src="img/sponsors/DataCampHorizontalFull.png")
-                      ),
-                      htmltools::tags$p(class='spacer'),
-                      htmltools::a(href="http://slicelife.com/",
-                                   htmltools::img(
-                                       src="img/sponsors/slice-logo-primary-web-large.png",
-                                       style="width: 60%;")
-                      ),
-                      htmltools::tags$p(class='spacer'),
-                      htmltools::a(href="https://www.ecohealthalliance.org/",
-                                   htmltools::img(
-                                       src="img/sponsors/EcohealthAlliance-logo.png",
-                                       style="width: 60%;")
-                      )
-                  )
-)
+render_sponsors()
 ```
 
 <br><br>
