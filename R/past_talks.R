@@ -35,13 +35,15 @@ render_archive <- function(.data){
         pageLength = 10,
         scrollX = TRUE
       ),
-      callback = dt_callback_child_row() # enable child rows
-    )
+    callback = dt_callback_child_row() # enable child rows
+  )
 }
 
 dt_format_data <- function(.data){
   # filter, cleanup, and munge data to right shape for datatable
-
+  
+  # TODO: are videos using MeetUp-wide or for each presentation?
+  
   # arrange data and clean up links
   data_cleaned <- .data %>% 
     arrange(desc(date)) %>% 
@@ -52,7 +54,7 @@ dt_format_data <- function(.data){
              videoURL = videoURL,
              slidesURL = slidesURL,
              slidesTitle = slidesTitle
-             )) %>%
+           )) %>%
     ungroup()
   
   # collapse MeetUps with mulitple presentations into one row

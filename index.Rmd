@@ -5,10 +5,18 @@ title: "New York Open Statistical Programming Meetup"
 ```{r upcoming-setup, echo=FALSE, message=FALSE, warning=FALSE}
 source('R/utils.R')
 source('R/index.R')
+```
+
+<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
+<!-- n_members <- get_n_members() -->
+<!-- if (n_members > 0) htmltools::h3(paste0(scales::comma_format()(n_members), " members and counting!")) -->
+<!-- ``` -->
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 talk <- get_next_talk() # this may fail if there is new talk; may need to test googlesheet
 format_next_talk(talk)
 ```
-
 
 <!--
 <div class="meetup-card home-card">

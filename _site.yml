@@ -33,4 +33,4 @@ output:
     includes:
       in_header: [includes/header.html]
       after_body: [includes/footer.html, includes/js.html]
-    css: css/nyhackr.css
+    css: [css/nyhackr.css, css/datatable.css]

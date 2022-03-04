@@ -25,6 +25,13 @@ create_card <- function(link, imgURL, homepage = FALSE){
 
 # data --------------------------------------------------------------
 
+get_n_members <- function(){
+  r <- httr::GET(
+    'https://api.meetup.com/nyhackr'
+  )
+  return(httr::content(r)$members)
+}
+
 get_next_talk <- function(){
   r <- httr::GET(
     'https://api.meetup.com/nyhackr/events',

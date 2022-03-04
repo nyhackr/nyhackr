@@ -7,13 +7,44 @@ body {
   padding: 20px 15px 0 15px;
 }
 
+.navbar {
+  background: #b51f1f;
+}
+
+.navbar a {
+  color: white !important;;
+}
+
+.navbar li.active > a {
+  background: #c95d5d !important;
+}
+
+.navbar li.open > a {
+  background: #c95d5d !important;
+}
+
+.dropdown-menu {
+  background: #b51f1f;
+}
+
+.dropdown-menu li:hover > a {
+  background: #c95d5d !important;
+}
+
+.navbar-toggle.collapsed .icon-bar {
+  background: white;
+}
+.navbar-toggle.collapsed:hover {
+  filter: brightness(0.7);
+}
+
 .logo {
   cursor: pointer;
 }
 
 .logo > img {
   position: absolute;
-  max-width: 80px;
+  max-width: 5em;
   height: auto;
   border: 5px solid white;
   border-radius: 6px;
@@ -158,34 +189,4 @@ img {
 
 .blur {
   filter: blur(6px);
-}
-
-.navbar {
-  background: #b51f1f;
-}
-
-.navbar a {
-  color: white !important;;
-}
-
-.navbar li.active > a {
-  background: #c95d5d !important;
-}
-
-.navbar li.open > a {
-  background: #c95d5d !important;
-}
-
-.dropdown-menu {
-  background: #b51f1f;
-}
-
-.dropdown-menu li:hover > a {
-  background: #c95d5d !important;
-}
-
-.dataTables_filter input {
-  border-radius: 4px;
-  border-color: #d1d1d1;
-  background: #f5f5f5;
 }
