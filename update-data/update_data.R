@@ -1,5 +1,6 @@
 source('R/gs_auth.R')
 source('R/talks.R')
+source('R/utils.R')
 
 
 # initialize data ----------------------------------------------------------
@@ -81,8 +82,11 @@ source('R/talks.R')
 talks_new <- get_past_talks(n = 3)
 talks_current <- get_current_talks(gsheet_id)
 
-# combine new with current
-talks <- dplyr::distinct(dplyr::bind_rows(talks_current, talks_new))
+# only add new talks if their ID is not in the current data
+talks_new <- filter(talks_new, ID %notin% talks_current$ID)
+talks <- rbind(talks_current, talks_new) %>% 
+  dplyr::distinct() %>% 
+  arrange(date)
 
 # write to googledrive
 # write_current_talks(talks, gsheet_id)

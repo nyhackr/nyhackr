@@ -29,7 +29,7 @@ render_archive <- function(.data){
           list(targets = 0, orderable = FALSE, searchable = FALSE, 
                width = "15px", className = 'details-control'), # allows child rows
           list(targets = 1:3, className = 'dt-left'),
-          list(targets = 4:5, searchable = TRUE, visible = FALSE) # allows searching by topics but not show the column
+          list(targets = 4:5, searchable = TRUE, visible = FALSE) # allows searching by topics and childrow content but not show the column
         ),
         autoWidth = TRUE,
         pageLength = 10,
