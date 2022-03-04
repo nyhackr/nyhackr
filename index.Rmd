@@ -5,7 +5,7 @@ title: "New York Open Statistical Programming Meetup"
 ```{r upcoming-setup, echo=FALSE, message=FALSE, warning=FALSE}
 source('R/utils.R')
 source('R/index.R')
-talk <- get_next_talk()
+talk <- get_next_talk() # this may fail if there is new talk; may need to test googlesheet
 format_next_talk(talk)
 ```
 

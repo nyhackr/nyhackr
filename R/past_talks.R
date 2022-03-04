@@ -43,7 +43,7 @@ dt_format_data <- function(.data){
   # filter, cleanup, and munge data to right shape for datatable
 
   # arrange data and clean up links
-  .data <- .data %>% 
+  data_cleaned <- .data %>% 
     arrange(desc(date)) %>% 
     rowwise() %>%
     mutate(MeetUp = as.character(htmltools::a(meetupTitle, href = meetupURL)),
@@ -56,9 +56,11 @@ dt_format_data <- function(.data){
     ungroup()
   
   # collapse MeetUps with mulitple presentations into one row
-  .data <- .data %>% 
+  data_summarized <- data_cleaned %>% 
     group_by(ID) %>% 
-    summarize(Date = date, Venue = venue, MeetUp = MeetUp, 
+    summarize(Date = dplyr::first(date), 
+              Venue = dplyr::first(venue), 
+              MeetUp = dplyr::first(MeetUp), 
               Topic = paste0(topics, collapse = "; "),
               childRow = format_child_row(first(descriptionHTML), PresentationDescription),
               .groups = 'drop') %>% 
@@ -66,12 +68,17 @@ dt_format_data <- function(.data){
     select(-ID)
   
   # add blank column with icon to expand rows
-  .data <- dplyr::as_tibble(cbind(' ' = '&plus;', .data))
+  row_icon <- '<span class="fa fa-plus" style="color: #6898f7;"></span>'
+  data_summarized <- dplyr::as_tibble(cbind(' ' = row_icon, data_summarized))
+  
+  
   
   # replace NAs
-  .data[is.na(.data)] <- '-'
+  data_summarized[is.na(data_summarized)] <- '-'
   
-  return(.data)
+  if (n_distinct(.data$ID) != nrow(data_summarized)) cli::cli_abort('Duplicate MeetUps detected')
+  
+  return(data_summarized)
 }
 
 parse_video_name <- function(url){
@@ -119,10 +126,10 @@ dt_callback_child_row <- function(){
           var td = $(this), row = table.row(td.closest('tr'));
           if (row.child.isShown()) {
             row.child.hide();
-            td.html('&plus;');
+            td.html('<span class=\"fa fa-plus\" style=\"color: #6898f7;\"></span>');
           } else {
             row.child(format(row.data())).show();
-            td.html('&#8315;');
+            td.html('<span class=\"fa fa-minus\" style=\"color: #6898f7\"></span>');
           }
         });
         "

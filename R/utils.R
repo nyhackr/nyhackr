@@ -1,4 +1,6 @@
 
+`%notin%` <- Negate(`%in%`)
+
 # wrap an image in a div with class 'meetup-card'
 create_card <- function(link, imgURL, homepage = FALSE){
   
