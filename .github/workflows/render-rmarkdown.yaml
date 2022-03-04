@@ -1,16 +1,18 @@
 name: Render Site
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
-    paths:
-      - '**.Rmd'
-      - 'data/**'
+  # workflow_dispatch:
+  # push:
+  #   branches:
+  #     - master
+  #   paths:
+  #     - '**.Rmd'
+  #     - 'data/**'
+  # schedule:
+  #   - cron: '0 0 * * 0-7'
 
 jobs:
   build:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -20,43 +22,29 @@ jobs:
           fetch-depth: 0
           lfs: true
 
+      - name: Setup pandoc 
+        uses: r-lib/actions/setup-pandoc@v1
+
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
+        
+      - uses: r-lib/actions/setup-renv@v1
 
-      - name: Install pandoc
+        #TODO: need token for decrypting file      
+      - name: Set up Google authentication
+
+      - name: Update talks data from MeetUp to Google Sheets
         run: |
-          brew install pandoc
-
-      - name: Cache Renv packages
-        uses: actions/cache@v2
-        with:
-          path: $HOME/.local/share/renv
-          key: r-${{ hashFiles('renv.lock') }}
-          restore-keys: r-
-
-      - name: Install packages
-        run: |
-          R -e 'install.packages("renv")'
-          R -e 'renv::restore()'
-
+          Rscript -e 'source("update-data/update_data.R")'
+          
       - name: Render Rmarkdown files
         run: |
           Rscript -e 'rmarkdown::render_site(input = "${{ github.workspace }}")'
 
-      - name: List files in docs
-        run: |
-          ls ${{ github.workspace }}/docs
-
-      - name: Add SSH credentials
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
-        run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy.key
-          chmod 0600 ~/.ssh/deploy.key
-          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-
-      - name: Deploy site
-        run: |
-          rsync --recursive --delete --force --rsh='ssh -i ~/.ssh/deploy.key' ${{ github.workspace }}/docs/ autodeploy@www.nyhackr.org:www
+      # - name: Deploy site to GitHub pages branch
+        # uses: s0/git-publish-subdir-action@v2.5.1
+        # env:
+        #   REPO: self
+        #   BRANCH: gh-pages
+        #   FOLDER: _site
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

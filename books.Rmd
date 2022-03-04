@@ -16,11 +16,6 @@ source('R/books.R')
 These are some books written by members of the meetup.
 
 ```{r books}
-# get books data and convert to html
 books <- get_current_books(gsheet_id)
-bookOutput <- sample(purrr::pmap(list(books$Title, books$Authors, books$URL, books$ImageURL), displayBook))
-htmltools::div(
-    class = 'book-flexArea',
-    bookOutput
-)
+render_books(books)
 ```

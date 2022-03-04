@@ -91,6 +91,7 @@ flatten_talk_jsons <- function(.data){
     descriptionHTML = talk_description_html,
     topics = NA,
     videoURL = NA,
+    slidesTitle = NA,
     slidesURL = NA,
     speaker = NA,
     cardURL = NA

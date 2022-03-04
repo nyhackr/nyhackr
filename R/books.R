@@ -28,3 +28,11 @@ displayBook <- function(title, authors, url, image){
     )
   )
 }
+
+render_books <- function(.data){
+  bookOutput <- sample(purrr::pmap(list(.data$Title, .data$Authors, .data$URL, .data$ImageURL), displayBook))
+  htmltools::div(
+    class = 'book-flexArea',
+    bookOutput
+  )
+}

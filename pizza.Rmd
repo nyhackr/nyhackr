@@ -2,25 +2,14 @@
 title: "Pizza poll"
 ---
 
+This is the data for the [Pizza Poll](https://www.jaredlander.com/2012/09/pizza-polls/) we conduct at the start of each meetup. It is available as a [json feed](https://www.jaredlander.com/data/PizzaPollData.php).
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)
 library(ggplot2)
+source('R/pizza.R')
 pizza <- jsonlite::fromJSON("https://www.jaredlander.com/data/PizzaPollData.php")
 
-p <- pizza %>% 
-  ggplot(aes(x = pollq_id, fill = Answer, y = Percent)) + 
-  geom_bar(position = 'stack', stat = 'identity') + 
-  # scale_x_discrete() +
-  scale_y_continuous(breaks = seq(0, 1, by = 0.1)) +
-  labs(fill = NULL, x = NULL) +
-  theme_minimal()
-p <- plotly::ggplotly(p)
-
-htmltools::tags$div(
-  id = 'pizza-plot-container',
-  p
-)
+render_pizza_plot(pizza)
 ```
 
-
-This is the data for the [Pizza Poll](https://www.jaredlander.com/2012/09/pizza-polls/) we conduct at the start of each meetup. It is available as a [json feed](https://www.jaredlander.com/data/PizzaPollData.php).
