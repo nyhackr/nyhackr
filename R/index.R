@@ -1,6 +1,6 @@
 
-format_next_talk <- function(talk, photo_url){
-  if (!length(talk)) {
+render_next_talk <- function(talk, photo_url){
+  if (nrow(talk) == 0) {
     htmltools::div(
       htmltools::div(
         class = 'blur',
@@ -8,22 +8,16 @@ format_next_talk <- function(talk, photo_url){
                     "https://secure.meetupstatic.com/photos/event/3/3/5/9/highres_501613145.jpeg", 
                     homepage = TRUE)
       ),
-      htmltools::h2("Next talk coming soon"),
+      htmltools::h3("Next talk coming soon"),
       htmltools::p("There is not a meetup currently scheduled. Please check back soon. Be sure to check out our Past talks page and YouTube channel.")
     )
   } else {
-    meetupDescription <- talk[[1]]$description
-    meetupTime <- format(
-      as.POSIXct(as.numeric(talk[[1]]$time) / 1000, 
-                 origin = '1970-01-01 00:00:00', 
-                 tz = 'America/New_York'),
-      '%B %e, %Y %r'
-    )
-    meetupName <- talk[[1]]$name
+    date_formated <- format(talk$date, '%B %e')
     htmltools::div(
-      htmltools::h2(meetupName),
-      htmltools::h3(meetupTime),
-      htmltools::HTML(meetupDescription)
+      create_card(talk$meetupURL, talk$cardURL, homepage = TRUE),
+      htmltools::h3(htmltools::strong(glue::glue("{date_formated}: {talk$meetupTitle}"))),
+      htmltools::HTML(talk$descriptionHTML)
     )
   }
 }
+

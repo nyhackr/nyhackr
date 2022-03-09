@@ -1,8 +1,8 @@
 
 `%notin%` <- Negate(`%in%`)
 
-# wrap an image in a div with class 'meetup-card'
 create_card <- function(link, imgURL, homepage = FALSE){
+  # wrap an image in a div with class 'meetup-card'
   
   class <- "meetup-card"
   if (homepage){
@@ -25,14 +25,24 @@ create_card <- function(link, imgURL, homepage = FALSE){
 
 # data --------------------------------------------------------------
 
-get_n_members <- function(){
+get_n_members <- function(format = TRUE){
   r <- httr::GET(
     'https://api.meetup.com/nyhackr'
   )
-  return(httr::content(r)$members)
+  n_members <- httr::content(r)$members
+  
+  if (format) {
+    if (is.numeric(n_members)) {
+      n_members <- glue::glue("{scales::comma_format()(n_members)} ")
+    } else {
+      n_members <- ''
+    }
+  }
+  
+  return(n_members)
 }
 
-get_next_talk <- function(){
+get_next_talk <- function(flatten = TRUE){
   r <- httr::GET(
     'https://api.meetup.com/nyhackr/events',
     query = list(
@@ -41,8 +51,11 @@ get_next_talk <- function(){
       page = '1'
     )
   )
-  x <- httr::content(r)
-  return(x)
+  talks <- httr::content(r)
+  
+  if (flatten) talks <- purrr::map_dfr(talks, flatten_talk_jsons)
+  
+  return(talks)
 }
 
 get_past_talks <- function(n = 1000, flatten = TRUE){

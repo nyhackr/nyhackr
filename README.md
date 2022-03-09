@@ -16,13 +16,16 @@ An .Renviron and gs_auth.R is required to access the data stored on Google Drive
 ### How to update the site with the latest events
 
 ``` r
-source('update-data/update_data.R') # makes sure data is up to date
-rmarkdown::render_site() # builds the static site to _site/
+# update data from MeetUp
+source('update-data/update_data.R')
+
+# build the static site to _site/
+rmarkdown::render_site()
 ```
 
-The site is built using Rmarkdown. `_site.yml` controls the site layout and the individual `*.Rmd` files control each page. Data is pulled from the MeetUp API and stored within Google Sheets. On render, the site pulls the latest data, updates the sheets, and re-pulls the sheet to render the site.
+The site is built using Rmarkdown. `_site.yml` controls the site layout and the individual `*.Rmd` files control each page. Data is pulled from the MeetUp API and stored within Google Sheets. On render, the site pulls the latest data from Google Sheets to build the site.
 
-After each event, update the `[topics,	videoURL, slidesTitle,	slidesURL,	speaker,	cardURL]` columns on the "Talks"" within the Google Sheet. Data should be in tidy format with each row representing a presentation at a given event. E.g. a MeetUp with two presentations will have two rows with duplicate information for the columns `[ID, meetupURL, date, venueID, venue, venueAddress,	rsvpCount, meetupTitle,	descriptionHTML]`. If there are two speakers for one presentation then there should be one row with their names concatenated in the `speaker` column.
+After each event, update the `[topics, videoURL, slidesTitle, slidesURL, speaker, cardURL]` columns on the "Talks" tab within the Google Sheet. Data should be in tidy format with each row representing a presentation at a given event. E.g. a MeetUp with two presentations will have two rows with duplicate information for the columns `[ID, meetupURL, date, venueID, venue, venueAddress, rsvpCount, meetupTitle, descriptionHTML]`. If there are two speakers for one presentation then there should be one row with their names concatenated in the `speaker` column.
 
 Edit the individual `*.Rmd` files to update any static text.
 
@@ -50,3 +53,5 @@ Edit the individual `*.Rmd` files to update any static text.
     ├── past-talks.Rmd    Renders to the past talks page
     ├── pizza.Rmd         Renders to the pizza page
     └── README.md
+
+

@@ -12,7 +12,6 @@ render_recent_talks <- function(.data, n = 4){
     )
 } 
 
-# .data <- talks
 render_archive <- function(.data){
   
   # munge data for datatable
@@ -42,7 +41,7 @@ render_archive <- function(.data){
 dt_format_data <- function(.data){
   # filter, cleanup, and munge data to right shape for datatable
   
-  # TODO: are videos using MeetUp-wide or for each presentation?
+  # TODO: are videos usually MeetUp-wide or for each presentation?
   
   # arrange data and clean up links
   data_cleaned <- .data %>% 
@@ -57,7 +56,7 @@ dt_format_data <- function(.data){
            )) %>%
     ungroup()
   
-  # collapse MeetUps with mulitple presentations into one row
+  # collapse MeetUps with multiple presentations into one row
   data_summarized <- data_cleaned %>% 
     group_by(ID) %>% 
     summarize(Date = dplyr::first(date), 
@@ -73,14 +72,20 @@ dt_format_data <- function(.data){
   row_icon <- '<span class="fa fa-plus" style="color: #6898f7;"></span>'
   data_summarized <- dplyr::as_tibble(cbind(' ' = row_icon, data_summarized))
   
-  
-  
   # replace NAs
   data_summarized[is.na(data_summarized)] <- '-'
   
   if (n_distinct(.data$ID) != nrow(data_summarized)) cli::cli_abort('Duplicate MeetUps detected')
   
   return(data_summarized)
+}
+
+format_presentation <- function(speaker, videoURL, slidesURL, slidesTitle){
+  glue::glue(
+    "<b>Presentation</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
+    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>",
+    "<b>Video</b>: {parse_video_name(videoURL)}",
+  )
 }
 
 parse_video_name <- function(url){
@@ -99,14 +104,6 @@ parse_slides_name <- function(url, title){
 parse_speaker_name <- function(name){
   if(is.na(name)) return('Not available')
   return(stringr::str_to_title(name))
-}
-
-format_presentation <- function(speaker, videoURL, slidesURL, slidesTitle){
-  glue::glue(
-    "<b>Presentation</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
-    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>",
-    "<b>Video</b>: {parse_video_name(videoURL)}",
-  )
 }
 
 format_child_row <- function(descriptionHTML, presentations){

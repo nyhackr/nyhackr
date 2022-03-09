@@ -1,6 +1,6 @@
 name: "nyhackr"
 output_dir: "_site"
-exclude: [R, update-data, service-account.json, service-account.json.encrypted, renv.lock]
+exclude: [R, update-data, service-account.json, service-account.json.encrypted, nyhackr-website.encrypted, renv.lock]
 navbar:
   title: "<a class='logo' href='index.html'><img src='img/nyhackr-logo-white.jpg' /></a>"
   right:

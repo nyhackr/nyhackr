@@ -16,8 +16,8 @@ C:\Users\jared\AppData\Local/meetupr/meetupr/meetupr-token.rds
 /_site
 
 # google credentials
+nyhackr-website.encrypted
 service-account.json
 service-account.json.encrypted
-R/gs_auth.R
 
 .Renviron

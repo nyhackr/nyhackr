@@ -3,40 +3,29 @@ title: "New York Open Statistical Programming Meetup"
 ---
 
 ```{r upcoming-setup, echo=FALSE, message=FALSE, warning=FALSE}
+source('R/gs_auth.R')
 source('R/utils.R')
 source('R/index.R')
 ```
 
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
-<!-- n_members <- get_n_members() -->
-<!-- if (n_members > 0) htmltools::h3(paste0(scales::comma_format()(n_members), " members and counting!")) -->
-<!-- ``` -->
-
-
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-talk <- get_next_talk() # this may fail if there is new talk; may need to test googlesheet
-format_next_talk(talk)
+htmltools::HTML(
+  glue::glue(
+    "<h4>RSVP and join our {get_n_members(format = TRUE)}members on the <a href='https://www.meetup.com/nyhackr/'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>"
+  )
+)
 ```
-
-<!--
-<div class="meetup-card home-card">
-<a href="https://www.meetup.com/nyhackr/">
-<img src="https://secure.meetupstatic.com/photos/event/3/3/5/9/highres_501613145.jpeg" width=60%>
-</a>
-</div>
-
-## Next talk: Hannes Muhleisen
-### Feb 24 @ 7pm EST
-Using databases to wrangle and retrieve data from R and Python can be challenging, traditional systems like SQLite or MySQL are not built for analytical workloads and moving data into the analysis environment suffered from low bandwidth. DuckDB is a new in-process database management system that runs directly in-process, greatly streamlining setup and data transfer. 
-
--->
 
 <br>
 
-### RSVP and find out more on the [New York Open Statistical Programming Meetup <i class="fa fa-meetup"></i>](https://www.meetup.com/nyhackr/)
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+talk_next <- get_current_talks(gsheet_id) %>% 
+  filter(date >= Sys.Date()) %>% 
+  arrange(date)
+render_next_talk(talk_next)
+```
 
 <!-- floating div for jobs -->
 <div id="jobs-tag" align="center">
 <p><i class="fa fa-arrow-up"></i> Jobs</p>
 </div>
-
