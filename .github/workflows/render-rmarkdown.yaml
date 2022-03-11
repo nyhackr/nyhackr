@@ -6,7 +6,7 @@ on:
       - master
       - facelift
   schedule:
-    - cron: '0 0 * * 0-7'
+    - cron: '0 0 * * 0-6'
 
 jobs:
   build:
