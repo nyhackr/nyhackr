@@ -22,44 +22,43 @@ jobs:
           fetch-depth: 0
           lfs: true
           
-      # - name: Install curl and sodium
-      #   shell: bash
-      #   run: |
-      #     sudo apt-get install libcurl4-openssl-dev r-base
-      #     sudo apt-get install libsodium-dev
-      # 
-      # - name: Setup pandoc 
-      #   uses: r-lib/actions/setup-pandoc@v1
-      # 
-      # - name: Setup R
-      #   uses: r-lib/actions/setup-r@v1
-      #   
-      # - name: Setup renv
-      #   uses: r-lib/actions/setup-renv@v1
-      # 
+      - name: Install curl and sodium
+        shell: bash
+        run: |
+          sudo apt-get install libcurl4-openssl-dev r-base
+          sudo apt-get install libsodium-dev
+
+      - name: Setup pandoc
+        uses: r-lib/actions/setup-pandoc@v1
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v1
+
       - name: Create and populate .Renviron with tokens
         shell: bash
         run: |
           echo CYPHR_KEY=$CYPHR_KEY >> ~/.Renviron
           echo GSHEET_ID=$GSHEET_ID >> ~/.Renviron
-      # 
-      # - name: Update Google Sheets talks data with latest MeetUp data
-      #   run: |
-      #     Rscript -e 'source("update-data/update_data.R")'
-      #     
-      # - name: Render site from Rmarkdown files
-      #   run: |
-      #     Rscript -e 'rmarkdown::render_site(input = "${{ github.workspace }}")'
+
+      - name: Update Google Sheets talks data with latest MeetUp data
+        run: |
+          Rscript -e 'source("update-data/update_data.R")'
+
+      - name: Render site from Rmarkdown files
+        run: |
+          Rscript -e 'rmarkdown::render_site(input = "${{ github.workspace }}")'
           
       - name: Remove tokens
         run: |
-          ls -la
           rm ~/.Renviron
 
-      # - name: Deploy site to GitHub pages branch
-      #   uses: s0/git-publish-subdir-action@v2.5.1
-      #   env:
-      #     REPO: self
-      #     BRANCH: gh-pages
-      #     FOLDER: _site
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy site to GitHub pages branch
+        uses: s0/git-publish-subdir-action@v2.5.1
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: _site
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
