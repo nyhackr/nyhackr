@@ -1,14 +1,12 @@
 name: Render Site
 on:
-  # workflow_dispatch:
-  # push:
-  #   branches:
-  #     - master
-  #   paths:
-  #     - '**.Rmd'
-  #     - 'data/**'
-  # schedule:
-  #   - cron: '0 0 * * 0-7'
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - facelift
+  schedule:
+    - cron: '0 0 * * 0-7'
 
 jobs:
   build:
@@ -30,8 +28,14 @@ jobs:
         
       - uses: r-lib/actions/setup-renv@v1
 
-        #TODO: need token for decrypting file      
-      - name: Set up Google authentication
+      - name: Create and populate .Renviron with tokens
+        env:
+          CYPHR_KEY: ${{ secrets.CYPHR_KEY }}
+          GSHEET_ID: ${{ secrets.GSHEET_ID }}
+        run: |
+          echo CYPHR_KEY=$CYPHR_KEY >> ~/.Renviron
+          echo GSHEET_ID=$GSHEET_ID >> ~/.Renviron
+        shell: bash
 
       - name: Update talks data from MeetUp to Google Sheets
         run: |
@@ -41,10 +45,10 @@ jobs:
         run: |
           Rscript -e 'rmarkdown::render_site(input = "${{ github.workspace }}")'
 
-      # - name: Deploy site to GitHub pages branch
-        # uses: s0/git-publish-subdir-action@v2.5.1
-        # env:
-        #   REPO: self
-        #   BRANCH: gh-pages
-        #   FOLDER: _site
-        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy site to GitHub pages branch
+      uses: s0/git-publish-subdir-action@v2.5.1
+      env:
+        REPO: self
+        BRANCH: gh-pages
+        FOLDER: _site
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
