@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Events'
 ---
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}

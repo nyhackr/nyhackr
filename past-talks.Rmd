@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Past talks"
+include_title: false
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
