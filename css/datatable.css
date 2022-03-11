@@ -20,4 +20,6 @@
 
 #DataTables_Table_0_length select {
   padding: 0.4em;
+  margin: 0.4em;
+  border-radius: 4px
 }

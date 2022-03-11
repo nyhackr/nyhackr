@@ -11,9 +11,9 @@ If you wish to contribute to the website the process is pretty simple.
 
 ### Data access
 
-An .Renviron and gs_auth.R is required to access the data stored on Google Drive. Email Jared Lander to get access.
+An .Renviron file is required to access the data stored on Google Drive. Email Jared Lander to get access.
 
-### How to update the site with the latest events
+### How to manually update the site with the latest events
 
 ``` r
 # update data from MeetUp
@@ -29,6 +29,9 @@ After each event, update the `[topics, videoURL, slidesTitle, slidesURL, speaker
 
 Edit the individual `*.Rmd` files to update any static text.
 
+### Site hosting
+
+The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuilds on push, daily at midnight, and on a manual trigger within the [Actions tab](https://github.com/nyhackr/nyhackr/actions/workflows/render-rmarkdown.yaml).
 
 ### Directory
 
