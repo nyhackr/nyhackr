@@ -12,7 +12,6 @@ render_recent_talks <- function(.data, n = 4){
     )
 } 
 
-.data <- get_current_talks(gsheet_id)
 render_archive <- function(.data){
   
   # munge data for datatable

@@ -1,12 +1,12 @@
 name: Render Site
-# on:
-#   workflow_dispatch:
-#   push:
-#     branches:
-#       - master
-#       - facelift
-#   schedule:
-#     - cron: '0 0 * * 0-7'
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - facelift
+  schedule:
+    - cron: '0 0 * * 0-7'
 
 jobs:
   build:
@@ -43,11 +43,15 @@ jobs:
       - name: Render Rmarkdown files
         run: |
           Rscript -e 'rmarkdown::render_site(input = "${{ github.workspace }}")'
+          
+      - name: Remove tokens
+        run: |
+          rm .Renviron
 
       - name: Deploy site to GitHub pages branch
-      uses: s0/git-publish-subdir-action@v2.5.1
-      env:
-        REPO: self
-        BRANCH: gh-pages
-        FOLDER: _site
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: s0/git-publish-subdir-action@v2.5.1
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: _site
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
