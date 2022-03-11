@@ -18,11 +18,11 @@ display_sponsor <- function(url, image){
 }
 
 render_sponsors <- function(.data){
-  .data <- arrange(.data, order)
-  bookOutput <- sample(purrr::pmap(list(.data$URL, .data$imageURL), display_sponsor))
+  .data <- dplyr::arrange(.data, order)
+  sponsors_output <- purrr::pmap(list(.data$URL, .data$imageURL), display_sponsor)
   htmltools::div(
     class = 'sponsor-flexArea',
-    bookOutput
+    sponsors_output
   )
 }
 

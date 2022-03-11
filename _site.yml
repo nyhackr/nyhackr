@@ -21,11 +21,11 @@ navbar:
         - text: "Contact"
           href: contact.html
     - icon: fa-slack fa-lg
-      href: https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg
+      href: https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr
     - icon: fa-twitter fa-lg
-      href: https://twitter.com/nyhackr
+      href: https://twitter.com/nyhackr?utm_source=nyhackr
     - icon: fa-github fa-lg
-      href: https://github.com/nyhackr
+      href: https://github.com/nyhackr?utm_source=nyhackr
 output:
   html_document:
     theme: paper

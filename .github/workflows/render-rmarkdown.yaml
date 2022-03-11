@@ -1,18 +1,20 @@
 name: Render Site
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
-      - facelift
-  schedule:
-    - cron: '0 0 * * 0-7'
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches:
+#       - master
+#       - facelift
+#   schedule:
+#     - cron: '0 0 * * 0-7'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      CYPHR_KEY: ${{ secrets.CYPHR_KEY }}
+      GSHEET_ID: ${{ secrets.GSHEET_ID }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -29,9 +31,6 @@ jobs:
       - uses: r-lib/actions/setup-renv@v1
 
       - name: Create and populate .Renviron with tokens
-        env:
-          CYPHR_KEY: ${{ secrets.CYPHR_KEY }}
-          GSHEET_ID: ${{ secrets.GSHEET_ID }}
         run: |
           echo CYPHR_KEY=$CYPHR_KEY >> ~/.Renviron
           echo GSHEET_ID=$GSHEET_ID >> ~/.Renviron

@@ -31,7 +31,7 @@ displayBook <- function(title, authors, url, image){
 
 render_books <- function(.data){
   .data <- dplyr::slice_sample(.data, n = nrow(.data), replace = FALSE)
-  bookOutput <- sample(purrr::pmap(list(.data$title, .data$authors, .data$URL, .data$imageURL), displayBook))
+  bookOutput <- purrr::pmap(list(.data$title, .data$authors, .data$URL, .data$imageURL), displayBook)
   htmltools::div(
     class = 'book-flexArea',
     bookOutput

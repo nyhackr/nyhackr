@@ -31,7 +31,8 @@ body {
   background: #c95d5d !important;
 }
 
-.navbar-toggle.collapsed .icon-bar {
+.navbar-toggle.collapsed .icon-bar,
+.navbar-toggle.collapsed .icon-bar:active {
   background: white;
 }
 .navbar-toggle.collapsed:hover {
@@ -191,4 +192,9 @@ img {
 
 .blur {
   filter: blur(6px);
+}
+
+.copyright {
+  font-size: 0.8em;
+  color: #a6a6a6;
 }
