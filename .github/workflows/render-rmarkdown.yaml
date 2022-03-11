@@ -22,9 +22,11 @@ jobs:
           fetch-depth: 0
           lfs: true
           
-      - name: Install curl
+      - name: Install curl and sodium
         shell: bash
-        run: sudo apt-get install libcurl4-openssl-dev r-base
+        run: |
+          sudo apt-get install libcurl4-openssl-dev r-base
+          sudo apt-get install libsodium-dev
 
       - name: Setup pandoc 
         uses: r-lib/actions/setup-pandoc@v1
@@ -41,7 +43,7 @@ jobs:
           echo GSHEET_ID=$GSHEET_ID >> ~/.Renviron
         shell: bash
 
-      - name: Update talks data from MeetUp to Google Sheets
+      - name: Update Google Sheets talks data with latest MeetUp data
         run: |
           Rscript -e 'source("update-data/update_data.R")'
           
