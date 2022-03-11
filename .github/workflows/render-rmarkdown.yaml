@@ -54,7 +54,7 @@ jobs:
       - name: Remove tokens
         run: |
           ls -la
-          rm .Renviron
+          rm ~/.Renviron
 
       # - name: Deploy site to GitHub pages branch
       #   uses: s0/git-publish-subdir-action@v2.5.1
