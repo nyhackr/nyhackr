@@ -45,7 +45,7 @@ dt_format_data <- function(.data){
   data_cleaned <- .data %>% 
     arrange(desc(date)) %>% 
     rowwise() %>%
-    mutate(MeetUp = as.character(htmltools::a(meetupTitle, href = meetupURL)),
+    mutate(MeetUp = as.character(htmltools::a(meetupTitle, href = meetupURL, target = "_blank")),
            Video = parse_video_name(videoURL),
            PresentationDescription = format_presentation(
              speaker = speaker, 
@@ -92,12 +92,12 @@ parse_video_name <- function(url){
     return('Not available')
   }
   url_domain <- urltools::domain(url)
-  return(as.character(htmltools::a(url_domain, href = url)))
+  return(as.character(htmltools::a(url_domain, href = url, target = "_blank")))
 }
 
 parse_slides_name <- function(url, title){
   if (is.na(url)) return("Not available")
-  as.character(htmltools::a(title, href = url))
+  as.character(htmltools::a(title, href = url, target = "_blank"))
 }
 
 parse_speaker_name <- function(name){

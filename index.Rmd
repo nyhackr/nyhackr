@@ -11,7 +11,7 @@ source('R/index.R')
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 htmltools::HTML(
   glue::glue(
-    "<h4>RSVP and join our {get_n_members(format = TRUE)}members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>"
+    "<h4>RSVP and join our {get_n_members(format = TRUE)}members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr' target = '_blank'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>"
   )
 )
 ```

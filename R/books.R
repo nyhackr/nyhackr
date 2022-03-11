@@ -13,6 +13,7 @@ displayBook <- function(title, authors, url, image){
         class = 'book-text',
         htmltools::a(class = 'book-title',
                      href = url,
+                     target = "_blank",
                      title),
         htmltools::p(class = 'book-author',
                      authors)
@@ -21,6 +22,7 @@ displayBook <- function(title, authors, url, image){
     htmltools::p(
       htmltools::a(
         href = url,
+        target = "_blank",
         htmltools::img(
           src = image
         )
