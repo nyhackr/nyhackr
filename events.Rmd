@@ -10,4 +10,3 @@ source('R/events.R')
 events <- get_current_events(gsheet_id)
 render_events(events)
 ```
-

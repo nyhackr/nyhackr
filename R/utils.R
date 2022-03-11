@@ -15,7 +15,6 @@ create_card <- function(link, imgURL, homepage = FALSE){
     class = class,
     htmltools::tags$a(
       href = link,
-      target = "_blank",
       htmltools::tags$img(
         src = imgURL,
       )

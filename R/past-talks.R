@@ -28,6 +28,7 @@ render_archive <- function(.data){
           list(targets = 0, orderable = FALSE, searchable = FALSE, 
                width = "15px", className = 'details-control'), # allows child rows
           list(targets = 0:4, className = 'dt-left'),
+          list(targets = 4, width = "15px", searchable = FALSE),
           list(targets = 5:7, searchable = TRUE, visible = FALSE) # allows searching by topics and childrow content but not show the column
         ),
         autoWidth = TRUE,
@@ -89,10 +90,13 @@ format_presentation <- function(speaker, slidesURL, slidesTitle){
 
 parse_video_name <- function(url){
   if (is.na(url)){
-    return('Not available')
+    return('-')
   }
-  url_domain <- urltools::domain(url)
-  return(as.character(htmltools::a(url_domain, href = url, target = "_blank")))
+  # url_domain <- urltools::domain(url)
+  # video_html <- as.character(htmltools::a(url_domain, href = url, target = "_blank"))
+  url_icon <- glue::glue('<a href="{url}" target="_blank" style="font-size: 3rem;"><span class="fa fa-youtube"></span></a>')
+  
+  return(url_icon)
 }
 
 parse_slides_name <- function(url, title){

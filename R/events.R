@@ -26,7 +26,6 @@ create_event_card <- function(url, imageURL){
     class = 'event-card',
     htmltools::a(
       href = url,
-      target = "_blank",
       htmltools::img(
         src = imageURL
       )

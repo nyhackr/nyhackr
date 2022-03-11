@@ -12,9 +12,6 @@ talks <- get_current_talks(gsheet_id)
 talks_past <- filter(talks, date < Sys.Date())
 ```
 
-
-## Recent talks
-
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 render_recent_talks(talks_past, n = 4)
 ```

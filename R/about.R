@@ -5,7 +5,6 @@ get_current_sponsors <- function(gsheet_id){
 display_sponsor <- function(url, image){
   htmltools::a(
     href = url,
-    target = "_blank",
     htmltools::img(
       src = image
     )
