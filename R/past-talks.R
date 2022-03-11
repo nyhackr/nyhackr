@@ -4,7 +4,7 @@ render_recent_talks <- function(.data, n = 4){
     arrange(desc(date)) %>% 
     slice_head(n = n) %>% 
     rowwise() %>% 
-    group_map(~create_card(.x$meetupURL, .x$cardURL)) %>% 
+    group_map(~create_card(.x$videoURL, .x$cardURL)) %>% 
     htmltools::tagList() %>% 
     htmltools::div(
       id = 'meetup-card-container',
@@ -12,6 +12,7 @@ render_recent_talks <- function(.data, n = 4){
     )
 } 
 
+.data <- get_current_talks(gsheet_id)
 render_archive <- function(.data){
   
   # munge data for datatable
@@ -22,13 +23,13 @@ render_archive <- function(.data){
     .data,
       filter = 'top',
       rownames = FALSE,
-      escape = c(3),
+      escape = c(2, 4),
       options = list(
         columnDefs = list(
           list(targets = 0, orderable = FALSE, searchable = FALSE, 
                width = "15px", className = 'details-control'), # allows child rows
-          list(targets = 1:3, className = 'dt-left'),
-          list(targets = 4:5, searchable = TRUE, visible = FALSE) # allows searching by topics and childrow content but not show the column
+          list(targets = 1:4, className = 'dt-left'),
+          list(targets = 5:7, searchable = TRUE, visible = FALSE) # allows searching by topics and childrow content but not show the column
         ),
         autoWidth = TRUE,
         pageLength = 10,
@@ -40,17 +41,15 @@ render_archive <- function(.data){
 
 dt_format_data <- function(.data){
   # filter, cleanup, and munge data to right shape for datatable
-  
-  # TODO: are videos usually MeetUp-wide or for each presentation?
-  
+
   # arrange data and clean up links
   data_cleaned <- .data %>% 
     arrange(desc(date)) %>% 
     rowwise() %>%
     mutate(MeetUp = as.character(htmltools::a(meetupTitle, href = meetupURL)),
+           Video = parse_video_name(videoURL),
            PresentationDescription = format_presentation(
              speaker = speaker, 
-             videoURL = videoURL,
              slidesURL = slidesURL,
              slidesTitle = slidesTitle
            )) %>%
@@ -60,9 +59,11 @@ dt_format_data <- function(.data){
   data_summarized <- data_cleaned %>% 
     group_by(ID) %>% 
     summarize(Date = dplyr::first(date), 
-              Venue = dplyr::first(venue), 
-              MeetUp = dplyr::first(MeetUp), 
+              MeetUp = dplyr::first(MeetUp),
+              Speaker = paste0(unique(speaker), collapse = ", "),
+              Video = dplyr::first(Video),
               Topic = paste0(topics, collapse = "; "),
+              Venue = dplyr::first(venue), 
               childRow = format_child_row(first(descriptionHTML), PresentationDescription),
               .groups = 'drop') %>% 
     arrange(desc(Date)) %>% 
@@ -80,11 +81,10 @@ dt_format_data <- function(.data){
   return(data_summarized)
 }
 
-format_presentation <- function(speaker, videoURL, slidesURL, slidesTitle){
+format_presentation <- function(speaker, slidesURL, slidesTitle){
   glue::glue(
     "<b>Presentation</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
-    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>",
-    "<b>Video</b>: {parse_video_name(videoURL)}",
+    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>"
   )
 }
 
@@ -110,7 +110,7 @@ format_child_row <- function(descriptionHTML, presentations){
   paste0(
     descriptionHTML, 
     "<br>",
-    paste0(presentations, collapse = "<br><br>")
+    paste0(presentations, collapse = "<br>")
   )
 }
 
@@ -119,7 +119,7 @@ dt_callback_child_row <- function(){
     "
         table.column(0).nodes().to$().css({cursor: 'pointer'});
         var format = function(d) {
-          return '<div style=\"background-color:#eee; padding: .5em;\"> ' + d[5] + '</div>';
+          return '<div style=\"background-color:#eee; padding: .5em;\"> ' + d[7] + '</div>';
         };
         table.on('click', 'td.details-control', function() {
           var td = $(this), row = table.row(td.closest('tr'));

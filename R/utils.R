@@ -14,7 +14,7 @@ create_card <- function(link, imgURL, homepage = FALSE){
   htmltools::tags$div(
     class = class,
     htmltools::tags$a(
-      href = link, #"https://www.meetup.com/nyhackr/",
+      href = link,
       htmltools::tags$img(
         src = imgURL,
       )

@@ -25,7 +25,8 @@ Job openings and other announcements are on our [<i class="fa fa-slack"></i> Sla
 <br>
 
 ```{r sponsors, echo=FALSE, message=FALSE, warning=FALSE}
-render_sponsors()
+sponsors <- get_current_sponsors(gsheet_id)
+render_sponsors(sponsors)
 ```
 
 <br><br>

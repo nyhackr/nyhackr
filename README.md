@@ -33,7 +33,7 @@ Edit the individual `*.Rmd` files to update any static text.
 ### Directory
 
     .
-    ├── css/		          CSS files to be included with rendered site
+    ├── css/              CSS files to be included with rendered site
     ├── img/
     │   ├── books/
     │   ├── events/

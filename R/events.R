@@ -14,10 +14,10 @@ render_events <- function(.data){
 
 create_event <- function(date, headerText, optionalText, url, imageURL){
   htmltools::tagList(
-    htmltools::h1(headerText),
-    htmltools::p(optionalText),
     create_event_card(url, imageURL),
-    htmltools::br(), htmltools::br()
+    htmltools::h1(headerText),
+    htmltools::HTML(optionalText),
+    htmltools::br(), htmltools::br(), htmltools::br()
   )
 }
 

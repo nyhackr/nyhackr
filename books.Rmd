@@ -15,7 +15,7 @@ source('R/books.R')
 
 These are some books written by members of the meetup.
 
-```{r books}
+```{r books, echo=FALSE, message=FALSE, warning=FALSE}
 books <- get_current_books(gsheet_id)
 render_books(books)
 ```

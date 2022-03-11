@@ -5,7 +5,7 @@ render_next_talk <- function(talk, photo_url){
       htmltools::div(
         class = 'blur',
         create_card("https://www.meetup.com/nyhackr/", 
-                    "https://secure.meetupstatic.com/photos/event/3/3/5/9/highres_501613145.jpeg", 
+                    "https://nyhackr.blob.core.windows.net/headers/November_Meetup-JD_Long.png", 
                     homepage = TRUE)
       ),
       htmltools::h3("Next talk coming soon"),

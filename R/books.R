@@ -22,7 +22,7 @@ displayBook <- function(title, authors, url, image){
       htmltools::a(
         href = url,
         htmltools::img(
-          src = sprintf('img/books/%s', image)
+          src = image
         )
       )
     )
@@ -30,7 +30,8 @@ displayBook <- function(title, authors, url, image){
 }
 
 render_books <- function(.data){
-  bookOutput <- sample(purrr::pmap(list(.data$Title, .data$Authors, .data$URL, .data$ImageURL), displayBook))
+  .data <- dplyr::slice_sample(.data, n = nrow(.data), replace = FALSE)
+  bookOutput <- sample(purrr::pmap(list(.data$title, .data$authors, .data$URL, .data$imageURL), displayBook))
   htmltools::div(
     class = 'book-flexArea',
     bookOutput

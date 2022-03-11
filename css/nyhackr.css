@@ -150,7 +150,8 @@ img {
   font-weight: 700;
 }
 
-.book-container > p > a > img {
+.book-container > p > a > img, 
+.sponsor-container > p > a > img  {
   width: 100%;
   max-height: 300px;
   object-fit: contain;
@@ -182,7 +183,8 @@ img {
     margin: auto;
 }
 
-.book-flexArea {
+.book-flexArea,
+.sponsor-flexArea {
     display: flex;
     flex-wrap: wrap;
 }

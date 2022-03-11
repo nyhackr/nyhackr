@@ -150,6 +150,18 @@
       "Hash": "022c42d49c28e95d69ca60446dbabf88",
       "Requirements": []
     },
+    "cyphr": {
+      "Package": "cyphr",
+      "Version": "1.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f68b03579eb091be7e0ba73d71259fbf",
+      "Requirements": [
+        "getPass",
+        "openssl",
+        "sodium"
+      ]
+    },
     "data.table": {
       "Package": "data.table",
       "Version": "1.14.2",
@@ -260,6 +272,16 @@
       "Repository": "CRAN",
       "Hash": "177475892cf4a55865868527654a7741",
       "Requirements": []
+    },
+    "getPass": {
+      "Package": "getPass",
+      "Version": "0.2-2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "07a91f99e56951818ab911366db77700",
+      "Requirements": [
+        "rstudioapi"
+      ]
     },
     "ggplot2": {
       "Package": "ggplot2",
@@ -709,6 +731,14 @@
         "munsell",
         "viridisLite"
       ]
+    },
+    "sodium": {
+      "Package": "sodium",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "07060494360a48fc8a2e282f0dc8f2cf",
+      "Requirements": []
     },
     "stringi": {
       "Package": "stringi",
