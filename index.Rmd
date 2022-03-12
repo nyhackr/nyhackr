@@ -3,7 +3,7 @@ title: "New York Open Statistical Programming Meetup"
 ---
 
 ```{r upcoming-setup, echo=FALSE, message=FALSE, warning=FALSE}
-source('R/gs_auth.R')
+source('R/gs-auth.R')
 source('R/utils.R')
 source('R/index.R')
 ```

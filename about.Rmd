@@ -3,7 +3,7 @@ title: "About nyhackr"
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
-source('R/gs_auth.R')
+source('R/gs-auth.R')
 source('R/about.R')
 library(dplyr)
 ```

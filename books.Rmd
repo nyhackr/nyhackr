@@ -7,7 +7,7 @@ knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center',message=FALSE)
 ```
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
-source('R/gs_auth.R')
+source('R/gs-auth.R')
 source('R/utils.R')
 source('R/books.R')
 ```

@@ -46,7 +46,7 @@ jobs:
 
       - name: Update Google Sheets talks data with latest MeetUp data
         run: |
-          Rscript -e 'source("update-data/update_data.R")'
+          Rscript -e 'source("R/data/update-data.R")'
 
       - name: Render site from Rmarkdown files
         run: |

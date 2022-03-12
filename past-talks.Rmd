@@ -5,7 +5,7 @@ include_title: false
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 library(dplyr)
-source('R/gs_auth.R')
+source('R/gs-auth.R')
 source('R/past-talks.R')
 source('R/utils.R')
 talks <- get_current_talks(gsheet_id)
