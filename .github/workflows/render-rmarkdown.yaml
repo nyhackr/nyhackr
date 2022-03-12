@@ -1,4 +1,4 @@
-name: Render Site
+name: Build Site to GitHub Pages branch
 on:
   workflow_dispatch:
   push:
@@ -9,7 +9,7 @@ on:
     - cron: '0 0 * * 0-6'
 
 jobs:
-  build:
+  Build site:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
