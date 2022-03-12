@@ -9,7 +9,7 @@ on:
     - cron: '0 0 * * 0-6'
 
 jobs:
-  Build site:
+  build-site:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
