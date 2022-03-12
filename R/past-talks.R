@@ -106,7 +106,7 @@ parse_slides_name <- function(url, title){
 
 parse_speaker_name <- function(name){
   if(is.na(name)) return('Not available')
-  return(stringr::str_to_title(name))
+  return(name)
 }
 
 format_child_row <- function(descriptionHTML, presentations){
