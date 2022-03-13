@@ -28,7 +28,7 @@ render_archive <- function(.data){
           list(targets = 0, orderable = FALSE, searchable = FALSE, 
                width = "15px", className = 'details-control'), # allows child rows
           list(targets = 0:4, className = 'dt-left'),
-          list(targets = 4, width = "15px", searchable = FALSE),
+          list(targets = 4, orderable = FALSE, searchable = FALSE, width = "15px"),
           list(targets = 5:7, searchable = TRUE, visible = FALSE) # allows searching by topics and childrow content but not show the column
         ),
         autoWidth = TRUE,
@@ -71,7 +71,7 @@ dt_format_data <- function(.data){
   
   # add blank column with icon to expand rows
   row_icon <- '<span class="fa fa-plus" style="color: #6898f7;"></span>'
-  data_summarized <- dplyr::as_tibble(cbind('Details' = row_icon, data_summarized))
+  data_summarized <- dplyr::as_tibble(cbind('Detail' = row_icon, data_summarized))
   
   # replace NAs
   data_summarized[is.na(data_summarized)] <- '-'

@@ -41,7 +41,7 @@ The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuil
     ├── includes/         HTML files to include as specified in _site.yml
     ├── js/               JavaScipt files to be included with rendered site
     ├── R/                Core R functions to pull/update data and format HTML 
-    │   └── data/         R scripts to initalize and update data
+    │   └── data/         R scripts to initialize and update data
     ├── renv/
     ├── update-data/      Script to update the talks data in Google Drive
     ├── _site.yml         Controls the site structure

@@ -12,7 +12,7 @@ body {
 }
 
 .navbar a {
-  color: white !important;;
+  color: white !important;
 }
 
 .navbar li.active > a {
@@ -32,7 +32,9 @@ body {
 }
 
 .navbar-toggle.collapsed .icon-bar,
-.navbar-toggle.collapsed .icon-bar:active {
+.navbar-toggle.collapsed .icon-bar:active,
+.navbar-toggle.collapsed .icon-bar:focus,
+.navbar-toggle.collapsed .icon-bar:visited {
   background: white;
 }
 .navbar-toggle.collapsed:hover {
