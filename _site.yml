@@ -9,7 +9,7 @@ exclude:
   - .Renviron
   - renv.lock
 navbar:
-  title: "<a class='logo' href='index.html'><img src='img/logo/nyhackr-logo-white-hexagon.png' /></a>"
+  title: "<a class='logo' href='index.html'><img src='img/logo/nyhackr-logo-hex.png' /></a>"
   right:
     - icon: fa-home
       href: index.html
