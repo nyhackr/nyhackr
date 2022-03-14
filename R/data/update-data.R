@@ -17,6 +17,12 @@ talks_to_add <- left_join(select(talks_to_add, -all_of(cols_to_keep)),
                        select(talks_current, ID, all_of(cols_to_keep)),
                        by = 'ID')
 
+# make sure MeetUp link has utm_source tag
+if (nrow(talks_to_add) > 0){
+  has_utm <- stringr::str_detect(talks_to_add$meetupURL, "utm_source=nyhackr$")
+  talks_to_add$meetupURL[!has_utm] <- glue::glue("{talks_to_add$meetupURL[!has_utm]}?utm_source=nyhackr")
+}
+
 # add new talks and overwrite talks with old data
 talks_new <- talks_current %>% 
   filter(ID %notin% talks_to_add$ID) %>% 

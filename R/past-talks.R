@@ -83,7 +83,7 @@ dt_format_data <- function(.data){
 
 format_presentation <- function(speaker, slidesURL, slidesTitle){
   glue::glue(
-    "<b>Presentation</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
+    "<b>Slides</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
     "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>"
   )
 }
