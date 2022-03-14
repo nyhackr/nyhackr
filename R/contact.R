@@ -1,3 +1,11 @@
+#' Set up the formspree contact form
+#'
+#' Renders the formspree contact form. Submitted forms are sent to Nicole DelGiudice. Styled with css/contact-form.css.
+#'
+#' @return html
+#'
+#' @examples
+#' render_contact_form()
 render_contact_form <- function(){
   htmltools::div(
     class = 'contact-container',

@@ -1,4 +1,14 @@
-
+#' Render the grid of recent talks on the past talks page
+#'
+#' @param .data a dataframe of recent talks. See example.
+#' @param n the number of talks to show
+#'
+#' @return html
+#'
+#' @examples
+#' talks <- get_current_talks(gsheet_id)
+#' talks_past <- filter(talks, date < Sys.Date())
+#' render_recent_talks(talks_past, n = 4)
 render_recent_talks <- function(.data, n = 4){
   .data %>% 
     arrange(desc(date)) %>% 
@@ -12,6 +22,18 @@ render_recent_talks <- function(.data, n = 4){
     )
 } 
 
+#' Render the datatable archive of past talks
+#'
+#' Renders the DT::datatable archive of all the past talks.
+#'
+#' @param .data 
+#'
+#' @return html
+#'
+#' @examples
+#' talks <- get_current_talks(gsheet_id)
+#' talks_past <- filter(talks, date < Sys.Date())
+#' render_archive(talks_past)
 render_archive <- function(.data){
   
   # munge data for datatable
@@ -39,8 +61,8 @@ render_archive <- function(.data){
   )
 }
 
+#' @describeIn render_archive Munge the talks data to get the format ready for DT::datatable
 dt_format_data <- function(.data){
-  # filter, cleanup, and munge data to right shape for datatable
 
   # arrange data and clean up links
   data_cleaned <- .data %>% 
@@ -81,13 +103,7 @@ dt_format_data <- function(.data){
   return(data_summarized)
 }
 
-format_presentation <- function(speaker, slidesURL, slidesTitle){
-  glue::glue(
-    "<b>Slides</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
-    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>"
-  )
-}
-
+#' @describeIn render_archive Format the video column in the archive
 parse_video_name <- function(url){
   if (is.na(url)){
     return('-')
@@ -99,16 +115,27 @@ parse_video_name <- function(url){
   return(url_icon)
 }
 
+#' @describeIn render_archive Format the presentation paragraph in the archive
+format_presentation <- function(speaker, slidesURL, slidesTitle){
+  glue::glue(
+    "<b>Slides</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
+    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>"
+  )
+}
+
+#' @describeIn render_archive Format the slides link in the archive
 parse_slides_name <- function(url, title){
   if (is.na(url)) return("Not available")
   as.character(htmltools::a(title, href = url, target = "_blank"))
 }
 
+#' @describeIn render_archive Format the speaker name in the archive
 parse_speaker_name <- function(name){
   if(is.na(name)) return('Not available')
   return(name)
 }
 
+#' @describeIn render_archive Format the entire child row in the archive
 format_child_row <- function(descriptionHTML, presentations){
   paste0(
     paste0(presentations, collapse = "<br>"),
@@ -117,6 +144,7 @@ format_child_row <- function(descriptionHTML, presentations){
   )
 }
 
+#' @describeIn render_archive Create the JavaScript callback function that creates the child row in the archive
 dt_callback_child_row <- function(){
   DT::JS(
     "

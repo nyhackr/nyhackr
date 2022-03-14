@@ -1,4 +1,4 @@
-# Decrypt credentials file and authenticate Googlesheets
+# decrypt credentials file and authenticate Google Sheets
 googlesheets4::gs4_auth(
   path = cyphr::decrypt(
     readLines("nyhackr-website.encrypted"),

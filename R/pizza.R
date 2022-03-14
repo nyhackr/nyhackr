@@ -1,3 +1,15 @@
+
+#' Render the pizza plot
+#'
+#' Renders the plotly interactive plot on the pizza page. Build via ggplot and ggplotly
+#'
+#' @param .data a dataframe of the pizza data. See example.
+#'
+#' @return a plotly object
+#'
+#' @examples
+#' pizza <- jsonlite::fromJSON("https://www.jaredlander.com/data/PizzaPollData.php")
+#' render_pizza_plot(pizza)
 render_pizza_plot <- function(.data){
   
   .data <- .data %>% 
