@@ -43,7 +43,6 @@ The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuil
     ├── R/                Core R functions to pull/update data and format HTML 
     │   └── data/         R scripts to initialize and update data
     ├── renv/
-    ├── update-data/      Script to update the talks data in Google Drive
     ├── _site.yml         Controls the site structure
     ├── about.Rmd         Renders to the about page
     ├── books.Rmd         Renders to the books page
