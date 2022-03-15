@@ -51,7 +51,6 @@ jobs:
           
       - name: Ensure tokens do not exist
         run: |
-          rm ~/.Renviron
           rm ~/.Rprofile
 
       - name: Deploy site to GitHub pages branch
