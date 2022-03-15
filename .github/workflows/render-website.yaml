@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - facelift
   schedule:
     - cron: '0 8 * * 0-6'
 
@@ -34,26 +35,24 @@ jobs:
       - name: Setup renv
         uses: r-lib/actions/setup-renv@v1
 
-      - name: Create and populate .Renviron with tokens
+      - name: Update Google Sheets talks data with latest MeetUp data
         env:
           CYPHR_KEY: ${{ secrets.CYPHR_KEY }}
           GSHEET_ID: ${{ secrets.GSHEET_ID }}
-        shell: bash
-        run: |
-          echo CYPHR_KEY=$CYPHR_KEY >> ~/.Renviron
-          echo GSHEET_ID=$GSHEET_ID >> ~/.Renviron
-
-      - name: Update Google Sheets talks data with latest MeetUp data
         run: |
           Rscript -e 'source("R/data/update-data.R")'
 
       - name: Render site from Rmarkdown files
+        env:
+          CYPHR_KEY: ${{ secrets.CYPHR_KEY }}
+          GSHEET_ID: ${{ secrets.GSHEET_ID }}
         run: |
           Rscript -e 'rmarkdown::render_site(input = "${{ github.workspace }}")'
           
-      - name: Remove tokens
+      - name: Ensure tokens do not exist
         run: |
           rm ~/.Renviron
+          rm ~/.Rprofile
 
       - name: Deploy site to GitHub pages branch
         uses: s0/git-publish-subdir-action@v2.5.1
