@@ -35,4 +35,4 @@ render_sponsors(sponsors)
 
 # How to contribute to this website
 
-See guidelines on the [GitHub repo](https://github.com/nyhackr/nyhackr?utm_source=nyhackr).
+See guidelines on the [GitHub repo](https://github.com/nyhackr/nyhackr?utm_source=nyhackr)
