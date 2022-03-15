@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - facelift
   schedule:
     - cron: '0 8 * * 0-6'
 
