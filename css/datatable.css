@@ -1,0 +1,39 @@
+.dataTables_filter input {
+  border-radius: 4px;
+  background: #E9E9ED;
+  border: none;
+}
+
+.paginate_button:hover {
+  background: none !important;
+    filter: brightness(0) !important;
+}
+
+.paginate_button.current {
+  background: #b51f1f !important;
+  filter: brightness(6) !important;
+  font-color: white !important;
+}
+.paginate_button.current:hover {
+  filter: brightness(1.25);
+}
+
+#DataTables_Table_0_length select {
+  padding: 0.4em;
+  margin: 0.4em;
+  border-radius: 4px
+}
+
+/*
+table.dataTable.stripe tbody tr.odd,
+table.dataTable.display tbody tr.odd {
+ background-color: #eee !important;
+}
+*/
+
+table.dataTable.row-border tbody th,
+table.dataTable.row-border tbody td,
+table.dataTable.display tbody th,
+table.dataTable.display tbody td {
+ border-top: 0 !important
+}

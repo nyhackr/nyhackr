@@ -1,0 +1,38 @@
+---
+title: "About nyhackr"
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+source('R/gs-auth.R')
+source('R/about.R')
+library(dplyr)
+```
+
+
+Founded by [Josh Reich](https://www.meetup.com/nyhackr/members/8912279/?utm_source=nyhackr) and [Drew Conway](https://www.meetup.com/nyhackr/members/9179090/?utm_source=nyhackr), the [New York Open Statistical Programming Meetup](https://www.meetup.com/nyhackr/?utm_source=nyhackr) started as the New York R Meetup with a handful of people in an office at [Union Square Ventures](https://www.usv.com/?utm_source=nyhackr).  Since then it has grown to over 12,000 members and has been hosted at [NYU](https://www.nyu.edu?utm_source=nyhackr), [Columbia](https://www.columbia.edu?utm_source=nyhackr), [AOL](http://www.aol.com/?utm_source=nyhackr), [iHeartRadio](https://www.iheart.com?utm_source=nyhackr), [eBay](https://www.ebay.com?utm_source=nyhackr), [Work-Bench](https://www.work-bench.com?utm_source=nyhackr) and other locations.
+
+Our mission is to spread knowledge of statistical programming techniques in open-source languages such as R, Python, Julia and Go, and data science in general. Another important aspect is community building and socializing.  The meetups start with pizza, followed by a 45-90 minute talk, ending with a trip to the local bar.
+
+<br>
+
+# Jobs
+
+Job openings and other announcements are on our [<i class="fa fa-slack"></i> Slack channel](https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr) and on the [<i class="fa fa-meetup"></i> Meetup message board](https://www.meetup.com/nyhackr/messages/boards/?utm_source=nyhackr).
+
+
+<br>
+
+# Sponsors
+
+<br>
+
+```{r sponsors, echo=FALSE, message=FALSE, warning=FALSE}
+sponsors <- get_current_sponsors(gsheet_id)
+render_sponsors(sponsors)
+```
+
+<br><br>
+
+# How to contribute to this website
+
+See guidelines on the [GitHub repo](https://github.com/nyhackr/nyhackr?utm_source=nyhackr).

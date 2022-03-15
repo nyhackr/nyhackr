@@ -1,45 +1,49 @@
-name: "nyhackr-web"
-output_dir: "docs"
-exclude:
-    - data
-    - prep
-    - scratch
-    - test
-    - utils
-    - travis
-    - DESCRIPTION
-    - renv.lock
+name: "nyhackr"
+output_dir: "_site"
+exclude: 
+  - R
+  - update-data
+  - service-account.json
+  - service-account.json.encrypted
+  - nyhackr-website.encrypted
+  - .Renviron
+  - renv.lock
 navbar:
-    title: "<a href='index.html'><img src='images/nyhackr-fav.png' /></a>"
-    left:
-        - text: "About"
-          href: index.html
-        - text: "Presentations"
-          href: presentations.html
-        - text: "Pizza Poll"
-          href: pizzapoll.html
-        - text: "Events"
-          href: events.html
-        - text: "Twitter"
-          href: twitter.html
+  title: "<a class='logo' href='index.html'><img src='img/logo/nyhackr-logo-hex.png' /></a>"
+  right:
+    - icon: fa-home
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Past talks"
+      href: past-talks.html
+    - text: "Events"
+      href: events.html
+    - text: "More"
+      menu:
+        - text: "Pizza"
+          href: pizza.html
         - text: "Books"
           href: books.html
-        - text: "Sponsors"
-          href: sponsors.html
-        # - text: "Conference"
-        #   href: nyr.html
-        - text: "Slack"
-          href: slack.html
         - text: "Contact"
           href: contact.html
-        #- text: "About"
-        #  href: about.html
+    - icon: fa-slack fa-lg
+      href: https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/nyhackr?utm_source=nyhackr
+    - icon: fa-github fa-lg
+      href: https://github.com/nyhackr?utm_source=nyhackr
 output:
-    html_document:
-        theme: lumen
-        highlight: textmate
-        css: [css/DataTable.css, css/Spacer.css, css/FlexWrap.css]
-        includes:
-            in_header: includes/favicon.html
-            after_body: includes/footer.html
-        smart: false
+  html_document:
+    theme: paper
+    highlight: tango
+    includes:
+      in_header: includes/header.html
+      after_body: 
+        - includes/footer.html
+        - includes/js.html
+    css: 
+      - css/nyhackr.css
+      - css/datatable.css
+      - css/sponsors.css
+      - css/contact-form.css

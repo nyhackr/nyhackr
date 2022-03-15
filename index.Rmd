@@ -1,92 +1,31 @@
 ---
-title: "About"
+title: "New York Open Statistical Programming Meetup"
 ---
 
-```{r setup,include=FALSE}
-knitr::opts_chunk$set(cache=FALSE,echo=FALSE,fig.align='center')
+```{r upcoming-setup, echo=FALSE, message=FALSE, warning=FALSE}
+source('R/gs-auth.R')
+source('R/utils.R')
+source('R/index.R')
 ```
 
-```{r common-actions,include=FALSE}
-# source("utils.R")
-library(htmltools)
-```
-
-```{r nyhackr-logo}
-nyhackrLogo <- div(class='center', 
-                      a(href="https://www.meetup.com/nyhackr/", 
-                        img(src='images/nyhackr-logo.jpg'
-                            )
-                        )
-                      )
-nyhackrFollow <- div(a(href="https://twitter.com/nyhackr", 
-                       class="twitter-follow-button", 
-                       `data-show-screen-name`="false", 
-                       `data-show-count`="false", 
-                       'Follow @nyhackr'),
-                     tags$script(async=TRUE, 
-                                 src="//platform.twitter.com/widgets.js", 
-                                 charset="utf-8"
-                     )
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+htmltools::HTML(
+  glue::glue(
+    "<h4>RSVP and join our {get_n_members(format = TRUE)}members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>"
+  )
 )
 ```
 
-Founded by [Josh Reich](https://www.meetup.com/nyhackr/members/8912279/) and [Drew Conway](https://www.meetup.com/nyhackr/members/9179090/), the [New York Open Statistical Programming Meetup](https://www.meetup.com/nyhackr/) started as the New York R Meetup with a handful of people in an office at [Union Square Ventures](https://www.usv.com/).  Since then it has grown to over 11,000 members and has been hosted at [NYU](www.nyu.edu), [Columbia](columbia.edu), [AOL](http://www.aol.com/), [iHeartRadio](https://www.iheart.com/), [eBay](ebaynyc.com), [Work-Bench](https://www.work-bench.com/) and other locations.
+<br>
 
-Our mission is to spread knowledge of statistical programming techniques in open-source languages such as R, Python, Julia and Go, and data science in general.  Another important aspect is community building and socializing.  The meetups start with pizza, followed by a 45-90 minute talk, ending with a trip to the local bar.
-
-# Attending
-
-To attend please visit the [meetup page](https://www.meetup.com/nyhackr).
-
-# Presentations and Videos
-
-Whenever possible we make presentations available at the [Presentations](presentations.html) page.
-
-We now stream and host videos of meetups on [Facebook](https://www.facebook.com/pg/LanderAnalytics/videos/) and [YouTube](https://www.youtube.com/channel/UC2-hKemnrmVCH_29duyJ26A) and older videos are scattered on a variety of services.  They are also listed on the [Presentations](presentations.html) page.
-
-# Jobs
-
-Job openings and other announcements are on the [meetup discussion board](https://www.meetup.com/nyhackr/messages/boards/).
-
-# Upcoming Meetup
-
-```{r upcoming-setup}
-library(httr)
-# get al linfo from the meetup api
-r <- GET('https://api.meetup.com/nyhackr/events', 
-         query=list(
-             status='upcoming', 
-             desc='false', 
-             page='1'))
-
-x <- content(r)
-
-if(!length(x))
-{
-    htmltools::div(
-        htmltools::p(
-            "There is not a meetup currently scheduled.  Please check back soon."
-        )
-    )
-}else
-{
-    meetupDescription <- x[[1]]$description
-    meetupTime <- format(as.POSIXct(as.numeric(x[[1]]$time)/1000, origin='1970-01-01 00:00:00', tz='America/New_York'), '%B %e, %Y %r')
-meetupName <- x[[1]]$name
-
-    htmltools::div(
-        htmltools::h2(meetupName),
-        htmltools::h3(meetupTime),
-        htmltools::HTML(meetupDescription)
-    )
-}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+talk_next <- get_current_talks(gsheet_id) %>% 
+  filter(date >= Sys.Date()) %>% 
+  arrange(date)
+render_next_talk(talk_next)
 ```
 
-# Website
-
-The nyhackr website was built as a [RMarkdown website](http://rmarkdown.rstudio.com/rmarkdown_websites.html) and the source code can accessed by the community on [GitHub](https://github.com/nyhackr/nyhackr). 
-
-<!-- Insert README.md into page -->
-
-```{r contributing, child='README.md'}
-```
+<!-- floating div for jobs -->
+<div id="jobs-tag" align="center">
+<p><i class="fa fa-arrow-up"></i> Jobs</p>
+</div>

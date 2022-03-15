@@ -1,0 +1,40 @@
+/* controls the contact form on the contact page */
+
+.contact-container {
+  max-width: 500px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+.contact-container input, 
+.contact-container select,
+.contact-container textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-container button,
+.contact-container button:hover,
+.contact-container button:active {
+  background: #C95D5D !important;
+  max-width: 40%;
+  min-width: 200px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 0.85em;
+  padding: 12px;
+}
+
+.contact-container button:hover {
+  filter: brightness(1.2);
+}
+.contact-container button:active {
+  filter: brightness(1.4);
+}

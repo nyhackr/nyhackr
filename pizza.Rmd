@@ -1,0 +1,14 @@
+---
+title: "Pizza poll"
+---
+
+We traditionally conduct a [Pizza Poll](https://www.jaredlander.com/2012/09/pizza-polls/?utm_source=nyhackr) at the start of each meetup. The data is available as a [json feed](https://www.jaredlander.com/data/PizzaPollData.php).
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+source('R/pizza.R')
+pizza <- jsonlite::fromJSON("https://www.jaredlander.com/data/PizzaPollData.php")
+
+render_pizza_plot(pizza)
+```

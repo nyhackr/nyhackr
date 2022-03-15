@@ -1,0 +1,26 @@
+---
+title: "Past talks"
+include_title: false
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+source('R/gs-auth.R')
+source('R/past-talks.R')
+source('R/utils.R')
+talks <- get_current_talks(gsheet_id)
+talks_past <- filter(talks, date < Sys.Date())
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+render_recent_talks(talks_past, n = 4)
+```
+
+
+<br><br>
+
+## Archive
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+render_archive(talks_past)
+```
