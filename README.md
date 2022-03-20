@@ -29,7 +29,7 @@ After each MeetUp, manually update the `[topics, videoURL, slidesTitle, slidesUR
 
 ### Site hosting
 
-The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuilds on push, daily at 3am EST, and on a manual trigger within the [Actions tab](https://github.com/nyhackr/nyhackr/actions/workflows/render-rmarkdown.yaml).
+The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuilds on push, daily at 3am EST, and on a manual trigger within the [Actions tab](https://github.com/nyhackr/nyhackr/actions/workflows/render-website.yaml).
 
 ### Directory
 
