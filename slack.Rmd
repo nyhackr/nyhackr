@@ -1,0 +1,9 @@
+---
+title: 'Slack'
+output:
+  html_document:
+    includes:
+      in_header: includes/header-slack.html
+---
+
+Redirecting to our [<i class="fa fa-slack"></i> Slack channel](https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr) ...
