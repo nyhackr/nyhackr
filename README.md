@@ -34,23 +34,25 @@ The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuil
 ### Directory
 
     .
-    ├── css/              CSS files to be included with rendered site
+    ├── css/                CSS files to be included with rendered site
     ├── img/
     │   ├── favicon/
     │   └── logos/
-    ├── includes/         HTML files to include as specified in _site.yml
-    ├── js/               JavaScipt files to be included with rendered site
-    ├── R/                Core R functions to pull/update data and format HTML 
-    │   └── data/         R scripts to initialize and update data
+    ├── includes/           HTML files to include as specified in _site.yml
+    ├── js/                 JavaScipt files to be included with rendered site
+    ├── R/                  Core R functions to pull/update data and format HTML 
+    │   └── data/           R scripts to initialize and update data
     ├── renv/
-    ├── _site.yml         Controls the site structure
-    ├── about.Rmd         Renders to the about page
-    ├── books.Rmd         Renders to the books page
-    ├── contact.Rmd       Renders to the contact page
-    ├── events.Rmd        Renders to the events page
-    ├── index.Rmd         Renders to the home page
-    ├── past-talks.Rmd    Renders to the past talks page
-    ├── pizza.Rmd         Renders to the pizza page
+    ├── _site.yml           Controls the site structure
+    ├── about.Rmd           Renders to the about page
+    ├── books.Rmd           Renders to the books page
+    ├── contact.Rmd         Renders to the contact page
+    ├── events.Rmd          Renders to the events page
+    ├── index.Rmd           Renders to the home page
+    ├── past-talks.Rmd      Renders to the past talks page
+    ├── pizza.Rmd           Renders to the pizza page
+    ├── presentations.Rmd   Redirects to past talks
+    ├── slack.Rmd           Redirects to Slack sign up link
     └── README.md
 
 
