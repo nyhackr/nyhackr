@@ -1,17 +1,3 @@
-let mobileWidth = 428
-
-function resizeMobile(){
-  // resize cards
-  if ($("#meetup-card-container").width() <= mobileWidth){
-   $("#meetup-card-container .meetup-card").width("100%") 
-  } else {
-    $("#meetup-card-container .meetup-card").width("45%")
-  }
-}
-
-//resizeMobile()
-//$(window).resize(resizeMobile)
-
 
 let tabletWidth = 767
 
@@ -30,5 +16,5 @@ function resizeTablet(){
   }
 }
 
-resizeTablet()
+window.addEventListener('load', resizeTablet)
 $(window).resize(resizeTablet)
