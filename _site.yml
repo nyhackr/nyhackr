@@ -29,6 +29,8 @@ navbar:
           href: contact.html
     - icon: fa-slack fa-lg
       href: https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr
+    - icon: fa-meetup fa-lg
+      href: https://www.meetup.com/nyhackr/?utm_source=nyhackr
     - icon: fa-twitter fa-lg
       href: https://twitter.com/nyhackr?utm_source=nyhackr
     - icon: fa-github fa-lg
