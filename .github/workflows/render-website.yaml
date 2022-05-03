@@ -22,6 +22,7 @@ jobs:
       - name: Install curl and sodium
         shell: bash
         run: |
+          sudo apt update
           sudo apt-get install libcurl4-openssl-dev r-base
           sudo apt-get install libsodium-dev
 
