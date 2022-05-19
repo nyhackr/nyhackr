@@ -1,5 +1,7 @@
 # nyhackr
 
+This repo manages and builds the [nyhackr.org](nyhackr.org) website for the New York Open Statistical Programming Meetup.
+
 ## How to contribute
 
 If you wish to contribute to the website the process is pretty simple.

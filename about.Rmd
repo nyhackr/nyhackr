@@ -17,7 +17,7 @@ Our mission is to spread knowledge of statistical programming techniques in open
 
 # Jobs
 
-Job openings and other announcements are on our [<i class="fa fa-slack"></i> Slack channel](https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr) and on the [<i class="fa fa-meetup"></i> Meetup message board](https://www.meetup.com/nyhackr/messages/boards/?utm_source=nyhackr).
+Job openings and other announcements are on our [<i class="fa fa-slack"></i> Slack channel](https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-2O~Ftvy7CaTQKSGd3an13A?utm_source=nyhackr) and on the [<i class="fa fa-meetup"></i> Meetup message board](https://www.meetup.com/nyhackr/messages/boards/?utm_source=nyhackr).
 
 
 <br>

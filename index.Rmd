@@ -21,7 +21,8 @@ htmltools::HTML(
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 talk_next <- get_current_talks(gsheet_id) %>% 
   filter(date >= Sys.Date()) %>% 
-  arrange(date)
+  arrange(date) %>% 
+  slice_head(n = 1)
 render_next_talk(talk_next)
 ```
 
