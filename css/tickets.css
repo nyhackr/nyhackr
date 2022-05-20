@@ -1,0 +1,21 @@
+#tickets {
+  padding-top: 4em;
+}
+
+#tickets iframe {
+  padding: 0.3em;
+  border: #f2f2f2 1em solid;
+  border-radius: 0.5em;
+}
+
+#tickets-tag {
+  position: absolute;
+  padding: 0.5em;
+  background-color: #4DD4B2;
+  border: #fff 0.3em solid;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1em;
+  transform: rotate(10deg);
+}
