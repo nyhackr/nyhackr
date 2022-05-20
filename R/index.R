@@ -9,7 +9,8 @@
 #' @examples
 #' talk_next <- get_current_talks(gsheet_id) %>% 
 #'   filter(date >= Sys.Date()) %>% 
-#'   arrange(date)
+#'   arrange(date) %>% 
+#'   slice_head(n = 1)
 #' render_next_talk(talk_next)
 render_next_talk <- function(talk){
   if (nrow(talk) == 0) {
@@ -28,8 +29,23 @@ render_next_talk <- function(talk){
     date_formated <- format(talk$date, '%B %e')
     htmltools::div(
       create_card(talk$meetupURL, talk$cardURL, homepage = TRUE),
+      add_ticket_div(),
       htmltools::h3(htmltools::strong(glue::glue("{date_formated}: {talk$meetupTitle}"))),
-      htmltools::HTML(talk$descriptionHTML)
+      htmltools::HTML(talk$descriptionHTML),
+      htmltools::div(
+        id = 'tickets',
+        htmltools::HTML(talk$ticketsHTML)
+      )
     )
   }
+}
+
+add_ticket_div <- function(){
+  htmltools::a(
+    href = '#tickets',
+    htmltools::div(
+      id = 'tickets-tag',
+      'GET TICKETS'
+    )
+  )
 }

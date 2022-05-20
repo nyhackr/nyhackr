@@ -28,7 +28,7 @@ navbar:
         - text: "Contact"
           href: contact.html
     - icon: fa-slack fa-lg
-      href: https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-2O~Ftvy7CaTQKSGd3an13A?utm_source=nyhackr
+      href: https://join.slack.com/t/nyhackr/shared_invite/zt-19oxjz8j4-cY_pbKopSG4fRRzHNEOMMQ?utm_source=nyhackr
     - icon: fa-meetup fa-lg
       href: https://www.meetup.com/nyhackr/?utm_source=nyhackr
     - icon: fa-twitter fa-lg
@@ -49,3 +49,4 @@ output:
       - css/datatable.css
       - css/sponsors.css
       - css/contact-form.css
+      - css/tickets.css
