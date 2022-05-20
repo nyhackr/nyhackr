@@ -49,3 +49,4 @@ output:
       - css/datatable.css
       - css/sponsors.css
       - css/contact-form.css
+      - css/tickets.css

@@ -11,7 +11,7 @@ source('R/index.R')
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 htmltools::HTML(
   glue::glue(
-    "<h4>RSVP and join our {get_n_members(format = TRUE)}members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>"
+    "<h4>Join our {get_n_members(format = TRUE)}members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>"
   )
 )
 ```
@@ -20,8 +20,8 @@ htmltools::HTML(
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 talk_next <- get_current_talks(gsheet_id) %>% 
-  filter(date >= Sys.Date()) %>% 
-  arrange(date) %>% 
+  filter(date >= Sys.Date()) %>%
+  arrange(date) %>%
   slice_head(n = 1)
 render_next_talk(talk_next)
 ```

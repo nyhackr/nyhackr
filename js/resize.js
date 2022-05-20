@@ -8,11 +8,17 @@ function resizeTablet(){
   slackIconPosition.left = slackIconPosition.left - 5
   $("#jobs-tag").css(slackIconPosition)
   
-  // remove floating jobs div
+  // adjust tickets div position
+  let cardPosition = $('.home-card').offset()
+  cardPosition.top = cardPosition.top - 15
+  cardPosition.left =  cardPosition.left + $('.home-card').width() - 90
+  $("#tickets-tag").css(cardPosition)
+  
+  // remove divs on mobile
   if ($(window).width() <= tabletWidth) {
-    $("#jobs-tag").hide()
+    $("#jobs-tag, #tickets-tag").hide()
   } else {
-    $("#jobs-tag").show()
+    $("#jobs-tag, #tickets-tag").show()
   }
 }
 
