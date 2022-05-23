@@ -19,3 +19,16 @@
   font-size: 1.1em;
   transform: rotate(10deg);
 }
+
+#tickets-tag-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #tickets-tag {
+    display: none;
+  }
+  #tickets-tag-mobile {
+    display: block;
+  }
+}
