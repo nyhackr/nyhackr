@@ -41,11 +41,20 @@ render_next_talk <- function(talk){
 }
 
 add_ticket_div <- function(){
-  htmltools::a(
-    href = '#tickets',
-    htmltools::div(
-      id = 'tickets-tag',
-      'GET TICKETS'
+  htmltools::tagList(
+    htmltools::a(
+      href = '#tickets',
+      htmltools::div(
+        id = 'tickets-tag',
+        'GET TICKETS'
+      )
+    ),
+    htmltools::a(
+      href = '#tickets',
+      htmltools::div(
+        id = 'tickets-tag-mobile',
+        'Get online and in-person meetup tickets'
+      )
     )
   )
 }

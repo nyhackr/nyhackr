@@ -137,6 +137,11 @@ flatten_talk_jsons <- function(.data){
   )
   talk_venue_address <- stringr::str_squish(talk_venue_address)
   
+  # make sure nulls are NAs so the column is included in the talk tibble
+  if (identical(talk_venue_id, character(0)) | is.null(talk_venue_id)) talk_venue_id <- NA
+  if (identical(talk_venue, character(0)) | is.null(talk_venue)) talk_venue <- NA
+  if (identical(talk_venue_address, character(0)) | is.null(talk_venue_address)) talk_venue_address <- NA
+  
   talk_description_html <- stringr::str_trim(.data$description)
   talk_rsvp_count <- .data$yes_rsvp_count
   talk_date <- as.Date(as.POSIXct(as.numeric(.data$time)/1000, origin='1970-01-01 00:00:00'))
@@ -160,8 +165,9 @@ flatten_talk_jsons <- function(.data){
     speaker = NA,
     cardURL = NA
   )
-  
   talk[talk == ''] <- NA
+  
+  if (nrow(talk) == 0) cli::cli_alert_warning('Cleaned json contains no rows')
   
   return(talk)
 }
