@@ -165,8 +165,9 @@ flatten_talk_jsons <- function(.data){
     speaker = NA,
     cardURL = NA
   )
-  
   talk[talk == ''] <- NA
+  
+  if (nrow(talk) == 0) cli::cli_alert_warning('Cleaned json contains no rows')
   
   return(talk)
 }
