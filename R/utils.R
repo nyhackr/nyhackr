@@ -163,7 +163,8 @@ flatten_talk_jsons <- function(.data){
     slidesTitle = NA,
     slidesURL = NA,
     speaker = NA,
-    cardURL = NA
+    cardURL = NA,
+    ticketsHTML = NA
   )
   talk[talk == ''] <- NA
   

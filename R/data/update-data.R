@@ -12,7 +12,7 @@ talks_current <- get_current_talks(gsheet_id)
 # only add new talks if their ID is not in the current data but also update
 # relevant data for old talks in the data
 # TODO: does this work when there is multiple presentations per event?
-cols_to_keep <- c('topics', 'videoURL', 'slidesTitle', 'slidesURL', 'speaker', 'cardURL')
+cols_to_keep <- c('descriptionHTML', 'topics', 'videoURL', 'slidesTitle', 'slidesURL', 'speaker', 'cardURL', 'ticketsHTML')
 talks_to_add <- left_join(select(talks_to_add, -all_of(cols_to_keep)),
                        select(talks_current, ID, all_of(cols_to_keep)),
                        by = 'ID')
