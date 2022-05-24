@@ -9,6 +9,7 @@
 }
 
 #tickets-tag {
+  display: none;
   position: absolute;
   padding: 0.5em;
   background-color: #4DD4B2;
@@ -21,14 +22,23 @@
 }
 
 #tickets-tag-mobile {
-  display: none;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #fff;
+  filter: brightness(0.9);
+  background-color: #4DD4B2;
+  border: #fff solid 1px;
+  border-radius: 5px;
+  padding: 3px 8px 3px 8px;
+  text-align: center;
+  max-width: 500px;
 }
 
-@media only screen and (max-width: 767px) {
-  #tickets-tag {
-    display: none;
+@media only screen and (min-width: 768px) {
+   #tickets-tag {
+     display: block;
   }
-  #tickets-tag-mobile {
-    display: block;
+   #tickets-tag-mobile {
+     display: none;
   }
 }
