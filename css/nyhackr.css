@@ -128,6 +128,7 @@ body {
 	}
 }
 #jobs-tag {
+  display: none;
   position: fixed;
   top: 60px; /*controlled by js */
   right: 40px; /*controlled by js */
@@ -148,6 +149,11 @@ body {
 #jobs-tag > p {
   color: white;
   font-weight: 700;
+}
+@media only screen and (min-width: 768px) {
+   #jobs-tag {
+      display: block;
+  }
 }
 
 .book-container > p > a > img {
@@ -194,4 +200,19 @@ body {
 .copyright {
   font-size: 0.8em;
   color: #a6a6a6;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.6em !important;
+  }
+  h2 {
+    font-size: 1.4em !important;
+  }
+  h3 {
+    font-size: 1.2em !important;
+  }
+  h4 {
+    font-size: 1.1em !important;
+  }
 }

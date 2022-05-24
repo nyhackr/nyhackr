@@ -28,8 +28,8 @@ render_next_talk <- function(talk){
   } else {
     date_formated <- format(talk$date, '%B %e')
     htmltools::div(
-      create_card(talk$meetupURL, talk$cardURL, homepage = TRUE),
       add_ticket_div(),
+      create_card(talk$meetupURL, talk$cardURL, homepage = TRUE),
       htmltools::h3(htmltools::strong(glue::glue("{date_formated}: {talk$meetupTitle}"))),
       htmltools::HTML(talk$descriptionHTML),
       htmltools::div(
@@ -53,7 +53,7 @@ add_ticket_div <- function(){
       href = '#tickets',
       htmltools::div(
         id = 'tickets-tag-mobile',
-        'Get online and in-person meetup tickets'
+        'Click here for meetup tickets'
       )
     )
   )
