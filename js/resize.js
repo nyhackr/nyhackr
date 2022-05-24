@@ -15,11 +15,11 @@ function resizeTablet(){
   $("#tickets-tag").css(cardPosition)
   
   // remove divs on mobile
-  if ($(window).width() <= tabletWidth) {
-    $("#jobs-tag, #tickets-tag").hide()
-  } else {
-    $("#jobs-tag, #tickets-tag").show()
-  }
+  // if ($(window).width() <= tabletWidth) {
+  //   $("#jobs-tag, #tickets-tag").hide()
+  // } else {
+  //   $("#jobs-tag, #tickets-tag").show()
+  // }
 }
 
 window.addEventListener('load', resizeTablet)
