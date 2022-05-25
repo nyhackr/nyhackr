@@ -1,6 +1,6 @@
 # nyhackr
 
-This repo manages and builds the [nyhackr.org](nyhackr.org) website for the New York Open Statistical Programming Meetup.
+This repo manages and builds the [nyhackr.org](https://nyhackr.org/) website for the New York Open Statistical Programming Meetup.
 
 ## How to contribute
 
@@ -27,7 +27,9 @@ rmarkdown::render_site()
 
 The site is built using [Rmarkdown](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html). `_site.yml` controls the site layout and the individual `*.Rmd` files control each page. Data is pulled from the MeetUp API and stored within Google Sheets. On render, the site pulls the latest data from Google Sheets to build the site.
 
-After each MeetUp, manually update the `[topics, videoURL, slidesTitle, slidesURL, speaker, cardURL]` columns on the "Talks" tab within the Google Sheet. These information is not available from the MeetUp API. Data should be in tidy format with each row representing a presentation at a given event. E.g. a MeetUp with two presentations will have two rows with duplicate information for the columns `[ID, meetupURL, date, venueID, venue, venueAddress, rsvpCount, meetupTitle, descriptionHTML]`. If there are two speakers for one presentation then there should be one row with their names concatenated in the `speaker` column.
+After each MeetUp, manually update the `[topics, videoURL, slidesTitle, slidesURL, speaker, cardURL, ticketsHTML]` columns on the "Talks" tab within the Google Sheet. This information is not available from the MeetUp API. These colums plus the `descriptionHTML` column will not update with new MeetUp information after the first data pull -- this allows saving of manual edits to the column. 
+
+Data should be in tidy format with each row representing a presentation at a given event. E.g. a MeetUp with two presentations will have two rows with duplicate information for the columns `[ID, meetupURL, date, venueID, venue, venueAddress, rsvpCount, meetupTitle, descriptionHTML]`. If there are two speakers for one presentation then there should be one row with their names concatenated in the `speaker` column.
 
 ### Site hosting
 

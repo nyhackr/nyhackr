@@ -14,12 +14,13 @@ function resizeTablet(){
   cardPosition.left =  cardPosition.left + $('.home-card').width() - 90
   $("#tickets-tag").css(cardPosition)
   
-  // remove divs on mobile
-  // if ($(window).width() <= tabletWidth) {
-  //   $("#jobs-tag, #tickets-tag").hide()
-  // } else {
-  //   $("#jobs-tag, #tickets-tag").show()
-  // }
+  // show ticket divs on desktop
+  // js instead of css so it can wait for the image to load
+  if ($(window).width() > tabletWidth) {
+     $("#tickets-tag").show()
+  } else {
+     $("#tickets-tag").hide()
+  }
 }
 
 window.addEventListener('load', resizeTablet)
