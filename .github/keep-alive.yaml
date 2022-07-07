@@ -1,0 +1,13 @@
+name: Dummy commit if no commit in last 50 days to keep GitHub Actions alive
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  cronjob-based-github-action:
+    name: Cronjob based github action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/keepalive-workflow@v1
