@@ -11,7 +11,7 @@ function resizeTablet(){
   // adjust tickets div position
   let cardPosition = $('.home-card').offset()
   cardPosition.top = cardPosition.top - 15
-  cardPosition.left =  cardPosition.left + $('.home-card').width() - 90
+  cardPosition.left =  cardPosition.left + $('.home-card').width() - 40 //90
   $("#tickets-tag").css(cardPosition)
   
   // show ticket divs on desktop

@@ -28,7 +28,7 @@ render_next_talk <- function(talk){
   } else {
     date_formated <- format(talk$date, '%B %e')
     htmltools::div(
-      add_ticket_div(),
+      add_ticket_div(talk$meetupURL),
       create_card(talk$meetupURL, talk$cardURL, homepage = TRUE),
       htmltools::h3(htmltools::strong(glue::glue("{date_formated}: {talk$meetupTitle}"))),
       htmltools::HTML(talk$descriptionHTML),
@@ -40,20 +40,20 @@ render_next_talk <- function(talk){
   }
 }
 
-add_ticket_div <- function(){
+add_ticket_div <- function(url = '#tickets'){
   htmltools::tagList(
     htmltools::a(
-      href = '#tickets',
+      href = url,
       htmltools::div(
         id = 'tickets-tag',
-        'GET TICKETS'
+        'RSVP'
       )
     ),
     htmltools::a(
-      href = '#tickets',
+      href = url,
       htmltools::div(
         id = 'tickets-tag-mobile',
-        'Click here for meetup tickets'
+        'Click here to RSVP'
       )
     )
   )
