@@ -59,4 +59,3 @@ The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuil
     ├── slack.Rmd           Redirects to Slack sign up link
     └── README.md
 
-
