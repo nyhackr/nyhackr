@@ -137,7 +137,7 @@ body {
 	height: 40px;  
 	
 	box-sizing: border-box;
-	border: 2px white solid;
+	border: 0.2em white solid;
 	border-radius: 0.7em;
 	overflow: hidden;
   background: #4DD4B2;
