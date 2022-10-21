@@ -13,7 +13,7 @@
   position: absolute;
   padding: 0.5em;
   background-color: #4DD4B2;
-  border: #fff 0.3em solid;
+  border: #fff 0.25em solid;
   border-radius: 1em;
   color: #fff;
   font-weight: 700;
@@ -25,7 +25,6 @@
   font-weight: 500;
   font-size: 1.1em;
   color: #fff;
-  filter: brightness(0.9);
   background-color: #4DD4B2;
   border: #fff solid 1px;
   border-radius: 5px;

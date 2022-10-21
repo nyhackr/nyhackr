@@ -32,10 +32,12 @@ render_next_talk <- function(talk){
       create_card(talk$meetupURL, talk$cardURL, homepage = TRUE),
       htmltools::h3(htmltools::strong(glue::glue("{date_formated}: {talk$meetupTitle}"))),
       htmltools::HTML(talk$descriptionHTML),
-      htmltools::div(
-        id = 'tickets',
-        htmltools::HTML(talk$ticketsHTML)
-      )
+      if (!is.na(talk$ticketsHTML)){
+        htmltools::div(
+          id = 'tickets',
+          htmltools::HTML(talk$ticketsHTML)
+        )
+      } else {''}
     )
   }
 }
