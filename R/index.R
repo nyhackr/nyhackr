@@ -28,7 +28,11 @@ render_next_talk <- function(talk){
   } else {
     date_formated <- format(talk$date, '%B %e')
     htmltools::div(
-      add_ticket_div(talk$meetupURL),
+      if (is.na(talk$meetupURL)){
+        add_ticket_div(talk$meetupURL)
+      } else {
+        add_ticket_div()
+      },
       create_card(talk$meetupURL, talk$cardURL, homepage = TRUE),
       htmltools::h3(htmltools::strong(glue::glue("{date_formated}: {talk$meetupTitle}"))),
       htmltools::HTML(talk$descriptionHTML),
