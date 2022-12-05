@@ -27,13 +27,13 @@ jobs:
           sudo apt-get install libsodium-dev
 
       - name: Setup pandoc
-        uses: r-lib/actions/setup-pandoc@v1
+        uses: r-lib/actions/setup-pandoc@v2
 
       - name: Setup R
-        uses: r-lib/actions/setup-r@v1
+        uses: r-lib/actions/setup-r@v2
 
       - name: Setup renv
-        uses: r-lib/actions/setup-renv@v1
+        uses: r-lib/actions/setup-renv@v2
 
       - name: Update Google Sheets talks data with latest MeetUp data
         env:
