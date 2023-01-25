@@ -35,6 +35,10 @@ Data should be in tidy format with each row representing a presentation at a giv
 
 The site is hosted on GitHub Pages and built via GitHub Actions. The site rebuilds on push, daily at 3am EST, and on a manual trigger within the [Actions tab](https://github.com/nyhackr/nyhackr/actions/workflows/render-website.yaml).
 
+### GitHub Actions
+
+GitHub Actions will not execute if there has not been a commit in the last 60 days. If this occurs, create a commit and it will "reactivate" GitHub Actions. Previously we used [`gautamkrishnar/keepalive-workflow@v1`](https://github.com/gautamkrishnar/keepalive-workflow) but it does not work because our `master` is locked down.
+
 ### Directory
 
     .
