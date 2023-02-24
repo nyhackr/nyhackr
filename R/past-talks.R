@@ -49,7 +49,7 @@ render_archive <- function(.data){
         columnDefs = list(
           list(targets = 0, orderable = FALSE, searchable = FALSE, 
                width = "15px", className = 'details-control'), # allows child rows
-          list(targets = 0:4, className = 'dt-left'),
+          list(targets = 1:4, className = 'dt-left'),
           list(targets = 4, orderable = FALSE, searchable = FALSE, width = "15px"),
           list(targets = 5:7, searchable = TRUE, visible = FALSE) # allows searching by topics and childrow content but not show the column
         ),
@@ -68,12 +68,14 @@ dt_format_data <- function(.data){
   data_cleaned <- .data %>% 
     arrange(desc(date)) %>% 
     rowwise() %>%
-    mutate(MeetUp = as.character(htmltools::a(meetupTitle, href = meetupURL, target = "_blank")),
+    mutate(Talk = meetupTitle,
            Video = parse_video_name(videoURL),
            PresentationDescription = format_presentation(
              speaker = speaker, 
              slidesURL = slidesURL,
-             slidesTitle = slidesTitle
+             slidesTitle = slidesTitle,
+             videoURL = videoURL,
+             meetupURL = meetupURL
            )) %>%
     ungroup()
   
@@ -81,7 +83,7 @@ dt_format_data <- function(.data){
   data_summarized <- data_cleaned %>% 
     group_by(ID) %>% 
     summarize(Date = dplyr::first(date), 
-              MeetUp = dplyr::first(MeetUp),
+              Talk = dplyr::first(Talk),
               Speaker = paste0(unique(speaker), collapse = ", "),
               Video = dplyr::first(Video),
               Topic = paste0(topics, collapse = "; "),
@@ -104,22 +106,28 @@ dt_format_data <- function(.data){
 }
 
 #' @describeIn render_archive Format the video column in the archive
-parse_video_name <- function(url){
+parse_video_name <- function(url, use_icon = TRUE){
   if (is.na(url)){
     return('-')
   }
   # url_domain <- urltools::domain(url)
   # video_html <- as.character(htmltools::a(url_domain, href = url, target = "_blank"))
-  url_icon <- glue::glue('<a href="{url}" target="_blank" style="font-size: 3rem;"><span class="fa fa-youtube"></span></a>')
+  if (isTRUE(use_icon)){
+    url_html <- glue::glue('<a href="{url}" target="_blank" style="font-size: 3rem;"><span class="fa fa-youtube"></span></a>')
+  } else {
+    url_html <- as.character(htmltools::a('Video', href = url, target = "_blank"))
+  }
   
-  return(url_icon)
+  return(url_html)
 }
 
 #' @describeIn render_archive Format the presentation paragraph in the archive
-format_presentation <- function(speaker, slidesURL, slidesTitle){
+format_presentation <- function(speaker, slidesURL, slidesTitle, videoURL, meetupURL){
   glue::glue(
+    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>",
     "<b>Slides</b>: {parse_slides_name(slidesURL, slidesTitle)} <br>",
-    "<b>Speaker</b>: {parse_speaker_name(speaker)} <br>"
+    "<b>Video link</b>: {parse_video_name(videoURL, use_icon = FALSE)} <br>",
+    "<b>MeetUp link</b>: {parse_meetup_name(meetupURL)} <br>"
   )
 }
 
@@ -135,11 +143,17 @@ parse_speaker_name <- function(name){
   return(name)
 }
 
+#' @describeIn render_archive Format the MeetUp url link in the archive
+parse_meetup_name <- function(url){
+  if (is.na(url)) return("Not available")
+  as.character(htmltools::a('MeetUp', href = url, target = "_blank"))
+}
+
 #' @describeIn render_archive Format the entire child row in the archive
 format_child_row <- function(descriptionHTML, presentations){
   paste0(
     paste0(presentations, collapse = "<br>"),
-    "<br>",
+    "<hr style='background: #a3a3a3; height: 1px;'>",
     descriptionHTML
   )
 }
@@ -148,18 +162,18 @@ format_child_row <- function(descriptionHTML, presentations){
 dt_callback_child_row <- function(){
   DT::JS(
     "
-        table.column(0).nodes().to$().css({cursor: 'pointer'});
+        $('td').css({cursor: 'pointer'});
         var format = function(d) {
           return '<div style=\"background-color:#eee; padding: .5em;\"> ' + d[7] + '</div>';
         };
-        table.on('click', 'td.details-control', function() {
+        table.on('click', 'td', function() {
           var td = $(this), row = table.row(td.closest('tr'));
           if (row.child.isShown()) {
             row.child.hide();
-            td.html('<span class=\"fa fa-plus\" style=\"color: #6898f7;\"></span>');
+            //td.html('<span class=\"fa fa-plus\" style=\"color: #6898f7;\"></span>');
           } else {
             row.child(format(row.data())).show();
-            td.html('<span class=\"fa fa-minus\" style=\"color: #6898f7\"></span>');
+            //td.html('<span class=\"fa fa-minus\" style=\"color: #6898f7\"></span>');
           }
         });
         "
