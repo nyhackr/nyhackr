@@ -164,7 +164,7 @@ dt_callback_child_row <- function(){
     "
         $('td').css({cursor: 'pointer'});
         var format = function(d) {
-          return '<div style=\"background-color:#eee; padding: .5em;\"> ' + d[7] + '</div>';
+          return '<div style=\"border: gray 2px dashed; background: #fff; padding: .5em;\"> ' + d[7] + '</div>';
         };
         table.on('click', 'td', function() {
           var td = $(this), row = table.row(td.closest('tr'));
