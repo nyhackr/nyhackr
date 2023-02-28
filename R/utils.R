@@ -169,8 +169,10 @@ flatten_talk_jsons <- function(.data){
   
   talk_description_html <- stringr::str_trim(.data$description)
   talk_rsvp_count <- .data$yes_rsvp_count
-  talk_date <- as.Date(as.POSIXct(as.numeric(.data$time)/1000, origin='1970-01-01 00:00:00'))
-  
+  talk_date <- {as.numeric(.data$time)/1000} |> 
+    as.POSIXct(tz = 'America/New_York',
+               origin = '1970-01-01 00:00:00') |> 
+    lubridate::as_date()
   
   # combine into one tidy dataframe
   talk <- dplyr::tibble(
