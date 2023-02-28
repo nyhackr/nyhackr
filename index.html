@@ -13,7 +13,7 @@
 
 <title>New York Open Statistical Programming Meetup</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@
 
 
 
+
 <link rel="stylesheet" href="css/nyhackr.css" type="text/css" />
 <link rel="stylesheet" href="css/datatable.css" type="text/css" />
 <link rel="stylesheet" href="css/sponsors.css" type="text/css" />
@@ -88,6 +89,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -145,11 +149,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -178,8 +186,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -187,16 +195,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -240,7 +241,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -268,7 +269,7 @@ $(document).ready(function () {
   <a href="events.html">Events</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     More
      
     <span class="caret"></span>
@@ -324,7 +325,7 @@ Meetup</h1>
 </div>
 
 
-<p><h4>Join our 14,419 members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4></p>
+<h4>Join our 14,420 members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>
 <p><br></p>
 <div>
 <a href="https://www.meetup.com/nyhackr/events/291662590/?utm_source=nyhackr">
@@ -339,7 +340,7 @@ Meetup</h1>
 </a>
 </div>
 <h3>
-<strong>March  1: Copilot for R</strong>
+<strong>February 28: Copilot for R</strong>
 </h3>
 <p>We are back to virtual for this month so we have the opportunity to pull in long time friend of the meetup, <strong><a href="a href=&quot;https://twitter.com/revodavid?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://twitter.com/revodavid?utm_source=nyhackr&lt;/a">David Smith</a>,</strong> from the West Coast.</p> <p>Questions are encouraged in the monthly-meetup-chat channel in the <a href="a href=&quot;https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr&lt;/a">nyhackr slack</a>. Likewise, people should list jobs in the job-postings channel.</p> <p>After the talk we are going to give away free tickets to attendees to both <strong><a href="a href=&quot;https://www.datacouncil.ai/austin?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://www.datacouncil.ai/austin?utm_source=nyhackr&lt;/a">Data Council</a></strong> in Austin <strong>March 28-30</strong> and <strong><a href="a href=&quot;https://d4con.io/?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://d4con.io/?utm_source=nyhackr&lt;/a">D4 Conference</a></strong> in Tampa <strong>April 9-21</strong>.</p> <p>Those that don&#39;t win free tickets can use code <strong><a href="a href=&quot;https://www.tickettailor.com/events/datacouncil/747883?hsCtaTracking=dc0af239-1ec5-4c9f-a175-f487bb858074%7Ca9aa7625-43fb-436d-b05d-9666bab6e414&amp;amp;utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://www.tickettailor.com/events/datacouncil/747883?hsCtaTracking=dc0af239-1ec5-4c9f-a175-f487bb858074%7Ca9aa7625-43fb-436d-b05d-9666bab6e414&amp;amp;utm_source=nyhackr&lt;/a">NYOpenStat20</a></strong> for <strong>20% off</strong> <a href="a href=&quot;https://www.datacouncil.ai/austin?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://www.datacouncil.ai/austin?utm_source=nyhackr&lt;/a">Data Council</a> and <strong><a href="a href=&quot;https://d4con.io/tickets.html?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://d4con.io/tickets.html?utm_source=nyhackr&lt;/a">nyhackr</a></strong> for <strong>20% off</strong> <a href="a href=&quot;https://d4con.io/?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://d4con.io/?utm_source=nyhackr&lt;/a">D4 Conference</a>.</p> <p><strong>About the Talk:</strong><br/>Did you know that Copilot, GitHub&#39;s AI &quot;pair programmer&quot;, knows how to program in R? In this talk, I&#39;ll demonstrate how you can speed up the process of writing R code in Visual Studio Code. Copilot dynamically generates R statements and even entire functions based on context from your existing projects.</p> <p>By way of example, I&#39;ll write a function to interface R with the new Azure OpenAI Service, and have Copilot assist with the process by generating the required code.</p> <p>Please come along with any questions you may have about Copilot, Azure OpenAI Service, and AI generally and I&#39;ll do my best to answer them after the talk.</p> <p><strong>About David:</strong><br/>David leads the Cloud Advocacy team for Microsoft specializing in the topics of artificial intelligence and machine learning. Since 2009 he has been the editor of the Revolutions blog <a href="http://blog.revolutionanalytics.com?utm_source=nyhackr&lt;/a"><a href="http://blog.revolutionanalytics.com](http://blog.revolutionanalytics.com?utm_source=nyhackr" class="linkified">http://blog.revolutionanalytics.com</a> where he writes regularly about applications of data science with a focus on the programming language &quot;R&quot;, and is also a founding member of the R Consortium. Follow David on Twitter as @<a href="a href=&quot;https://twitter.com/revodavid?utm_source=nyhackr&quot; class=&quot;linkified&quot;&gt;https://twitter.com/revodavid?utm_source=nyhackr&lt;/a">revodavid</a>.</p> <p>The talk will begin at <strong>7 PM America/New_York</strong> and we will start admitting people to the event shortly before. Since this is completely remote there will be no pizza but everyone is encouraged to have <a href="a href=&quot;https://nyhackr.org/pizza.html&quot; class=&quot;linkified&quot;&gt;https://nyhackr.org/pizza.html&lt;/a">pizza</a> individually.</p>
 
