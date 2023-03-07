@@ -28,16 +28,17 @@ render_events <- function(.data){
     arrange(date) %>% 
     rowwise() %>% 
     group_map(~create_event(.x$date, .x$headerText, .x$optionalText, .x$URL, .x$imageURL)) %>% 
-    htmltools::tagList()
+    htmltools::div(class = 'event-container')
 }
 
 #' @describeIn render_events Format and display a single event
 create_event <- function(date, headerText, optionalText, url, imageURL){
-  htmltools::tagList(
+  htmltools::div(
+    class = 'event-item',
     create_event_card(url, imageURL),
     htmltools::h1(headerText),
     htmltools::HTML(optionalText),
-    htmltools::br(), htmltools::br(), htmltools::br()
+    htmltools::hr()
   )
 }
 
