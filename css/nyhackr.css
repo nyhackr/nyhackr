@@ -100,6 +100,14 @@ body {
   vertical-align: bottom;
 }
 
+.event-item{
+  margin-bottom: 2em;
+}
+.event-item hr {
+  height: 1px;
+  background: #e0e0e0;
+}
+
 .event-card {
   padding: 1em 0 1em 0;
 }
