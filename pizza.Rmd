@@ -8,7 +8,24 @@ We traditionally conduct a [Pizza Poll](https://www.jaredlander.com/2012/09/pizz
 library(dplyr)
 library(ggplot2)
 source('R/pizza.R')
-pizza <- jsonlite::fromJSON("https://www.jaredlander.com/data/PizzaPollData.php")
 
-render_pizza_plot(pizza)
+# get pizza daat
+pizza <- tryCatch(
+  jsonlite::fromJSON("https://www.jaredlander.com/data/PizzaPollData.php"),
+  error = function(e) NULL
+)
+
+# error message if cannot get data
+error_message <- htmltools::div(
+    htmltools::hr(),
+    htmltools::p('Cannot reach data source to build plot. Will try again later.'),
+    htmltools::hr()
+  )
+
+# display plot
+if (!is.null(pizza)){
+  render_pizza_plot(pizza)
+} else {
+  error_message
+}
 ```
