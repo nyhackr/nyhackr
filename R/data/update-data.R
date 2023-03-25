@@ -3,6 +3,13 @@ source('R/past-talks.R')
 source('R/utils.R')
 library(dplyr)
 
+# exclusion list
+# these are IDs of talks that should not show in the archive
+# usually due to a meetup.com mistake
+talks_to_exclude <- c(
+  '292385218'
+)
+
 # get latest talks
 talks_past <- get_past_talks(n = 3)
 talks_upcoming <- get_next_talk()
@@ -37,6 +44,9 @@ talks_new <- talks_current %>%
   rbind(talks_to_add) %>% 
   distinct() %>% 
   arrange(date)
+
+# exclude any talks
+talks_new <- talks_new |> filter(ID %notin% talks_to_exclude)
 
 # write to googledrive
 write_current_talks(talks_new, gsheet_id)
