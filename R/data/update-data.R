@@ -12,8 +12,8 @@ talks_to_exclude <- c(
 
 # get latest talks
 talks_past <- get_past_talks(n = 3)
-talks_upcoming <- get_next_talk()
-talks_to_add <- rbind(talks_past, talks_upcoming)
+talks_upcoming <- get_next_talk() 
+talks_to_add <- rbind(talks_past, talks_upcoming) |> filter(ID %notin% talks_to_exclude)
 talks_current <- get_current_talks(gsheet_id)
 
 # only add new talks if their ID is not in the current data but also update
