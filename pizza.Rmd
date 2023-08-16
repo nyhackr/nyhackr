@@ -24,6 +24,7 @@ error_message <- htmltools::div(
 
 # display plot
 if (!is.null(pizza)){
+  # render_pizza_plot_ec(pizza)
   render_pizza_plot(pizza)
 } else {
   error_message
