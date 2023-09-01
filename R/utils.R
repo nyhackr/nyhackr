@@ -91,6 +91,18 @@ get_n_members <- function(format = TRUE){
   return(n_members)
 }
 
+convert_markdown_html <- function(talks) {
+  stopifnot(is.list(talks))
+  talks$description <- # gets rid of bad html and leaves good html
+    talks$description |>
+    stringr::str_trim() |>
+    rvest::read_html() |>
+    rvest::html_text2() |>
+    markdown::mark() |>
+    stringr::str_remove_all("\\n")
+  return(talks)
+}
+
 #' @describeIn get_n_members Get the next talk scheduled
 get_next_talk <- function(flatten = TRUE){
   r <- httr::GET(
@@ -102,6 +114,8 @@ get_next_talk <- function(flatten = TRUE){
     )
   )
   talks <- httr::content(r)
+  
+  talks <- purrr::map(talks, convert_markdown_html) # expects a list
   
   if (flatten) talks <- purrr::map_dfr(talks, flatten_talk_jsons)
   
@@ -119,6 +133,8 @@ get_past_talks <- function(n = 1000, flatten = TRUE){
     )
   )
   talks <- httr::content(resp)
+  
+  talks <- purrr::map(talks, convert_markdown_html) # expects a list
   
   if (flatten) talks <- purrr::map_dfr(talks, flatten_talk_jsons)
   
