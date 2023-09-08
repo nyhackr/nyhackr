@@ -93,12 +93,21 @@ get_n_members <- function(format = TRUE){
 
 convert_markdown_html <- function(talks) {
   stopifnot(is.list(talks))
-  talks$description <- # gets rid of bad html and leaves good html
-    talks$description |>
+  # gets rid of bad html and leaves good html
+  talks$description <- talks$description |>
     stringr::str_trim() |>
     rvest::read_html() |>
     rvest::html_text2() |>
     markdown::mark() |>
+    rvest::read_html() |> 
+    rvest::html_elements("p")
+  
+  reg <- which(grepl("External registration</a></strong> required at <strong>", talks$description))
+  talks$description[reg] <- '<p><strong>RSVP BELOW!</strong></p>'
+  rem <- which(grepl("<p>Remember, <strong>register at", talks$description))
+  talks$description[rem] <- 'Remember, <strong>register below!</strong>'
+  talks$description <- talks$description |> 
+    paste0(collapse = "") |>
     stringr::str_remove_all("\\n")
   return(talks)
 }
