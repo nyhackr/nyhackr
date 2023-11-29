@@ -11,7 +11,7 @@ source('R/index.R')
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 htmltools::HTML(
   glue::glue(
-    "<h4>Join our {get_n_members(format = TRUE)}members on the <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>New York Open Statistical Programming Meetup <i class='fa fa-meetup'></i></a></h4>"
+    "<h4>Join our {get_n_members(format = TRUE)}members on <a href='https://join.slack.com/t/nyhackr/shared_invite/zt-21ovbgp80-ZGlU9eiCKUEEE8T1xW88Og?utm_source=nyhackr'>Slack <i class='fa fa-slack'></i></a> and <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>Meetup <i class='fa fa-meetup'></i></a></h4>"
   )
 )
 ```
@@ -19,14 +19,14 @@ htmltools::HTML(
 <br>
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-talk_next <- get_current_talks(gsheet_id) %>% 
+get_current_talks(gsheet_id) %>% 
   filter(date >= Sys.Date()) %>%
   arrange(date) %>%
-  slice_head(n = 1)
-render_next_talk(talk_next)
+  slice_head(n = 1) %>%
+  render_next_talk()
 ```
 
 <!-- floating div for jobs -->
 <div id="jobs-tag" align="center">
-<p><i class="fa fa-arrow-up"></i> Jobs</p>
+<p><i class="fa fa-arrow-up"></i> Slack</p>
 </div>
