@@ -55,10 +55,9 @@ jobs:
         run: |
           rm ~/.Rprofile
 
-      - name: Deploy site to GitHub pages branch
-        uses: s0/git-publish-subdir-action@develop
+      - name: Deploy site to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          publish_dir: ./_site
         env:
-          REPO: self
-          BRANCH: gh-pages
-          FOLDER: _site
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
