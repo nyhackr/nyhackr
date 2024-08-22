@@ -10,8 +10,7 @@
 }
 
 .paginate_button.current {
-  background: #b51f1f !important;
-  filter: brightness(6) !important;
+  background: #ffafaf !important;
   font-color: white !important;
 }
 .paginate_button.current:hover {
