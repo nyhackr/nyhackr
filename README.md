@@ -17,6 +17,8 @@ An .Renviron file is required to access the data stored on Google Drive. Submit 
 
 ### How to manually update the site with the latest events
 
+> NOTE: As of [PR #54](https://github.com/nyhackr/nyhackr/pull/54), the event data is no longer auto-updated from MeetUp due to their API deprecation. Event data will need to be manually entered into the Google Sheet.
+
 ``` r
 # update data from MeetUp
 source('R/data/update-data.R')
