@@ -37,12 +37,12 @@ jobs:
       - name: Setup renv
         uses: r-lib/actions/setup-renv@v2
 
-      - name: Update Google Sheets talks data with latest MeetUp data
-        env:
-          CYPHR_KEY: ${{ secrets.CYPHR_KEY }}
-          GSHEET_ID: ${{ secrets.GSHEET_ID }}
-        run: |
-          Rscript -e 'source("R/data/update-data.R")'
+      # - name: Update Google Sheets talks data with latest MeetUp data
+      #   env:
+      #     CYPHR_KEY: ${{ secrets.CYPHR_KEY }}
+      #     GSHEET_ID: ${{ secrets.GSHEET_ID }}
+      #   run: |
+      #     Rscript -e 'source("R/data/update-data.R")'
 
       - name: Render site from Rmarkdown files
         env:
