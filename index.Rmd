@@ -9,9 +9,11 @@ source('R/index.R')
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
+url_join_slack <- "https://join.slack.com/t/nyhackr/shared_invite/zt-z14v6jw3-MIKDmEVqx~SGvn7OTRyPpg?utm_source=nyhackr"
+url_meetup <- "https://www.meetup.com/nyhackr/?utm_source=nyhackr"
 htmltools::HTML(
   glue::glue(
-    "<h4>Join our {get_n_members(format = TRUE)}members on <a href='https://join.slack.com/t/nyhackr/shared_invite/zt-21ovbgp80-ZGlU9eiCKUEEE8T1xW88Og?utm_source=nyhackr'>Slack <i class='fa fa-slack'></i></a> and <a href='https://www.meetup.com/nyhackr/?utm_source=nyhackr'>Meetup <i class='fa fa-meetup'></i></a></h4>"
+    "<h4>Join our {get_n_members(format = TRUE)}members on <a href={url_join_slack}>Slack <i class='fa fa-slack'></i></a> and <a href={url_meetup}>Meetup <i class='fa fa-meetup'></i></a></h4>"
   )
 )
 ```
