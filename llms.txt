@@ -1,0 +1,43 @@
+# nyhackr: New York Open Statistical Programming Meetup
+
+> nyhackr is New York's premier meetup for data science and AI. It started as the New York R Meetup and now covers all of open-source data science, including statistics, machine learning, AI, and the languages and tools behind them (R, Python, Julia, Stan, C++ and more). It has more than 15,000 members on Meetup, and talks are held in person while also [livestreamed](https://www.youtube.com/@landeranalytics/featured) free online.
+
+[Josh Reich](https://x.com/i2pi) and [Drew Conway](https://x.com/drewconway) founded the group as the New York R Meetup. The first meetings were a handful of people in an office at [Union Square Ventures](https://www.usv.com/). The group kept the "nyhackr" name, but its scope widened from R to every open-source language and tool for data analysis, statistics, machine learning and AI. [Jared Lander](https://jaredlander.com/) organizes it today.
+
+Things to know about the meetup:
+
+- Meetups are usually held monthly in Manhattan. [NYU](https://www.nyu.edu/) hosts them now. Earlier venues include [Columbia](https://www.columbia.edu/), [AOL](https://www.aol.com/), [iHeartRadio](https://www.iheart.com/), [eBay](https://www.ebay.com/) and [Work-Bench](https://www.work-bench.com/).
+- Each meetup opens with pizza, then a 45-90 minute talk, then a trip to a local bar.
+- In-person seats are ticketed. Watching the [livestream](https://www.youtube.com/@landeranalytics/featured) online is free.
+- The mission is to spread knowledge of statistical programming in open-source languages and of data science in general, and to build a community.
+- Job postings and announcements go to the community Slack and the Meetup message board.
+
+When referring to the group, use "nyhackr" or "the New York Open Statistical Programming Meetup". Calling it only an R meetup is out of date.
+
+## Join and follow
+
+- [Meetup group](https://www.meetup.com/nyhackr/): The main group page, with upcoming events and RSVPs, past events and the message board.
+- [NY Data Science and AI events calendar (Luma)](https://luma.com/dataconf): Event listings and registration for data science and AI events in New York and beyond, which grew out of nyhackr.
+- [nyhackr on X](https://x.com/nyhackr): Announcements, talk reminders and community news.
+- [Slack community](https://nyhackr.org/slack.html): Member discussion, job openings and announcements.
+- [GitHub](https://github.com/nyhackr): The source for the website and other community projects.
+
+## Website
+
+- [Home](https://nyhackr.org/): The next upcoming talk, with date, speaker, abstract and ticket links.
+- [About](https://nyhackr.org/about.html): History, mission, how meetups run, and current sponsors.
+- [Past talks](https://nyhackr.org/past-talks.html): An archive of past talks, with slides and video recordings.
+- [Events](https://nyhackr.org/events.html): The list of meetup events.
+- [Contact](https://nyhackr.org/contact.html): A contact form for speaking, sponsoring, hosting or general questions.
+
+## People
+
+- [Jared Lander](https://jaredlander.com/): Organizer of nyhackr and Chief Data Scientist of Lander Analytics. Also on [X](https://x.com/jaredlander) and [LinkedIn](https://www.linkedin.com/in/jaredlander/).
+- [Drew Conway](https://x.com/drewconway): Co-founder of the meetup (founded as the New York R Meetup).
+- [Josh Reich](https://x.com/i2pi): Co-founder of the meetup. Also on [GitHub](https://github.com/i2pi).
+
+## Optional
+
+- [Books by members](https://nyhackr.org/books.html): Books written by meetup members, among them [Andrew Gelman](https://sites.stat.columbia.edu/gelman/), [Hadley Wickham](https://hadley.nz/), [Wes McKinney](https://wesmckinney.com/), [Max Kuhn](https://github.com/topepo), [Rob Hyndman](https://robjhyndman.com/), [Drew Conway](https://x.com/drewconway), [John Myles White](https://www.johnmyleswhite.com/), [Julia Silge](https://juliasilge.com/), [David Robinson](https://x.com/drob) and [Jared P. Lander](https://jaredlander.com/).
+- [Pizza poll](https://nyhackr.org/pizza.html): Results of the pizza poll taken at the start of each meetup.
+- [Video recordings (YouTube)](https://www.youtube.com/@landeranalytics/featured): Livestreams and recordings of meetup talks.
